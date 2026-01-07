@@ -6,3 +6,6 @@ Fecha: 2026-01-07
 ¡El webhook automático está funcionando!
 Hora de actualización: 01:15 AM
 Este cambio se subió automáticamente sin Pull manual.
+
+🚀 PRUEBA FINAL - HTTPS con SSL desactivado
+Timestamp: 01:20 AM - Si ves esto, ¡EL WEBHOOK FUNCIONA PERFECTAMENTE!
