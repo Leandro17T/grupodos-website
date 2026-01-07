@@ -1,0 +1,33 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/fecha-entrega-estimada/assets/css/frontend.css */
+
+.gdos-fecha-entrega {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    
+    /* Tipografía y Alineación */
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+    
+    /* Espaciado */
+    padding: 15px 20px;
+    margin: 20px 0;
+    
+    /* Estética de Caja Informativa */
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    
+    /* Transición suave por si el JS tarda milisegundos en renderizar */
+    transition: opacity 0.3s ease;
+}
+
+/* Destacar las fechas calculadas */
+.gdos-fecha-entrega b {
+    font-weight: 700;
+    color: #333; /* O usa #0073aa para azul WooCommerce */
+    white-space: nowrap; /* Evita que la fecha se parta en dos líneas */
+}

@@ -1,0 +1,161 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/countdown-envio/assets/css/frontend.css */
+
+.gdos-countdown-clean-wrapper {
+    /* --- Variables Locales --- */
+    --gdos-cd-text: #333333;
+    --gdos-cd-accent: rgb(0, 0, 0); /* Verde sólido */
+    --gdos-cd-muted: #999999;
+    --gdos-cd-size: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    
+    font-family: inherit;
+    line-height: 1.5;
+    color: var(--gdos-cd-text);
+    
+    /* Suaviza la aparición controlada por JS */
+    opacity: 0; 
+    animation: gdosFadeIn 0.5s forwards; 
+}
+
+@keyframes gdosFadeIn {
+    to { opacity: 1; }
+}
+
+/* Fila principal (Icono + Texto) */
+.gdos-countdown-main-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Permite que baje en pantallas muy angostas */
+    width: 100%;
+}
+
+/* 1. ICONO */
+.gdos-countdown-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: block;
+    
+    /* CRÍTICO: Evita que el icono se aplaste si falta espacio */
+    flex-shrink: 0; 
+}
+
+/* 2. TEXTO GENERAL */
+.gdos-countdown-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gdos-countdown-timer-line {
+    font-size: var(--gdos-cd-size);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Espacio entre "Te llega" y el contador */
+    text-align: center;
+}
+
+.gdos-countdown-text {
+    color: #444;
+}
+
+.gdos-countdown-text strong {
+    font-weight: 700;
+    color: #000;
+}
+
+/* 3. CONTADOR DINÁMICO */
+.gdos-countdown-timer {
+    font-size: var(--gdos-cd-size);
+    font-weight: 700;
+    color: var(--gdos-cd-accent);
+    
+    /* CRÍTICO: Mantiene el ancho de los números constante para evitar "temblores" */
+    font-variant-numeric: tabular-nums; 
+    white-space: nowrap;
+}
+
+/* 4. MENSAJE FUTURO (Llega mañana, etc) */
+.gdos-countdown-message {
+    font-size: var(--gdos-cd-size);
+    font-weight: 600;
+    color: var(--gdos-cd-accent);
+    text-align: center;
+}
+
+/* Pie de texto pequeño (Trust Signal) */
+.gdos-countdown-footer small {
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--gdos-cd-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Responsive: Ajustes Móvil */
+@media (max-width: 480px) {
+    .gdos-countdown-clean-wrapper {
+        margin: 10px 0;
+    }
+
+    .gdos-countdown-main-row {
+        gap: 8px;
+    }
+    
+    /* Ajuste sutil para evitar quiebres de línea innecesarios */
+    .gdos-countdown-timer-line,
+    .gdos-countdown-message {
+        font-size: 14px; 
+    }
+}
+/* ... (Estilos del contenedor y wrapper iguales al anterior) ... */
+
+/* Estilos de Contenido Dinámico */
+.gdos-countdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+}
+
+/* Texto Prefijo del Timer ("Te llega hoy...") */
+.gdos-countdown-text {
+    color: #444;
+    font-size: var(--gdos-cd-size);
+}
+
+/* El Reloj ("03h 12m 10s") */
+.gdos-countdown-timer {
+    font-size: var(--gdos-cd-size);
+    font-weight: 700;
+    color: var(--gdos-cd-accent); /* Verde */
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* Mensajes Estáticos ("Recibe el pedido mañana...") */
+.gdos-countdown-message {
+    font-size: var(--gdos-cd-size);
+    font-weight: 600;
+    color: var(--gdos-cd-accent); /* Verde */
+}
+
+/* ... (Footer y responsive iguales al anterior) ... */

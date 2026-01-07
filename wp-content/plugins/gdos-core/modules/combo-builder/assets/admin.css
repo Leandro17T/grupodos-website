@@ -1,0 +1,12 @@
+.gdos-combo-admin .gdos-step-item {
+  background:#fff; border:1px solid #e3e3e3; padding:16px; margin:12px 0; border-radius:10px;
+}
+.gdos-combo-admin .gdos-step-grid {
+  display:grid; gap:12px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gdos-combo-admin .gdos-cols { display:flex; gap:16px; align-items:center; }
+.gdos-combo-admin .gdos-inline { display:flex; gap:8px; align-items:center; }
+@media (max-width: 1024px){
+  .gdos-combo-admin .gdos-step-grid { grid-template-columns: 1fr; }
+}

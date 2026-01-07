@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Seguimiento de envíos en Woo">
+  <domain name="seguimiento-pedidos">
+    <project name="Seguimiento de envíos en Woo" slug="seguimiento-pedidos">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/seguimiento-pedidos.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>includes</directory>
+  </exclude>
+</bundle>

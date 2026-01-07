@@ -1,0 +1,7 @@
+(function(){'use strict';let lastFocusedElement;function toggleBodyLock(isLocked){document.body.style.overflow=isLocked?'hidden':''}
+function closeModal(modal){if(!modal)return;modal.classList.remove('is-visible');modal.setAttribute('aria-hidden','true');setTimeout(()=>{modal.style.display='none';toggleBodyLock(!1)},300);if(lastFocusedElement){lastFocusedElement.focus();lastFocusedElement=null}}
+function openModal(modalId){const modal=document.getElementById(modalId);if(!modal)return;lastFocusedElement=document.activeElement;modal.style.display='flex';requestAnimationFrame(()=>{modal.classList.add('is-visible');modal.setAttribute('aria-hidden','false')});toggleBodyLock(!0);const closeBtn=modal.querySelector('.gdos-modal-close');if(closeBtn){setTimeout(()=>closeBtn.focus(),50)}}
+document.addEventListener('DOMContentLoaded',function(){document.addEventListener('click',function(e){const trigger=e.target.closest('[data-gdos-modal-trigger]');if(trigger){e.preventDefault();const rawId=trigger.getAttribute('data-gdos-modal-trigger');const finalId='gdos-modal-'+rawId;openModal(finalId);return}
+const closeBtn=e.target.closest('[data-gdos-modal-close]');if(closeBtn){e.preventDefault();closeModal(closeBtn.closest('.gdos-modal-backdrop'));return}
+if(e.target.classList.contains('gdos-modal-backdrop')){closeModal(e.target)}});document.addEventListener('keydown',function(e){if(e.key==='Escape'){const openModalEl=document.querySelector('.gdos-modal-backdrop.is-visible');if(openModalEl)closeModal(openModalEl);}})})})()
+;

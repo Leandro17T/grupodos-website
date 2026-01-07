@@ -1,0 +1,138 @@
+/* /modules/modal-opciones-pago/assets/css/admin.css */
+
+.gdos-mp-wrap {
+    max-width: 800px;
+}
+
+#gdos-cards-list {
+    margin-top: 20px;
+}
+
+/* --- Fila de Tarjeta --- */
+.gdos-card-row {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: box-shadow 0.2s;
+}
+
+.gdos-card-row:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Handle (Arrastrar) */
+.gdos-card-handle {
+    cursor: grab;
+    color: #a7aaad;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.gdos-card-handle:active {
+    cursor: grabbing;
+}
+.gdos-card-handle:before {
+    content: "\f228"; /* Dashicon menu */
+    font-family: dashicons;
+    font-size: 18px;
+}
+
+/* Imagen */
+.gdos-card-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.gdos-card-img-preview {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f1;
+    border: 1px solid #dcdcde;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.gdos-card-img-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Inputs */
+.gdos-card-inputs {
+    flex-grow: 1;
+    display: flex;
+    gap: 15px;
+}
+
+.gdos-input-group {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.gdos-input-group.small {
+    flex-grow: 0;
+    flex-basis: 80px;
+}
+
+.gdos-input-group label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #646970;
+    text-transform: uppercase;
+}
+
+.gdos-input-group input {
+    width: 100%;
+}
+
+/* Botón Borrar */
+.gdos-remove-row {
+    background: none;
+    border: none;
+    color: #d63638;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.gdos-remove-row:hover {
+    background-color: #fbeaea;
+    color: #a00;
+}
+
+.gdos-remove-row .dashicons {
+    font-size: 20px;
+}
+
+/* Acciones */
+.gdos-mp-actions {
+    margin-top: 15px;
+}
+
+/* Placeholder al arrastrar (UX Pro) */
+.ui-sortable-placeholder {
+    border: 2px dashed #f0c33c;
+    background: #fcf9e8;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    visibility: visible !important;
+}

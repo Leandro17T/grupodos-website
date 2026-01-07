@@ -1,0 +1,304 @@
+# Translation of Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-05 21:02:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release)\n"
+
+#: src/PluginSetup/PluginMeta.php:76
+msgid "Go Pro!"
+msgstr "¡Hazte Pro!"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:147
+msgid "View our troubleshooting guide"
+msgstr "Ver en nuestra guía de diagnóstico"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:144
+msgid "Need help with your rollback?"
+msgstr "¿Necesitas ayuda con el retroceso?"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:135
+msgid "Learn more"
+msgstr "Más información"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:132
+msgid "Upgrade Now"
+msgstr "Actualizar ahora"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:110
+msgid "Take your rollback management to the next level with professional features designed for serious WordPress sites."
+msgstr "Lleva tu gestión de retrocesos al siguiente nivel con características profesionales diseñadas para sitios WordPress serios."
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:91
+msgid "Test key functionality on your site to ensure everything works as expected"
+msgstr "Prueba la funcionalidad clave en tu sitio para asegurar que todo funcione como se espera"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:85
+msgid "If you rolled back due to an error message, review your error logs to confirm it's resolved"
+msgstr "Si has retrocedido debido a un mensaje de error, revisa los registros de errores para confirmar que se ha resuelto."
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:79
+msgid "Check your website to verify the rollback resolved any visual or functional issues"
+msgstr "Comprueba tu sitio web para verificar que el retroceso ha resuelto cualquier problema visual o funcional."
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:75
+msgid "What's next?"
+msgstr "¿Y ahora qué?"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:56
+msgid "Get expert help when you need it most"
+msgstr "Consigue ayuda experta cuando más la necesites"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:55
+msgid "Priority Support"
+msgstr "Soporte prioritario"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:51
+msgid "Preserve current versions of premium assets before updates"
+msgstr "Conservar las versiones actuales de los recursos premium antes de las actualizaciones"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:46
+msgid "Track every rollback with comprehensive logs and notes"
+msgstr "Seguimiento de cada retroceso con registros y notas exhaustivos"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:45
+msgid "Detailed Activity Logs"
+msgstr "Registros de actividad detallados"
+
+#. translators: 1: Asset name 2: Asset version
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:37
+msgid "%1$s has been successfully rolled back to version %2$s."
+msgstr "%1$s se ha retrocedido correctamente a la versión %2$s."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:21
+msgid "Select a theme below to rollback to a previous version."
+msgstr "Selecciona un tema para volver a una versión anterior."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:20
+msgid "Themes"
+msgstr "Temas"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:76
+msgid "These versions would be available for rollback with WP Rollback Pro:"
+msgstr "Estas versiones estarían disponibles para hacer retroceso con WP Rollback Pro:"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:74
+msgid "Available Versions (Pro Feature)"
+msgstr "Versiones disponibles (característica Pro)"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:67
+msgid "is not available on WordPress.org and requires WP Rollback Pro for version control."
+msgstr "no está disponible en WordPress.org y requiere WP Rollback Pro para el control de versiones."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:60
+msgid "This premium asset requires WP Rollback Pro for safe version rollbacks."
+msgstr "Este recurso premium requiere WP Rollback Pro para retrocesos seguros de versiones."
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:59
+msgid "Unlock Premium Rollbacks"
+msgstr "Desbloquea los retrocesos Premium"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:46
+msgid "Error"
+msgstr "Error"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:119
+msgid "Learn More About Pro Features"
+msgstr "Aprende más sobre las características Pro"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:112
+msgid "Go Back"
+msgstr "Volver atrás"
+
+#: build/tools.js:23 build/tools.js:24
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:105
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:105
+msgid "Upgrade to WP Rollback Pro"
+msgstr "Actualizar a WP Rollback Pro"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:89
+msgid "Try WP Rollback Pro risk-free. If you're not completely satisfied, get your money back within 30 days."
+msgstr "Prueba WP Rollback Pro sin riesgos. Si te satisface completamente recupera tu dinero durante los primeros 30 días."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:87
+msgid "30-Day Money-Back Guarantee"
+msgstr "Garantía de devolución de 30 días"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:53
+msgid "Why Upgrade to WP Rollback Pro?"
+msgstr "¿Por qué actualizar a WP Rollback Pro?"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:46
+msgid "Complete audit trail of all rollbacks with timestamps, user tracking, and detailed logs."
+msgstr "Registro de auditoría completo de todos los retrocesos con marcas de tiempo, seguimiento de usuarios y registros detallados."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:45
+msgid "Advanced Activity Logging"
+msgstr "Registros de actividad avanzado"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:41
+msgid "Add detailed notes to each rollback for better team coordination and change tracking."
+msgstr "Añde notas detalladas a cada retroceso para una mejor coordinación de equipos y seguimiento de cambios."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:40
+msgid "Rollback Notes & Documentation"
+msgstr "Notas y documentación sobre retrocesos"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:36
+msgid "For premium assets, creates a zip archive of the current version and stores the archive."
+msgstr "Para recursos premium crea un archivo zip de la versión actual y almacena el archivo."
+
+#: build/tools.js:23 build/tools.js:24
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:35
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:50
+msgid "Version Preservation"
+msgstr "Preservación de versiones"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:31
+msgid "Roll back any premium plugin or theme from any marketplace - not just WordPress.org."
+msgstr "Retrocede cualquier plugin o tema premium desde cualquier mercado - no solo desde WordPress.org."
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:30
+msgid "Premium Plugin & Theme Rollbacks"
+msgstr "Retrocesos de plugins y temas premium"
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:22
+msgid "Select a plugin below to rollback to a previous version."
+msgstr "Selecciona un plugin para retroceder a una versión anterior."
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:21
+msgid "Plugins"
+msgstr "Plugins"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:81
+msgid "Get complete control over every plugin on your site with automated backups, rollback notes for your team, and support for premium plugins from any marketplace."
+msgstr "Obtén un control total sobre todos los plugins de tu sitio web con copias de seguridad automáticas, notas de retroceso para tu equipo y compatibilidad con plugins premium de cualquier mercado."
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:79
+msgid "The Safest Way to Rollback Premium Plugins & Themes"
+msgstr "El modo más seguro de retroceder plugins y temas premium"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:71
+msgid "Rollback a Theme"
+msgstr "Retrocede un tema"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:56
+msgid "Theme Version Rollback"
+msgstr "Retroceder versión de tema"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:48
+msgid "Rollback a Plugin"
+msgstr "Retrocede un plugin"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:36
+#: src/Rollbacks/resources/pages/Dashboard.jsx:59
+msgid "Revert any WordPress.org plugin to a previous version with just a few clicks. Choose the plugin and version you'd like to restore."
+msgstr "Retrocede cualquier plugin WordPress.org a una versión anterior con solo unos clics. Elige el plugin y la versión a la que quieras retroceder."
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:33
+msgid "Plugin Version Rollback"
+msgstr "Retroceder versión de plugin"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:21
+msgid "With WP Rollback you can go back to a previous WordPress.org plugin or theme version with ease. Which action would you like to perform today?"
+msgstr "Con WP Rollback puedes volver fácilmente a una versión anterior de un plugin o tema de WordPress.org. ¿Qué acción te gustaría realizar hoy?"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:19
+msgid "Rollback a Plugin or Theme"
+msgstr "Retrocede un plugin o tema"
+
+#: build/tools.js:1 build/tools.js:24
+#: src/Rollbacks/resources/layout/Header.jsx:28
+#: src/Rollbacks/resources/modals/registerTemplates.js:38
+#: src/Rollbacks/resources/pages/Dashboard.jsx:87
+msgid "Upgrade to Pro"
+msgstr "Actualiza a la versión Pro"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:92
+msgid "Validating package integrity…"
+msgstr "Validando la integridad del paquete…"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:63
+msgid "Basic validation complete. 🔒 WP Rollback Pro includes advanced package integrity scanning. Upgrade at wprollback.com/pricing"
+msgstr "Validación básica completa. 🔒 WP Rollback Pro incluye exploración avanzada de integridad de paquetes. Actualiza en wprollback.com/pricing"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:57
+msgid "Package not found for rollback."
+msgstr "No se ha encontrado el paquete para el retroceso."
+
+#: src/Rollbacks/PluginRollback.php:63
+msgid "The requested version is not available."
+msgstr "La versión solicitada no está disponible."
+
+#: src/Rollbacks/PluginRollback.php:55
+msgid "Cannot rollback to the same version."
+msgstr "No se puede retroceder a la misma versión."
+
+#: src/Rollbacks/PluginRollback.php:47
+msgid "Invalid version number provided."
+msgstr "Se ha facilitado un número de versión no válido."
+
+#: src/Rollbacks/PluginRollback.php:40
+msgid "You do not have permission to perform rollbacks."
+msgstr "No tienes permisos para realizar retrocesos."
+
+#: src/PluginSetup/PluginMeta.php:62 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:20
+msgid "Support"
+msgstr "Soporte"
+
+#: src/PluginSetup/PluginMeta.php:48 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:18
+msgid "Documentation"
+msgstr "Documentación"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp-rollback.php
+msgid "https://wprollback.com/"
+msgstr "https://wprollback.com/"
+
+#. Description of the plugin
+#: wp-rollback.php
+msgid "Rollback (or forward) any WordPress.org plugin, theme or block like a boss."
+msgstr "Retrocede (o adelanta) la versión de cualquier tema o plugin de WordPress como un profesional."
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: wp-rollback.php src/Rollbacks/Actions/RegisterAdminMenu.php:28
+#: src/Rollbacks/Actions/RegisterAdminMenu.php:36
+msgid "WP Rollback"
+msgstr "WP Rollback"

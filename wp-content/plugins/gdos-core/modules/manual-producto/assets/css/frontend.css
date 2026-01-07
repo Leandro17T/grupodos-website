@@ -1,0 +1,22 @@
+/* REFACTORIZADO: 2025-12-03 */
+/* /modules/manual-producto/assets/css/frontend.css */
+
+.gdos-manual-descarga {
+    margin: 15px 0 0; /* Espacio arriba para separar de otros elementos de la ficha */
+    font-size: 14px;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.gdos-manual-descarga a {
+    color: #2271b1; /* WP Core Blue Moderno */
+    text-decoration: none;
+    font-weight: 600; /* Más énfasis en el CTA */
+    transition: color 0.2s ease;
+}
+
+.gdos-manual-descarga a:hover,
+.gdos-manual-descarga a:focus {
+    color: #135e96; /* Hover Darker Blue */
+    text-decoration: underline;
+}

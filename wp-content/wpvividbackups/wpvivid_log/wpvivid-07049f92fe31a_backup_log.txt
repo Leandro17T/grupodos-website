@@ -1,0 +1,432 @@
+Log created: 2025-12-01 19:03:28
+Type: backup
+[2025-12-01 19:03:29][notice]Start backing up.
+[2025-12-01 19:03:29][notice]server info fcgi:Off max execution time: 300 wp version:6.8.3 php version:8.1.32 db version:10.3.39 php ini:safe_mode: memory_limit:512M memory_get_usage:107,36 MB memory_get_peak_usage:112,76 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2025-12-01 19:03:29][notice]LiteSpeed Server.
+[2025-12-01 19:03:29][notice]Add LiteSpeed Rule
+[2025-12-01 19:03:29][notice]Prepare to backup backup_db files.
+[2025-12-01 19:03:29][notice]Start exporting database.
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_bv_activities_store
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_bwf_contact_meta
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_cartflows_ca_email_templates
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_contabilium_log
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_financing_options
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_gla_merchant_issues
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_jet_post_types
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_jet_taxonomies
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_mailpoet_automation_triggers
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_mailpoet_automations
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_mailpoet_forms
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_mailpoet_statistics_bounces
+[2025-12-01 19:03:29][notice]Preparing to dump table wp_member_catmeta
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_ml_attributes_map_table
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_options_terms_rel
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_portfolio_catmeta
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_product_catmeta
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_traffic
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_utm_campaing
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_utm_content
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_utm_medium
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_utm_source
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_pys_stat_utm_term
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_revslider_layer_animations
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_revslider_layer_animations_bkp
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_revslider_navigations
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_revslider_navigations_bkp
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wc_category_lookup
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wccs_cache
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wccs_conditions
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wdr_rules
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wfblockediplog
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wfconfig
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wfcrawlers
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wflocs
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wfls_settings
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wfnotifications
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_woodmart_unsubscribed_emails
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wpnotif_sms_app
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wt_iew_action_history
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_wt_iew_mapping_template
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_yith_wapo_blocks
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_ywcdd_calendar
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_actionscheduler_claims
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_actionscheduler_groups
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_cartflows_ca_email_templates_meta
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_duplicator_pro_entities
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_e_events
+[2025-12-01 19:03:30][notice]Preparing to dump table wp_gla_shipping_times
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_links
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_automation_versions
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_custom_fields
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_dynamic_segment_filters
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_feature_flags
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_migrations
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_newsletter_option
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_newsletter_option_fields
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_newsletter_posts
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_newsletter_segment
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_settings
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_statistics_forms
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_subscriber_custom_field
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_subscriber_ips
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_tags
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_user_agents
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_mailpoet_user_flags
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_css_bkp
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_sliders7
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_sliders_bkp
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_slides
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_slides7
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_slides_bkp
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_static_slides
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_revslider_static_slides_bkp
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wc_product_download_directories
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wc_rate_limits
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wc_webhooks
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wfhoover
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wm_ext_qanda
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_woocommerce_log
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_wpnotif_mobile_otp
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_yoast_migrations
+[2025-12-01 19:03:31][notice]Preparing to dump table wp_e_submissions_values
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_gla_shipping_rates
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_litespeed_crawler_blacklist
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_litespeed_url
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_automation_run_subjects
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_segments
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_sending_queues
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_statistics_newsletters
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_stats_notifications
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_subscriber_tag
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_snippets
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wc_download_log
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wc_order_operational_data
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wc_orders_meta
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wdp_rules
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wflogins
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wfstatus
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wm_blacklist
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_woocommerce_api_keys
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wpnotif_subgroups
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_e_notes_users_relations
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_litespeed_img_optming
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_log
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_newsletter_links
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_statistics_clicks
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_statistics_unsubscribes
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_revslider_sliders
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wdp_orders
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wfblocks7
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wfhits
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_wpnotif_newsletter
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_jetpack_sync_queue
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_mailpoet_automation_run_logs
+[2025-12-01 19:03:32][notice]Preparing to dump table wp_term_taxonomy
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_terms
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_order_addresses
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wdp_order_items
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wfissues
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_cerber_uss
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_litespeed_url_file
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_mailpoet_automation_runs
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_mailpoet_statistics_opens
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_mailpoet_statistics_woocommerce_purchases
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_admin_note_actions
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wfco_report_views
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_yith_wcwl_lists
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_order_composite_lookup
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_reserved_stock
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_woodmart_wishlists
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_yith_wapo_addons
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_e_submissions_actions_log
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_pys_stat_landing
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_admin_notes
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_orders
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_mailpoet_newsletters
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_pys_stat_order
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_revslider_css
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wpnotif_subscribers
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_e_notes
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wpmelon_advbedit_temp
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_woodmart_wishlist_products
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_yoast_seo_links
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_e_submissions
+[2025-12-01 19:03:33][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_gla_budget_recommendations
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_yoast_primary_term
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_yith_wcwl
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_bwf_wc_customers
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_cartflows_ca_email_history
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_wfacp_stats
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_users
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_commentmeta
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_litespeed_avatar
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_mailpoet_scheduled_tasks
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_mailpoet_subscriber_segment
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_litespeed_crawler
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_duplicator_pro_packages
+[2025-12-01 19:03:34][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_cerber_sets
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_pys_stat_product_order
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_yoast_seo_meta
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_wc_customer_lookup
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_wc_order_stats
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_actionscheduler_actions
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_bwf_contact
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_mailpoet_newsletter_templates
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_term_relationships
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_shortpixel_queue
+[2025-12-01 19:03:35][notice]Preparing to dump table wp_mailpoet_subscribers
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_woocommerce_order_items
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_cartflows_ca_cart_abandonment
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_yoast_indexable
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_termmeta
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_ml_import_table
+[2025-12-01 19:03:36][notice]Preparing to dump table wp_wc_order_product_lookup
+[2025-12-01 19:03:37][notice]Preparing to dump table wp_woocommerce_sessions
+[2025-12-01 19:03:37][notice]Preparing to dump table wp_options
+[2025-12-01 19:03:37][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2025-12-01 19:03:40][notice]Preparing to dump table wp_comments
+[2025-12-01 19:03:41][notice]Preparing to dump table wp_usermeta
+[2025-12-01 19:03:43][notice]Preparing to dump table wp_posts
+[2025-12-01 19:03:44][notice]Preparing to dump table wp_actionscheduler_logs
+[2025-12-01 19:04:00][notice]Preparing to dump table wp_mailpoet_scheduled_task_subscribers
+[2025-12-01 19:05:33][notice]Preparing to dump table wp_cerber_files
+[2025-12-01 19:05:59][notice]Preparing to dump table wp_postmeta
+[2025-12-01 19:06:27][notice]Exporting database finished.
+[2025-12-01 19:06:27][notice]Start compressing database
+[2025-12-01 19:06:27][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03.part001.sql
+[2025-12-01 19:06:34][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_db.part001.zip, filesize: 18,61 MB
+[2025-12-01 19:06:34][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03.part002.sql
+[2025-12-01 19:06:39][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_db.part001.zip, filesize: 28,69 MB
+[2025-12-01 19:06:39][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03.part003.sql
+[2025-12-01 19:06:48][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_db.part001.zip, filesize: 76,02 MB
+[2025-12-01 19:06:48][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03.part004.sql
+[2025-12-01 19:06:50][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_db.part001.zip, filesize: 80,92 MB
+[2025-12-01 19:06:50][notice]Compressing database completed
+[2025-12-01 19:06:50][notice]Backing up backup_db completed.
+[2025-12-01 19:06:50][notice]Prepare to backup backup_themes files.
+[2025-12-01 19:06:50][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part001.zip index:5186
+[2025-12-01 19:06:57][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part001.zip success. index:5186 file size:23,90 MB
+[2025-12-01 19:06:57][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part002.zip index:6140
+[2025-12-01 19:06:58][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part002.zip success. index:6140 file size:4,08 MB
+[2025-12-01 19:06:58][notice]Backing up backup_themes completed.
+[2025-12-01 19:06:58][notice]Prepare to backup backup_plugin files.
+[2025-12-01 19:06:58][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part001.zip index:10905
+[2025-12-01 19:07:12][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part001.zip success. index:10905 file size:59,24 MB
+[2025-12-01 19:07:12][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part002.zip index:23995
+[2025-12-01 19:07:20][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part002.zip success. index:23995 file size:39,90 MB
+[2025-12-01 19:07:20][notice]Backing up backup_plugin completed.
+[2025-12-01 19:07:20][notice]Prepare to backup backup_uploads files.
+[2025-12-01 19:07:25][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part001.zip index:2277
+[2025-12-01 19:07:38][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part001.zip success. index:2277 file size:173,64 MB
+[2025-12-01 19:07:39][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part002.zip index:16934
+[2025-12-01 19:07:49][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part002.zip success. index:16934 file size:195,92 MB
+[2025-12-01 19:07:50][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part003.zip index:27990
+[2025-12-01 19:07:59][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part003.zip success. index:27990 file size:194,22 MB
+[2025-12-01 19:08:00][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part004.zip index:31712
+[2025-12-01 19:08:09][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part004.zip success. index:31712 file size:165,25 MB
+[2025-12-01 19:08:09][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part005.zip index:37227
+[2025-12-01 19:08:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part005.zip success. index:37227 file size:185,87 MB
+[2025-12-01 19:08:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part006.zip index:45946
+[2025-12-01 19:08:27][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part006.zip success. index:45946 file size:195,03 MB
+[2025-12-01 19:08:28][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part007.zip index:55994
+[2025-12-01 19:08:37][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part007.zip success. index:55994 file size:195,02 MB
+[2025-12-01 19:08:38][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part008.zip index:64471
+[2025-12-01 19:08:47][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part008.zip success. index:64471 file size:193,71 MB
+[2025-12-01 19:08:48][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part009.zip index:75254
+[2025-12-01 19:08:57][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part009.zip success. index:75254 file size:192,06 MB
+[2025-12-01 19:08:58][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part010.zip index:87141
+[2025-12-01 19:09:08][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part010.zip success. index:87141 file size:192,34 MB
+[2025-12-01 19:09:08][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part011.zip index:96278
+[2025-12-01 19:09:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part011.zip success. index:96278 file size:194,34 MB
+[2025-12-01 19:09:19][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part012.zip index:102669
+[2025-12-01 19:09:27][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part012.zip success. index:102669 file size:196,98 MB
+[2025-12-01 19:09:28][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part013.zip index:108075
+[2025-12-01 19:09:36][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part013.zip success. index:108075 file size:192,81 MB
+[2025-12-01 19:09:37][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part014.zip index:113166
+[2025-12-01 19:09:45][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part014.zip success. index:113166 file size:173,67 MB
+[2025-12-01 19:09:46][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part015.zip index:115441
+[2025-12-01 19:09:54][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part015.zip success. index:115441 file size:165,60 MB
+[2025-12-01 19:09:54][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part016.zip index:124104
+[2025-12-01 19:10:03][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part016.zip success. index:124104 file size:192,69 MB
+[2025-12-01 19:10:03][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part017.zip index:132940
+[2025-12-01 19:10:12][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part017.zip success. index:132940 file size:191,40 MB
+[2025-12-01 19:10:12][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part018.zip index:140329
+[2025-12-01 19:10:21][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part018.zip success. index:140329 file size:187,06 MB
+[2025-12-01 19:10:21][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part019.zip index:156227
+[2025-12-01 19:10:33][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part019.zip success. index:156227 file size:195,80 MB
+[2025-12-01 19:10:33][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part020.zip index:168924
+[2025-12-01 19:10:43][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part020.zip success. index:168924 file size:193,08 MB
+[2025-12-01 19:10:44][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part021.zip index:181879
+[2025-12-01 19:10:54][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part021.zip success. index:181879 file size:193,16 MB
+[2025-12-01 19:10:55][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part022.zip index:194647
+[2025-12-01 19:11:05][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part022.zip success. index:194647 file size:193,06 MB
+[2025-12-01 19:11:06][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part023.zip index:207536
+[2025-12-01 19:11:16][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part023.zip success. index:207536 file size:193,33 MB
+[2025-12-01 19:11:17][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part024.zip index:220554
+[2025-12-01 19:11:27][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part024.zip success. index:220554 file size:193,05 MB
+[2025-12-01 19:11:28][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part025.zip index:233022
+[2025-12-01 19:11:38][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part025.zip success. index:233022 file size:193,38 MB
+[2025-12-01 19:11:38][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part026.zip index:245556
+[2025-12-01 19:11:48][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part026.zip success. index:245556 file size:193,94 MB
+[2025-12-01 19:11:49][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part027.zip index:256062
+[2025-12-01 19:11:59][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part027.zip success. index:256062 file size:192,83 MB
+[2025-12-01 19:11:59][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part028.zip index:263748
+[2025-12-01 19:12:08][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part028.zip success. index:263748 file size:185,57 MB
+[2025-12-01 19:12:09][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part029.zip index:269660
+[2025-12-01 19:12:17][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part029.zip success. index:269660 file size:194,04 MB
+[2025-12-01 19:12:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part030.zip index:275330
+[2025-12-01 19:12:26][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part030.zip success. index:275330 file size:193,84 MB
+[2025-12-01 19:12:27][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part031.zip index:280555
+[2025-12-01 19:12:35][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part031.zip success. index:280555 file size:193,99 MB
+[2025-12-01 19:12:35][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part032.zip index:289948
+[2025-12-01 19:12:45][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part032.zip success. index:289948 file size:192,52 MB
+[2025-12-01 19:12:45][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part033.zip index:322381
+[2025-12-01 19:13:01][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part033.zip success. index:322381 file size:198,98 MB
+[2025-12-01 19:13:02][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part034.zip index:355160
+[2025-12-01 19:13:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part034.zip success. index:355160 file size:199,16 MB
+[2025-12-01 19:13:18][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part035.zip index:374729
+[2025-12-01 19:13:31][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part035.zip success. index:374729 file size:194,11 MB
+[2025-12-01 19:13:31][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part036.zip index:391551
+[2025-12-01 19:13:43][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part036.zip success. index:391551 file size:191,60 MB
+[2025-12-01 19:13:44][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part037.zip index:408187
+[2025-12-01 19:13:56][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part037.zip success. index:408187 file size:190,86 MB
+[2025-12-01 19:13:56][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part038.zip index:424532
+[2025-12-01 19:14:08][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part038.zip success. index:424532 file size:190,86 MB
+[2025-12-01 19:14:09][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part039.zip index:441018
+[2025-12-01 19:14:21][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part039.zip success. index:441018 file size:190,77 MB
+[2025-12-01 19:14:21][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part040.zip index:457974
+[2025-12-01 19:14:33][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part040.zip success. index:457974 file size:191,38 MB
+[2025-12-01 19:14:34][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part041.zip index:474564
+[2025-12-01 19:14:45][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part041.zip success. index:474564 file size:190,77 MB
+[2025-12-01 19:14:46][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part042.zip index:489349
+[2025-12-01 19:14:55][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part042.zip success. index:489349 file size:138,17 MB
+[2025-12-01 19:14:56][notice]Backing up backup_uploads completed.
+[2025-12-01 19:14:56][notice]Prepare to backup backup_content files.
+[2025-12-01 19:14:56][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_content.part001.zip index:4216
+[2025-12-01 19:15:00][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_content.part001.zip success. index:4216 file size:17,99 MB
+[2025-12-01 19:15:01][notice]Backing up backup_content completed.
+[2025-12-01 19:15:01][notice]Prepare to backup backup_core files.
+[2025-12-01 19:15:01][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_core.part001.zip index:2801
+[2025-12-01 19:15:05][notice]Compressing zip file:grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_core.part001.zip success. index:2801 file size:14,49 MB
+[2025-12-01 19:15:05][notice]Backing up backup_core completed.
+[2025-12-01 19:15:05][notice]Prepare to backup backup_merge files.
+[2025-12-01 19:15:05][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_db.zip
+[2025-12-01 19:15:08][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part001.zip, filesize: 76,26 MB
+[2025-12-01 19:15:08][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part001.zip
+[2025-12-01 19:15:09][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part001.zip, filesize: 98,70 MB
+[2025-12-01 19:15:09][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_themes.part002.zip
+[2025-12-01 19:15:09][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part001.zip, filesize: 102,62 MB
+[2025-12-01 19:15:09][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part001.zip
+[2025-12-01 19:15:12][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part001.zip, filesize: 158,78 MB
+[2025-12-01 19:15:12][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_plugin.part002.zip
+[2025-12-01 19:15:14][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part001.zip, filesize: 196,18 MB
+[2025-12-01 19:15:14][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part001.zip
+[2025-12-01 19:15:20][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part002.zip, filesize: 173,00 MB
+[2025-12-01 19:15:21][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part002.zip
+[2025-12-01 19:15:28][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part003.zip, filesize: 194,44 MB
+[2025-12-01 19:15:29][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part003.zip
+[2025-12-01 19:15:36][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part004.zip, filesize: 193,20 MB
+[2025-12-01 19:15:36][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part004.zip
+[2025-12-01 19:15:42][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part005.zip, filesize: 164,94 MB
+[2025-12-01 19:15:42][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part005.zip
+[2025-12-01 19:15:49][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part006.zip, filesize: 185,45 MB
+[2025-12-01 19:15:49][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part006.zip
+[2025-12-01 19:15:56][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part007.zip, filesize: 194,23 MB
+[2025-12-01 19:15:57][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part007.zip
+[2025-12-01 19:16:04][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part008.zip, filesize: 194,18 MB
+[2025-12-01 19:16:04][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part008.zip
+[2025-12-01 19:16:11][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part009.zip, filesize: 192,96 MB
+[2025-12-01 19:16:12][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part009.zip
+[2025-12-01 19:16:19][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part010.zip, filesize: 191,10 MB
+[2025-12-01 19:16:19][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part010.zip
+[2025-12-01 19:16:26][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part011.zip, filesize: 191,27 MB
+[2025-12-01 19:16:27][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part011.zip
+[2025-12-01 19:16:33][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part012.zip, filesize: 193,45 MB
+[2025-12-01 19:16:34][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part012.zip
+[2025-12-01 19:16:41][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part013.zip, filesize: 196,46 MB
+[2025-12-01 19:16:41][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part013.zip
+[2025-12-01 19:16:48][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part014.zip, filesize: 192,37 MB
+[2025-12-01 19:16:48][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part014.zip
+[2025-12-01 19:16:55][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part015.zip, filesize: 173,21 MB
+[2025-12-01 19:16:55][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part015.zip
+[2025-12-01 19:17:01][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part016.zip, filesize: 165,41 MB
+[2025-12-01 19:17:01][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part016.zip
+[2025-12-01 19:17:08][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part017.zip, filesize: 192,05 MB
+[2025-12-01 19:17:08][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part017.zip
+[2025-12-01 19:17:15][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part018.zip, filesize: 190,75 MB
+[2025-12-01 19:17:16][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part018.zip
+[2025-12-01 19:17:23][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part019.zip, filesize: 186,57 MB
+[2025-12-01 19:17:23][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part019.zip
+[2025-12-01 19:17:30][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part020.zip, filesize: 193,96 MB
+[2025-12-01 19:17:31][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part020.zip
+[2025-12-01 19:17:38][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part021.zip, filesize: 191,92 MB
+[2025-12-01 19:17:38][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part021.zip
+[2025-12-01 19:17:45][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part022.zip, filesize: 192,05 MB
+[2025-12-01 19:17:46][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part022.zip
+[2025-12-01 19:17:52][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part023.zip, filesize: 191,92 MB
+[2025-12-01 19:17:53][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part023.zip
+[2025-12-01 19:18:00][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part024.zip, filesize: 192,21 MB
+[2025-12-01 19:18:00][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part024.zip
+[2025-12-01 19:18:08][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part025.zip, filesize: 191,90 MB
+[2025-12-01 19:18:08][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part025.zip
+[2025-12-01 19:18:15][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part026.zip, filesize: 192,26 MB
+[2025-12-01 19:18:16][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part026.zip
+[2025-12-01 19:18:23][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part027.zip, filesize: 192,72 MB
+[2025-12-01 19:18:23][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part027.zip
+[2025-12-01 19:18:30][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part028.zip, filesize: 191,80 MB
+[2025-12-01 19:18:31][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part028.zip
+[2025-12-01 19:18:37][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part029.zip, filesize: 184,88 MB
+[2025-12-01 19:18:38][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part029.zip
+[2025-12-01 19:18:45][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part030.zip, filesize: 193,65 MB
+[2025-12-01 19:18:45][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part030.zip
+[2025-12-01 19:18:52][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part031.zip, filesize: 193,46 MB
+[2025-12-01 19:18:52][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part031.zip
+[2025-12-01 19:18:59][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part032.zip, filesize: 193,54 MB
+[2025-12-01 19:19:00][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part032.zip
+[2025-12-01 19:19:07][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part033.zip, filesize: 191,68 MB
+[2025-12-01 19:19:07][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part033.zip
+[2025-12-01 19:19:15][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part034.zip, filesize: 195,75 MB
+[2025-12-01 19:19:15][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part034.zip
+[2025-12-01 19:19:23][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part035.zip, filesize: 195,88 MB
+[2025-12-01 19:19:24][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part035.zip
+[2025-12-01 19:19:31][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part036.zip, filesize: 192,29 MB
+[2025-12-01 19:19:31][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part036.zip
+[2025-12-01 19:19:39][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part037.zip, filesize: 190,03 MB
+[2025-12-01 19:19:39][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part037.zip
+[2025-12-01 19:19:46][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part038.zip, filesize: 189,32 MB
+[2025-12-01 19:19:47][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part038.zip
+[2025-12-01 19:19:54][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part039.zip, filesize: 189,35 MB
+[2025-12-01 19:19:54][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part039.zip
+[2025-12-01 19:20:01][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part040.zip, filesize: 189,25 MB
+[2025-12-01 19:20:02][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part040.zip
+[2025-12-01 19:20:09][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part041.zip, filesize: 189,81 MB
+[2025-12-01 19:20:10][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part041.zip
+[2025-12-01 19:20:17][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part042.zip, filesize: 189,23 MB
+[2025-12-01 19:20:18][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_uploads.part042.zip
+[2025-12-01 19:20:23][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part043.zip, filesize: 136,33 MB
+[2025-12-01 19:20:23][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_content.zip
+[2025-12-01 19:20:24][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part043.zip, filesize: 150,62 MB
+[2025-12-01 19:20:24][notice]Prepare to zip file. file: grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_core.zip
+[2025-12-01 19:20:25][notice]Adding zip files completed.grupodos.com.uy_wpvivid-07049f92fe31a_2025-12-01-19-03_backup_all.part043.zip, filesize: 164,69 MB
+[2025-12-01 19:20:25][notice]Backing up backup_merge completed.
+[2025-12-01 19:20:26][notice]Backup completed.
+[2025-12-01 19:20:26][notice]LiteSpeed Server.
+[2025-12-01 19:20:26][notice]Clear LiteSpeed Rule

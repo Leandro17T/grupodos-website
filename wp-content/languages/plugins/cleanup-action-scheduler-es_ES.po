@@ -1,0 +1,113 @@
+# Translation of Plugins - Cleanup Action Scheduler - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Cleanup Action Scheduler - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-17 10:09:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Cleanup Action Scheduler - Stable (latest release)\n"
+
+#: core/Pages/Dashboard.php:220
+msgid "If your host supports time limits longer than this for web requests, use this field to increase this time limit. This allows more actions to be processed in each request and reduces the lag between processing each queue, greatly speeding up the processing rate of scheduled actions."
+msgstr "Si tu servidor admite límites de tiempo más largos para estas solicitudes web usa este campo para aumentar este límite de tiempo. Esto permite que se procesen más acciones en cada solicitud y reduce el espacio entre cada cola de procesamiento, acelerando la tasa de procesamiento de las acciones programadas."
+
+#: core/Pages/Dashboard.php:219
+msgid "By default, Action Scheduler will only process actions for a maximum of 30 seconds in each request. This time limit minimises the risk of a script timeout on unknown hosting environments, some of which enforce 30 second timeouts."
+msgstr "Por defecto, el programador de acciones solo procesará acciones durante un máximo de 30 segundos en cada solicitud. Este límite de tiempo minimiza el riesgo de finalización de tiempo de ejecución de un script en entornos de alojamiento desconocidos, algunos de los cuales fuerzan la finalización del tiempo de ejecución a 30 segundos."
+
+#: core/Pages/Dashboard.php:201
+msgid "By default Action scheduler reset actions claimed for more than 5 minutes (300 seconds). Because we are increasing the batch size, we also want to increase the amount of time given to queues before reseting claimed actions."
+msgstr "Por defecto, el programador de acciones restablece las acciones solicitadas durante más de 5 minutos (300 segundos). Como estamos aumentando el tamaño del procesamiento en lotes, también queremos aumentar la cantidad de tiempo dado a las colas antes de restablecer las acciones solicitadas."
+
+#: core/Pages/Dashboard.php:183
+msgid "Incease number of concurrent batches if your server allows a large number of connections"
+msgstr "Aumentar el número de procesos en lotes concurrentes si tu servidor permite una gran cantidad de conexiones"
+
+#: core/Pages/Dashboard.php:182
+msgid "By default, Action Scheduler will run only one concurrent batches of actions. This is to prevent consuming a lot of available connections or processes on your webserver."
+msgstr "Por defecto, el programador de acciones solo ejecutará un procesamiento en lotes concurrente de acciones. Esto sirve para evitar consumir un montón de conexiones o procesos disponibles en tu servidor web."
+
+#: core/Pages/Dashboard.php:165
+msgid "By default, Action Scheduler claims a batch of 25 actions. This small batch size is because the default time limit is only 30 seconds. However, if your actions are processing very quickly use this field to increase the batch size."
+msgstr "Por defecto, el programador de acciones solicita un procesamiento en lotes de 25 acciones. Este pequeño tamaño de procesamiento en lotes es debido a que el límite de tiempo por defecto es de solo 30 segundos. Sin embargo, si tus acciones se están procesando muy rápidamente usa este campo para aumentar el tamaño del procesamiento por lotes."
+
+#: core/Pages/Dashboard.php:146
+msgid "By default, Action Scheduler deletes completed actions every 30 days. Use this field to set a default actions delete duration."
+msgstr "Por defecto, el programador de acciones borra las acciones completadas cada 30 días. Usa este campo para configurar una duración del borrado de acciones distinto."
+
+#: core/Pages/Dashboard.php:106
+msgid "Time Limit"
+msgstr "Límite de tiempo"
+
+#: core/Pages/Dashboard.php:98
+msgid "Timeout"
+msgstr "Tiempo límite"
+
+#: core/Pages/Dashboard.php:90
+msgid "Concurrent Batches"
+msgstr "Procesos en lotes concurrentes"
+
+#: core/Pages/Dashboard.php:82
+msgid "Queue Batch Size"
+msgstr "Tamaño de proceso en lotes de la cola"
+
+#: core/Pages/Dashboard.php:237
+msgid "Save"
+msgstr "Guardar"
+
+#: core/Pages/Dashboard.php:141
+msgid "Days"
+msgstr "Días"
+
+#: core/Pages/Dashboard.php:140
+msgid "Hours"
+msgstr "Horas"
+
+#: core/Pages/Dashboard.php:139
+msgid "Seconds"
+msgstr "Segundos"
+
+#: core/Pages/Dashboard.php:123
+msgid "Schedule deletion of Completed Actions"
+msgstr "Programar borrado de acciones completadas"
+
+#: core/Pages/Dashboard.php:74
+msgid "Duration"
+msgstr "Duración"
+
+#: core/Pages/Dashboard.php:45
+msgid "Cleanup Scheduler"
+msgstr "Programador de limpieza"
+
+#: core/Pages/Dashboard.php:44
+msgid "Cleanup Action Scheduler Plugin"
+msgstr "Plugin de limpieza del programador de acciones"
+
+#: core/Actions/Cleanups.php:45
+msgid "Security check"
+msgstr "Comprobación de seguridad"
+
+#. Author URI of the plugin
+msgid "https://mediauganda.com/"
+msgstr "https://mediauganda.com/"
+
+#. Author of the plugin
+msgid "Media Uganda"
+msgstr "Media Uganda"
+
+#. Description of the plugin
+msgid "Cleanup rows of Action Scheduler or Woocommerce data recorded in your Database."
+msgstr "Limpia filas del programador de acciones o de datos de WooCommerce almacenados en tu base de datos."
+
+#. Plugin URI of the plugin
+msgid "https://mediauganda.com/software/cleanup-action-scheduler"
+msgstr "https://mediauganda.com/software/cleanup-action-scheduler"
+
+#. Plugin Name of the plugin
+#: core/Pages/Dashboard.php:67
+msgid "Cleanup Action Scheduler"
+msgstr "Cleanup Action Scheduler"

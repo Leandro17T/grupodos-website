@@ -1,0 +1,1034 @@
+# Translation of Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-31 17:51:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release)\n"
+
+#: inc/admin/admin-options.php:1819
+msgid "Turnstile is supported for WP User Manager Login, Registration and Reset Password forms. Enable for these forms in the \"Default WordPress Forms\" settings."
+msgstr "Turnstile es compatible con los formularios de acceso, registro y restablecimiento de contraseña de WP User Manager. Activa estos formularios en la configuración de «Formularios por defecto de WordPress»."
+
+#: inc/admin/admin-options.php:1815 inc/admin/admin-options.php:1825
+msgid "WP User Manager"
+msgstr "WP User Manager"
+
+#: inc/admin/admin-options.php:2021
+msgid "Not sure how to use this plugin?"
+msgstr "¿No estás seguro de cómo usar este plugin?"
+
+#: inc/admin/admin-options.php:2017
+msgid "100% free plugin by"
+msgstr "Plugin 100 % gratuito por"
+
+#: inc/admin/admin-options.php:1538
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Kadence Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con Kadence Forms."
+
+#: inc/admin/admin-options.php:1531
+msgid "Enable on all Kadence Forms"
+msgstr "Activar en todos los formularios de Kadence Forms"
+
+#: inc/admin/admin-options.php:1524 inc/admin/admin-options.php:1543
+msgid "Kadence Forms"
+msgstr "Kadence Forms"
+
+#: inc/admin/admin-options.php:1512
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with MailPoet."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con MailPoet."
+
+#: inc/admin/admin-options.php:1505
+msgid "Enable on all MailPoet Forms"
+msgstr "Activar en todos los formularios de MailPoet"
+
+#: inc/admin/admin-options.php:1498 inc/admin/admin-options.php:1518
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#: inc/admin/admin-options.php:1216
+msgid "When enabled, Turnstile will be added after the submit button, on ALL your forms created with Jetpack Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá después del botón de envío, en TODOS tus formularios creados con Jetpack."
+
+#: inc/admin/admin-options.php:1209
+msgid "Enable on all Jetpack Forms"
+msgstr "Activar en todos los formularios de Jetpack"
+
+#: inc/admin/admin-options.php:1202 inc/admin/admin-options.php:1221
+msgid "Jetpack Forms"
+msgstr "Formularios de Jetpack"
+
+#: inc/integrations/ecommerce/woocommerce.php:216
+msgid "Turnstile token."
+msgstr "Token de Turnstile."
+
+#: inc/admin/admin-options.php:373
+msgid "Compact (150px)"
+msgstr "Compacto (150px)"
+
+#: inc/admin/admin-options.php:370
+msgid "Flexible (100%)"
+msgstr "Flexible (100%)"
+
+#: inc/admin/admin-options.php:367
+msgid "Normal (300px)"
+msgstr "Normal (300px)"
+
+#: inc/admin/admin-options.php:363
+msgid "Widget Size"
+msgstr "Tamaño del widget"
+
+#: inc/admin/admin-options.php:316
+msgid "Vietnamese (Vietnam)"
+msgstr "Vietnamita ( Vietnam)"
+
+#: inc/admin/admin-options.php:315
+msgid "Ukrainian (Ukraine)"
+msgstr "Ucraniano (Ucrania)"
+
+#: inc/admin/admin-options.php:314
+msgid "Turkish (Turkey)"
+msgstr "Turco (Turquía)"
+
+#: inc/admin/admin-options.php:313
+msgid "Thai (Thailand)"
+msgstr "Tailandés (Tailandia)"
+
+#: inc/admin/admin-options.php:312
+msgid "Tagalog (Philippines)"
+msgstr "Tagalo (Filipinas)"
+
+#: inc/admin/admin-options.php:311
+msgid "Swedish (Sweden)"
+msgstr "Sueco (Suecia)"
+
+#: inc/admin/admin-options.php:310
+msgid "Spanish (Spain)"
+msgstr "Español (España)"
+
+#: inc/admin/admin-options.php:309
+msgid "Slovenian (Slovenia)"
+msgstr "Esloveno (Eslovenia)"
+
+#: inc/admin/admin-options.php:308
+msgid "Slovak (Slovakia)"
+msgstr "Eslovaco (Eslovaquia)"
+
+#: inc/admin/admin-options.php:307
+msgid "Serbian (Bosnia and Herzegovina)"
+msgstr "Serbio (Bosnia y Herzegovina)"
+
+#: inc/admin/admin-options.php:306
+msgid "Russian (Russia)"
+msgstr "Ruso (Rusia)"
+
+#: inc/admin/admin-options.php:305
+msgid "Romanian (Romania)"
+msgstr "Rumano (Rumanía)"
+
+#: inc/admin/admin-options.php:303
+msgid "Polish (Poland)"
+msgstr "Polaco (Polonia)"
+
+#: inc/admin/admin-options.php:302
+msgid "Norwegian Bokmål (Norway)"
+msgstr "Noruego Bokmål (Noruega)"
+
+#: inc/admin/admin-options.php:301
+msgid "Malay (Malaysia)"
+msgstr "Malayo (Malasia)"
+
+#: inc/admin/admin-options.php:300
+msgid "Lithuanian (Lithuania)"
+msgstr "Lituano (Lituania)"
+
+#: inc/admin/admin-options.php:299
+msgid "Korean (Korea)"
+msgstr "Coreano (Corea)"
+
+#: inc/admin/admin-options.php:298
+msgid "Klingon (Qo’noS)"
+msgstr "Klingon (Qo’noS)"
+
+#: inc/admin/admin-options.php:297
+msgid "Japanese (Japan)"
+msgstr "Japonés (Japón)"
+
+#: inc/admin/admin-options.php:296
+msgid "Italian (Italy)"
+msgstr "Italiano (Italia)"
+
+#: inc/admin/admin-options.php:295
+msgid "Indonesian (Indonesia)"
+msgstr "Indoneso (Indonesia)"
+
+#: inc/admin/admin-options.php:294
+msgid "Hungarian (Hungary)"
+msgstr "Húngaro (Hungría)"
+
+#: inc/admin/admin-options.php:293
+msgid "Hindi (India)"
+msgstr "Hindi (India)"
+
+#: inc/admin/admin-options.php:292
+msgid "Hebrew (Israel)"
+msgstr "Hebreo (Israel)"
+
+#: inc/admin/admin-options.php:291
+msgid "Greek (Greece)"
+msgstr "Griego (Grecia)"
+
+#: inc/admin/admin-options.php:290
+msgid "German (Germany)"
+msgstr "Alemán (Alemania)"
+
+#: inc/admin/admin-options.php:289
+msgid "French (France)"
+msgstr "Francés (Francia)"
+
+#: inc/admin/admin-options.php:288
+msgid "Finnish (Finland)"
+msgstr "Finés (Finlandia)"
+
+#: inc/admin/admin-options.php:287
+msgid "Farsi (Iran)"
+msgstr "Farsi (Irán)"
+
+#: inc/admin/admin-options.php:286
+msgid "English (United States)"
+msgstr "Inglés (Estados Unidos)"
+
+#: inc/admin/admin-options.php:285
+msgid "Dutch (Netherlands)"
+msgstr "Holandés (Países Bajos)"
+
+#: inc/admin/admin-options.php:284
+msgid "Danish (Denmark)"
+msgstr "Danés (Dinamarca)"
+
+#: inc/admin/admin-options.php:283
+msgid "Czech (Czech Republic)"
+msgstr "Checo (República checa)"
+
+#: inc/admin/admin-options.php:282
+msgid "Croatian (Croatia)"
+msgstr "Croata (Croacia)"
+
+#: inc/admin/admin-options.php:281
+msgid "Chinese (Traditional, Taiwan)"
+msgstr "Chino (tradicional, Taiwan)"
+
+#: inc/admin/admin-options.php:280
+msgid "Chinese (Simplified, China)"
+msgstr "Chino (simplificado, China)"
+
+#: inc/admin/admin-options.php:279
+msgid "Bulgarian (Bulgaria)"
+msgstr "Búlgaro (Bulgaria)"
+
+#: inc/admin/admin-options.php:278
+msgid "Arabic (Egypt)"
+msgstr "Árabe (Egipto)"
+
+#: inc/admin/admin-options.php:1952
+msgid "Response"
+msgstr "Respuesta"
+
+#: inc/admin/admin-options.php:1950
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/admin/admin-options.php:1953
+msgid "Info"
+msgstr "Info"
+
+#: inc/admin/admin-options.php:1972
+msgid "IP:"
+msgstr "IP:"
+
+#: inc/admin/admin-options.php:1973
+msgid "URL:"
+msgstr "URL:"
+
+#: inc/admin/admin-options.php:1986
+msgid " (Visitor submitted form when Turnstile was not successfully completed.)"
+msgstr " (Formularios enviados por visitantes cuando Turnstile no estaba totalmente configurado)"
+
+#: inc/admin/admin-options.php:1951 inc/admin/admin-options.php:1968
+msgid "Success"
+msgstr "Conseguido"
+
+#: inc/admin/admin-options.php:1985
+msgid "Error Codes"
+msgstr "Códigos de error"
+
+#: inc/admin/admin-options.php:1995
+msgid "No events logged yet."
+msgstr "Aún no se ha registrado ningún evento."
+
+#: inc/admin/admin-options.php:1929
+msgid "Turnstile Debug Log"
+msgstr "Registro de depuración de Turnstile"
+
+#: inc/admin/admin-options.php:1887
+msgid "Enable debug logging of Turnstile form submission events."
+msgstr "Activa el registro de depuración de los eventos de envío de formularios de Turnstile"
+
+#: inc/admin/admin-options.php:1358
+msgid "Currently Ninja Forms is not supported by this plugin."
+msgstr "Actualmente este plugin no es compatible con Ninja Forms."
+
+#: inc/admin/admin-options.php:1354
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: inc/admin/admin-options.php:1344
+msgid "Click here for more information."
+msgstr "Haz clic aquí para más información."
+
+#: inc/admin/admin-options.php:1343
+msgid "Currently WS Form is not supported by this plugin, however their plugin does have its own Turnstile addon."
+msgstr "Actualmente este plugin no es compatible con WS Form, pero tiene su propia extensión de Turnstile."
+
+#: inc/admin/admin-options.php:1339
+msgid "WS Form"
+msgstr "WS Form"
+
+#: inc/admin/admin-options.php:944
+msgid "Paid Memberships Pro"
+msgstr "Paid Memberships Pro"
+
+#: inc/admin/admin-options.php:633 inc/admin/admin-options.php:654
+msgid "Only enable on default wp-login.php page"
+msgstr "Activar sólo en la página wp-login.php por defecto"
+
+#: inc/admin/admin-options.php:468
+msgid "Currently it is not possible to edit the actual \"Failure!\" message shown on the widget."
+msgstr "Actualmente no es posible editar el mensaje «¡Failure!» que se muestra en el widget."
+
+#: inc/admin/admin-options.php:465 inc/turnstile.php:137
+msgid "Failed to verify you are human. Please contact us if you are having issues."
+msgstr "No se ha podido verificar que eres humano. Ponte en contacto con nosotros si tienes problemas."
+
+#: inc/admin/admin-options.php:460
+msgid "HTML Markup Allowed."
+msgstr "Marcado HTML permitido."
+
+#: inc/admin/admin-options.php:451
+msgid "Extra Failure Message"
+msgstr "Mensaje de fallo adicional"
+
+#: inc/admin/admin-options.php:445
+msgid "Shown if the form is submitted without completing the Turnstile challenge. Leave blank to use the default message (localized):"
+msgstr "Se muestra si el formulario se envía sin completar el desafío de Turnstile. Déjalo en blanco para utilizar el mensaje por defecto (traducido):"
+
+#: inc/admin/admin-options.php:480
+msgid "Defer Scripts"
+msgstr "Aplazar scripts"
+
+#: inc/admin/admin-options.php:351
+msgid "These settings are for more advanced customisation. If you are not sure about these, they do not need to be changed."
+msgstr "Estos ajustes son para una personalización más avanzada. Si no estás seguro de ellos, no es necesario cambiarlos."
+
+#: inc/admin/admin-options.php:347
+msgid "Advanced Settings"
+msgstr "Ajustes avanzados"
+
+#: inc/admin/admin-options.php:987 inc/admin/admin-options.php:995
+msgid "Currently Turnstile can not be implemented on the lost password form when PMP is installed."
+msgstr "Actualmente no se puede implementar Turnstile en el formulario de contraseña perdida cuando está instalado PMP."
+
+#: inc/admin/admin-options.php:984
+msgid "Lost Password Form"
+msgstr "Formulario de contraseña perdida"
+
+#: inc/admin/admin-options.php:951
+msgid "Checkout / Registration"
+msgstr "Pago / Registro"
+
+#: inc/admin/admin-options.php:1016
+msgid "Paid Memberships PRO"
+msgstr "Paid Memberships PRO"
+
+#: inc/admin/admin-options.php:525
+msgid "IP Addresses"
+msgstr "Direcciones IP"
+
+#: inc/admin/admin-options.php:520
+msgid "When enabled, logged in users will not see the Turnstile challenge."
+msgstr "Si está activada, los usuarios registrados no verán el desafío de Turnstile."
+
+#: inc/admin/admin-options.php:517
+msgid "Logged In Users"
+msgstr "Usuarios conectados"
+
+#: inc/admin/admin-options.php:510
+msgid "Whitelist Settings"
+msgstr "Ajustes de lista blanca"
+
+#: inc/admin/admin-options.php:825
+msgid "If selected below, Turnstile check will not be run for that specific payment method."
+msgstr "Si se selecciona a continuación, no se ejecutará la comprobación de Turnstile para ese método de pago específico."
+
+#: inc/admin/admin-options.php:536
+msgid "One per line.  All visitors with listed User Agents will not see the Turnstile challenge. Warning: If an attacker knows one of the whitelisted User Agents, they might be able to spoof that User Agent to bypass Turnstile."
+msgstr "Uno por línea. Todos los visitantes con direcciones IP de la lista no verán el desafío de Turnstile. Advertencia: Si un atacante conoce una de las direcciones IP de la lista blanca, podría falsear esa dirección para saltarse Turnstile."
+
+#: inc/admin/admin-options.php:682
+msgid "AJAX comments form?"
+msgstr "¿Formulario de comentarios AJAX?"
+
+#: inc/admin/admin-options.php:680
+msgid "Enable this if you are using an AJAX based comments form plugin or theme."
+msgstr "Activa esto si utilizas un plugin o tema de formulario de comentarios basado en AJAX."
+
+#: inc/admin/admin-options.php:1798
+msgid "Post Forms"
+msgstr "Formularios de entrada"
+
+#: inc/admin/admin-options.php:1791
+msgid "Register Form"
+msgstr "Formulario de registro"
+
+#: inc/admin/admin-options.php:1786
+msgid "Edit via \"WordPress Reset Password\" option in the \"Default WordPress Forms\" settings."
+msgstr "Edita a través de la opción «Restablecer contraseña de WordPress» en los ajustes de «Formularios por defecto de WordPress»."
+
+#: inc/admin/admin-options.php:1783
+msgid "Reset Password Form"
+msgstr "Formulario de restablecer contraseña"
+
+#: inc/admin/admin-options.php:1746 inc/admin/admin-options.php:1809
+msgid "WP User Frontend"
+msgstr "WP User Frontend"
+
+#: inc/admin/admin-options.php:110 inc/admin/admin-options.php:2022
+msgid "View setup guide"
+msgstr "Ver guía de configuración"
+
+#: inc/admin/admin-options.php:402
+msgid "Turnstile Widget is only displayed after the challenge begins."
+msgstr "El widget de Turnstile sólo se muestra cuando comienza el desafío."
+
+#: inc/admin/admin-options.php:401
+msgid "Turnstile Widget is always displayed for all visitors."
+msgstr "El widget de Turnstile se muestra siempre a todos los visitantes."
+
+#: inc/admin/admin-options.php:387
+msgid "Interaction Only"
+msgstr "Sólo interacción"
+
+#: inc/admin/admin-options.php:385
+msgid "Always"
+msgstr "Siempre"
+
+#: inc/admin/admin-options.php:380
+msgid "Appearance Mode"
+msgstr "Modo apariencia"
+
+#: inc/admin/admin-options.php:975 inc/admin/admin-options.php:1686
+#: inc/admin/admin-options.php:1764
+msgid "Login Form"
+msgstr "Formulario de acceso"
+
+#: inc/admin/admin-options.php:1668 inc/admin/admin-options.php:1719
+msgid "MemberPress"
+msgstr "MemberPress"
+
+#: inc/admin/admin-options.php:978 inc/admin/admin-options.php:1689
+#: inc/admin/admin-options.php:1767
+msgid "Edit via \"WordPress Login\" option in the \"Default WordPress Forms\" settings."
+msgstr "Edítalo a través de la opción «Acceso de WordPress» en la ajustes de «Formularios por defecto de WordPress»."
+
+#: inc/admin/admin-options.php:1881
+msgid "Delete all of this plugins saved options when the plugin is deleted via plugins page."
+msgstr "Elimina todas las opciones guardadas de este plugin cuando se elimina a través de la página de plugins."
+
+#: inc/admin/admin-options.php:901 inc/admin/admin-options.php:938
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/admin/admin-options.php:1725 inc/admin/admin-options.php:1740
+msgid "WP-Members"
+msgstr "WP-Members"
+
+#: inc/admin/admin-options.php:1333
+msgid "Forminator"
+msgstr "Forminator"
+
+#: inc/admin/admin-options.php:1277
+msgid "Formidable"
+msgstr "Formidable"
+
+#: inc/admin/admin-options.php:1864
+msgid "Simply install the plugin and new settings will appear above."
+msgstr "Simplemente instala el plugin y aparecerán nuevos ajustes arriba."
+
+#: inc/admin/admin-options.php:1731
+msgid "Turnstile is supported for WP-Members Login and Registration forms. Enable for these forms in the \"Default WordPress Forms\" settings."
+msgstr "Turnstile es compatible con los formularios de acceso y registro de WP-Members. Actívalo para estos formularios con el ajuste «Formularios por defecto de WordPress»."
+
+#: inc/admin/admin-options.php:304
+msgid "Portuguese (Brazil)"
+msgstr "Portugués (Brasil)"
+
+#: inc/admin/admin-options.php:272
+msgid "Language"
+msgstr "Idioma"
+
+#: inc/admin/admin-options.php:1397
+msgid "After Form"
+msgstr "Después del formulario"
+
+#: inc/admin/admin-options.php:779
+msgid "WooCommerce Pay for Order"
+msgstr "WooCommerce Pay for Order"
+
+#: inc/admin/admin-options.php:1297
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Forminator Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con Forminator Forms."
+
+#: inc/admin/admin-options.php:1290
+msgid "Enable on all Forminator Forms"
+msgstr "Activar en todos los formularios de Forminator"
+
+#: inc/admin/admin-options.php:1283
+msgid "Forminator Forms"
+msgstr "Forminator Forms"
+
+#: inc/admin/admin-options.php:771
+msgid "After Billing"
+msgstr "Después de la facturación"
+
+#: inc/admin/admin-options.php:768
+msgid "Before Billing"
+msgstr "Antes de la facturación"
+
+#: inc/admin/admin-options.php:765
+msgid "Before Pay Button"
+msgstr "Antes del botón de pagar"
+
+#: inc/admin/admin-options.php:762
+msgid "After Payment"
+msgstr "Después del pago"
+
+#: inc/admin/admin-options.php:759
+msgid "Before Payment"
+msgstr "Antes del pago"
+
+#: inc/admin/admin-options.php:1029
+msgid "Enable on all CF7 Forms"
+msgstr "Activar en todos los formularios de CF7"
+
+#: inc/admin/admin-options.php:1624 inc/admin/admin-options.php:1656
+msgid "Ultimate Member"
+msgstr "Ultimate Member"
+
+#: inc/admin/admin-options.php:1094 inc/admin/admin-options.php:1150
+#: inc/admin/admin-options.php:1188 inc/admin/admin-options.php:1270
+#: inc/admin/admin-options.php:1326
+msgid "If you want to DISABLE the Turnstile widget on certain forms, enter the %s ID in this field."
+msgstr "Si quieres DESACTIVAR el widget de Turnstile en determinados formularios, introduce el ID de %s en este campo."
+
+#: inc/admin/admin-options.php:1087 inc/admin/admin-options.php:1143
+#: inc/admin/admin-options.php:1181 inc/admin/admin-options.php:1263
+#: inc/admin/admin-options.php:1319
+msgid "Disabled Form IDs"
+msgstr "IDs de formularios desactivados"
+
+#: inc/admin/admin-options.php:440
+msgid "Custom Error Message"
+msgstr "Mensaje de error personalizado"
+
+#: inc/admin/admin-options.php:110
+msgid "Review on WordPress.org"
+msgstr "Valorar en WordPress.org"
+
+#: inc/admin/admin-options.php:110
+msgid "Like this plugin?"
+msgstr "¿Te gusta este plugin?"
+
+#: inc/admin/admin-options.php:1241
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Formidable Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con Formidable Forms."
+
+#: inc/admin/admin-options.php:1234
+msgid "Enable on all Formidable Forms"
+msgstr "Activar en todos los formularios de Formidable"
+
+#: inc/admin/admin-options.php:1227
+msgid "Formidable Forms"
+msgstr "Formidable Forms"
+
+#: inc/admin/admin-options.php:1382
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Elementor Pro Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con Elementor Pro."
+
+#: inc/admin/admin-options.php:1375
+msgid "Enable on all Elementor Forms"
+msgstr "Activar en todos los formularios de Elementor"
+
+#: inc/admin/admin-options.php:1368 inc/admin/admin-options.php:1477
+msgid "Elementor Forms"
+msgstr "Formularios de Elementor"
+
+#: inc/admin/admin-options.php:1831
+msgid "wpDiscuz"
+msgstr "wpDiscuz"
+
+#: inc/admin/admin-options.php:696
+msgid "Compatible with wpDiscuz!"
+msgstr "¡Compatible con wpDiscuz!"
+
+#: inc/admin/admin-options.php:693
+msgid "Due to Jetpack limitations, this does NOT currently work with Jetpack comments form enabled."
+msgstr "Debido a las limitaciones de Jetpack, esto NO funciona actualmente con el formulario de comentarios de Jetpack activado."
+
+#: inc/admin/admin-options.php:1077 inc/admin/admin-options.php:1133
+#: inc/admin/admin-options.php:1253 inc/admin/admin-options.php:1309
+#: inc/admin/admin-options.php:1394
+msgid "After Button"
+msgstr "Después del botón"
+
+#: inc/admin/admin-options.php:1074 inc/admin/admin-options.php:1130
+#: inc/admin/admin-options.php:1250 inc/admin/admin-options.php:1306
+#: inc/admin/admin-options.php:1391
+msgid "Before Button"
+msgstr "Antes del botón"
+
+#: inc/admin/admin-options.php:749 inc/admin/admin-options.php:1070
+#: inc/admin/admin-options.php:1126 inc/admin/admin-options.php:1246
+#: inc/admin/admin-options.php:1302 inc/admin/admin-options.php:1387
+msgid "Widget Location"
+msgstr "Ubicación del widget"
+
+#: inc/admin/admin-options.php:2028
+msgid "Translate into your language"
+msgstr "Traducir a tu idioma"
+
+#: inc/admin/admin-options.php:2025
+msgid "Create a support topic"
+msgstr "Crear un tema de ayuda"
+
+#: inc/admin/admin-options.php:1851
+msgid "You can also enable Turnstile on"
+msgstr "También puedes activar Turnstile en"
+
+#: inc/admin/admin-options.php:1848
+msgid "Other Integrations"
+msgstr "Otras integraciones"
+
+#: inc/admin/admin-options.php:1492
+msgid "Mailchimp for WordPress"
+msgstr "Mailchimp for WordPress"
+
+#: inc/admin/admin-options.php:895
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/admin-options.php:615
+msgid "Enable Turnstile on your forms:"
+msgstr "Activa Turnstile en tus formularios:"
+
+#: inc/admin/admin-options.php:2030
+msgid "View on GitHub"
+msgstr "Ver en GitHub"
+
+#: inc/admin/admin-options.php:1095 inc/admin/admin-options.php:1151
+#: inc/admin/admin-options.php:1189 inc/admin/admin-options.php:1271
+#: inc/admin/admin-options.php:1327
+msgid "Separate each ID with a comma, for example: 5,10"
+msgstr "Separa cada ID con una coma, por ejemplo: 5,10"
+
+#: inc/admin/admin-options.php:277
+msgid "Auto Detect"
+msgstr "Detección automática"
+
+#: inc/admin/admin-options.php:1114
+msgid "Enable on all Gravity Forms"
+msgstr "Activar en todos los formularios de Gravity Forms"
+
+#: inc/admin/admin-options.php:1107 inc/admin/admin-options.php:1157
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: inc/admin/admin-options.php:1121
+msgid "When enabled, Turnstile will be added before/after the submit button, on ALL your forms created with Gravity Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá antes/después del botón de envío, en TODOS tus formularios creados con Gravity Forms."
+
+#: inc/admin/admin-options.php:1163 inc/admin/admin-options.php:1196
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: inc/admin/admin-options.php:58
+msgid "Error message:"
+msgstr "Mensaje de error:"
+
+#: inc/admin/admin-options.php:1177
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Fluent Forms."
+msgstr "Cuando esté activado, Turnstile se añadirá encima del botón de envío, en TODOS tus formularios creados con Fluent Forms."
+
+#: inc/admin/admin-options.php:1170
+msgid "Enable on all Fluent Forms"
+msgstr "Activar en todos los formularios de Fluent Forms"
+
+#: inc/admin/admin-options.php:39
+msgid "Almost done..."
+msgstr "Ya casi está..."
+
+#: inc/errors.php:63
+msgid "There was an error with Turnstile response. Please check your keys are correct."
+msgstr "Se ha producido un error en la respuesta de Turnstile. Por favor, comprueba que tus claves son correctas."
+
+#: inc/errors.php:61
+msgid "An internal error happened while validating the response. The request can be retried."
+msgstr "Se ha producido un error interno al validar la respuesta. Se puede volver a intentar la solicitud."
+
+#: inc/errors.php:59
+msgid "The response parameter has already been validated before."
+msgstr "El parámetro de respuesta ya ha sido validado anteriormente."
+
+#: inc/errors.php:57
+msgid "The request was rejected because it was malformed."
+msgstr "La solicitud fue rechazada porque estaba mal formada."
+
+#: inc/errors.php:55
+msgid "The response parameter is invalid or has expired."
+msgstr "El parámetro de respuesta no es válido o ha caducado."
+
+#: inc/errors.php:53
+msgid "The response parameter was not passed."
+msgstr "No se ha pasado el parámetro de respuesta."
+
+#: inc/errors.php:51
+msgid "The secret parameter was invalid or did not exist."
+msgstr "El parámetro secreto no era válido o no existía."
+
+#: inc/errors.php:49
+msgid "The secret parameter was not passed."
+msgstr "No se ha pasado el parámetro secreto."
+
+#: inc/admin/admin-options.php:1607
+msgid "Guest Users Only"
+msgstr "Sólo usuarios invitados"
+
+#: inc/admin/admin-options.php:1599
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/admin/admin-options.php:1596
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/admin/admin-options.php:1592
+msgid "Alignment"
+msgstr "Alineación"
+
+#: inc/admin/admin-options.php:1572 inc/admin/admin-options.php:1618
+msgid "bbPress"
+msgstr "bbPress"
+
+#: inc/admin/admin-options.php:54
+msgid "Failed! There is an error with your API settings. Please check & update them."
+msgstr "¡Error! Tienes un error con la configuración de la API. Compruébalo y actualiza después."
+
+#: inc/admin/admin-options.php:45
+msgid "Turnstile will not be added to any forms until the test is successfully complete."
+msgstr "Turnstile no se añadirá a ningún formulario hasta que la prueba se haya completado con éxito."
+
+#: inc/admin/admin-options.php:43
+msgid "API keys have been updated. Please test the Turnstile API response below."
+msgstr "Se han actualizado las claves API. Prueba a continuación la respuesta de la API de Turnstile."
+
+#: inc/admin/admin-options.php:1057
+msgid "Enable on all WPForms"
+msgstr "Activar en todos los formularios de WPForms"
+
+#: inc/admin/admin-options.php:1050 inc/admin/admin-options.php:1101
+msgid "WPForms"
+msgstr "WPForms"
+
+#: inc/admin/admin-options.php:623
+msgid "Default WordPress Forms"
+msgstr "Formularios por defecto de WordPress"
+
+#: inc/admin/admin-options.php:1064
+msgid "When enabled, Turnstile will be added before/after the submit button, on ALL your forms created with WPForms."
+msgstr "Cuando esté activado, Turnstile se añadirá antes/después del botón de envío, en TODOS tus formularios creados con WPForms."
+
+#: inc/admin/admin-options.php:616
+msgid "Select the dropdown for each integration, and choose when specific forms you want to enable Turnstile on."
+msgstr "Selecciona el desplegable de cada integración y elige en qué formularios concretos quieres activar Turnstile."
+
+#: inc/admin/admin-options.php:1486
+msgid "To add Turnstile to Mailchimp for WordPress, simply add this shortcode to any of your forms (in the form editor):"
+msgstr "Para añadir Turnstile a Mailchimp for WordPress, sólo tienes que añadir este shortcode a cualquiera de tus formularios (en el editor de formularios):"
+
+#: inc/admin/admin-options.php:1483
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr "MC4WP: Mailchimp for WordPress"
+
+#: inc/integrations/community/buddypress.php:22
+#: inc/integrations/community/buddypress.php:25
+#: inc/integrations/ecommerce/edd.php:59 inc/integrations/ecommerce/pmp.php:62
+#: inc/integrations/membership/wp-members.php:13
+#: inc/integrations/membership/wpuf.php:58 inc/wordpress.php:222
+msgid "ERROR:"
+msgstr "ERROR:"
+
+#: inc/admin/admin-options.php:1549 inc/admin/admin-options.php:1566
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: inc/admin/admin-options.php:265
+msgid "Auto"
+msgstr "Automático"
+
+#: inc/integrations/forms/contact-form-7.php:101
+msgid "Insert Tag"
+msgstr "Insertar etiqueta"
+
+#: inc/integrations/forms/contact-form-7.php:91
+msgid "cloudflare turnstile"
+msgstr "cloudflare turnstile"
+
+#: inc/admin/admin-options.php:1038
+msgid "To add Turnstile to individual Contact Form 7 forms, simply add this shortcode to any of your forms (in the form editor):"
+msgstr "Para añadir Turnstile a formularios individuales de Contact Form 7, simplemente añade este shortcode a cualquiera de tus formularios (en el editor de formularios):"
+
+#: inc/admin/admin-options.php:1022 inc/admin/admin-options.php:1044
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/admin/admin-options.php:2025
+msgid "Need help? Have a suggestion?"
+msgstr "¿Necesitas ayuda? ¿Tienes alguna sugerencia?"
+
+#: inc/admin/admin-options.php:110
+msgid "Please submit a review"
+msgstr "Por favor, envía una reseña"
+
+#: inc/admin/admin-options.php:338
+msgid "Disable Submit Button"
+msgstr "Desactivar el botón de enviar"
+
+#: inc/admin/admin-options.php:251
+msgid "General Settings:"
+msgstr "Ajustes generales:"
+
+#: inc/admin/admin-options.php:135
+msgid "API Key Settings:"
+msgstr "Ajustes de clave de API:"
+
+#. Author of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "Elliot Sowersby, RelyWP"
+msgstr "Elliot Sowersby, RelyWP"
+
+#. Description of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "Easily add Cloudflare Turnstile to your WordPress forms. The user-friendly, privacy-preserving CAPTCHA alternative."
+msgstr "Añade fácilmente Cloudflare Turnstile a tus formularios de WordPress. La alternativa a CAPTCHA fácil de usar y que preserva la privacidad."
+
+#: inc/errors.php:36
+msgid "Please verify that you are human."
+msgstr "Por favor, demuestra que eres humano."
+
+#: inc/wordpress.php:139
+msgid "ERROR"
+msgstr "ERROR"
+
+#: simple-cloudflare-turnstile.php:52
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/admin/admin-options.php:747 inc/admin/admin-options.php:910
+#: inc/admin/admin-options.php:953
+msgid "Guest Checkout Only"
+msgstr "Sólo pago de invitados"
+
+#: inc/admin/admin-options.php:262
+msgid "Dark"
+msgstr "Oscuro"
+
+#: inc/admin/admin-options.php:259
+msgid "Light"
+msgstr "Claro"
+
+#: inc/admin/admin-options.php:255
+msgid "Theme"
+msgstr "Tema"
+
+#: inc/admin/admin-options.php:156 inc/admin/admin-options.php:176
+msgid "Site Key"
+msgstr "Clave de sitio"
+
+#: inc/admin/admin-options.php:151
+msgid "You can get your site key and secret key from here:"
+msgstr "Puedes obtener la clave del sitio y la clave secreta desde aquí:"
+
+#: inc/admin/admin-options.php:105
+msgid "Learn more."
+msgstr "Saber más."
+
+#. Author URI of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "https://www.relywp.com"
+msgstr "https://www.relywp.com"
+
+#: inc/errors.php:20
+msgid "Cloudflare Turnstile is not currently showing on your forms. Please test the API response on the <a href=\"%s\">settings page</a>."
+msgstr "Cloudflare Turnstile no se muestra actualmente en tus formularios. Comprueba la respuesta de la API en la <a href=\"%s\">página de ajustes</a>."
+
+#: inc/admin/admin-options.php:1697
+msgid "Limited to:"
+msgstr "Limitado a:"
+
+#: inc/admin/admin-options.php:528
+msgid "One per line. Wildcards are not supported. All visitors with listed IP addresses will not see the Turnstile challenge. Warning: If an attacker knows one of the whitelisted IP addresses, they might be able to spoof that address to bypass Turnstile."
+msgstr "Uno por línea. No se admiten comodines. Todos los visitantes con direcciones IP de la lista no verán el desafío de Turnstile. Advertencia: Si un atacante conoce una de las direcciones IP de la lista blanca, podría falsear esa dirección para saltarse Turnstile."
+
+#: inc/admin/admin-options.php:1709
+msgid "(Optional) One per line. For Membership products that are not on this list, no Turnstile challenge will be loaded or enforced."
+msgstr "(Opcional) Uno por línea. Para productos de membresía que no estén en esta lista, no se cargará ni forzará ningún reto de Turnstile."
+
+#: inc/admin/admin-options.php:1706
+msgid "ONLY enable for these Membership IDs:"
+msgstr "Activar ÚNICAMENTE para estos IDs de membresía:"
+
+#: inc/admin/admin-options.php:1694
+msgid "Registration/Checkout Forms"
+msgstr "Formularios de registro/finalizar compra"
+
+#: inc/admin/admin-options.php:533
+msgid "User Agents"
+msgstr "Agentes de usuario"
+
+#: inc/admin/admin-options.php:105
+msgid "Easily add the free CAPTCHA service called \"Cloudflare Turnstile\" to your WordPress forms to help prevent spam."
+msgstr "Añade fácilmente el servicio gratuito de CAPTCHA llamado «Cloudflare Turnstile» a tus formularios de WordPress para evitar el spam."
+
+#: inc/admin/admin-options.php:1645
+msgid "UM Password Reset Form"
+msgstr "Formulario de restablecer contraseña de UM"
+
+#: inc/admin/admin-options.php:1638
+msgid "UM Register Form"
+msgstr "Formulario de registro de UM"
+
+#: inc/admin/admin-options.php:1631
+msgid "UM Login Form"
+msgstr "Formulario de acceso de UM"
+
+#: inc/admin/admin-options.php:1586
+msgid "bbPress Reply"
+msgstr "Respuesta de bbPress"
+
+#: inc/admin/admin-options.php:1579
+msgid "bbPress Create Topic"
+msgstr "Crear tema de bbPress"
+
+#: inc/admin/admin-options.php:1556
+msgid "BuddyPress Register"
+msgstr "Registro de BuddyPress"
+
+#: inc/admin/admin-options.php:928
+msgid "EDD Register"
+msgstr "Registro de EDD"
+
+#: inc/admin/admin-options.php:921
+msgid "EDD Login"
+msgstr "Acceso de EDD"
+
+#: inc/admin/admin-options.php:908
+msgid "EDD Checkout"
+msgstr "Pago de EDD"
+
+#: inc/admin/admin-options.php:811
+msgid "Payment Methods to Skip"
+msgstr "Métodos de pago a omitir"
+
+#: inc/admin/admin-options.php:745
+msgid "WooCommerce Checkout"
+msgstr "Finalizar compra de WooCommerce"
+
+#: inc/admin/admin-options.php:738
+msgid "WooCommerce Reset Password"
+msgstr "Restablecer contraseña de WooCommerce"
+
+#: inc/admin/admin-options.php:731
+msgid "WooCommerce Register"
+msgstr "Registro de WooCommerce"
+
+#: inc/admin/admin-options.php:724
+msgid "WooCommerce Login"
+msgstr "Acceso de WooCommerce"
+
+#: inc/admin/admin-options.php:717
+msgid "WooCommerce Forms"
+msgstr "Formularios de WooCommerce"
+
+#: inc/admin/admin-options.php:672
+msgid "WordPress Reset Password"
+msgstr "Restablecer contraseña de WordPress"
+
+#: inc/admin/admin-options.php:652
+msgid "Enable this option to only enable on default WordPress register form at wp-login.php?action=register"
+msgstr "Activa esta opción para que sólo se active en el formulario de registro por defecto de WordPress en wp-login.php?action=register"
+
+#: inc/admin/admin-options.php:651
+msgid "WordPress Register"
+msgstr "Registro de WordPress"
+
+#: inc/admin/admin-options.php:631
+msgid "Enable this option to only enable on default WordPress login form at wp-login.php"
+msgstr "Activa esta opción para activarlo solo en el formulario de acceso por defecto de WordPress en wp-login.php"
+
+#: inc/admin/admin-options.php:630
+msgid "WordPress Login"
+msgstr "Acceso a WordPress"
+
+#: inc/admin/admin-options.php:466
+msgid "This will show a message below the Turnstile widget if they receive the \"Failure!\" response. Useful to give instructions in the *very rare* case a valid user is being flagged as spam."
+msgstr "Esto mostrará un mensaje debajo del widget de Turnstile si recibes la respuesta «¡Failure!». Útil para dar instrucciones en el *muy raro* caso de que un usuario válido sea marcado como spam."
+
+#: inc/admin/admin-options.php:341
+msgid "When enabled, the user will not be able to click submit until the Turnstile challenge is completed."
+msgstr "Si está activada, el usuario no podrá hacer clic en «Enviar» hasta que haya completado el desafío de Turnstile."
+
+#: inc/admin/admin-options.php:403
+msgid "Turnstile Widget is only displayed in cases where an interaction is required. This essentially makes it \"invisible\" for most valid users."
+msgstr "El widget de Turnstile sólo se muestra en los casos en los que se requiere una interacción. Esto lo hace esencialmente invisible para la mayoría de los usuarios válidos."
+
+#: inc/admin/admin-options.php:146
+msgid "Success! Turnstile is working correctly with your API keys."
+msgstr "¡Conseguido! Turnstile funciona correctamente con tus claves de API."
+
+#: inc/admin/admin-options.php:157 inc/admin/admin-options.php:194
+msgid "Secret Key"
+msgstr "Clave secreta"
+
+#: inc/admin/admin-options.php:679
+msgid "WordPress Comment"
+msgstr "Comentarios de WordPress"
+
+#: inc/admin/admin-options.php:1065
+msgid "Note: WPForms has an option to configure Turnstile on its own Settings page \"CAPTCHA\" tab. You should only enable it in one place, either here -OR- in those settings."
+msgstr "Nota: WPForms tiene una opción para configurar Turnstile en su propia página de ajustes, en la pestaña «CAPTCHA». Únicamente deberías activarlo en un lugar, o aquí - O - en esos ajustes."
+
+#: inc/admin/admin-options.php:66
+msgid "TEST RESPONSE"
+msgstr "PROBAR RESPUESTA"
+
+#: inc/admin/admin-options.php:2059
+msgid "Donate:"
+msgstr "Donar:"
+
+#: inc/admin/admin-options.php:483
+msgid "When enabled, some javascript files loaded by the plugin will be deferred. You can disable this if it causes any issues with your other optimisations."
+msgstr "Cuando está activado algunos archivos javascript cargados por el plugin serán diferidos. Puedes desactivarlo si causa algún problema con tus otras optimizaciones."

@@ -1,0 +1,1315 @@
+# Translation of Plugins - Discount Rules and Dynamic Pricing for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Discount Rules and Dynamic Pricing for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-26 12:15:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Discount Rules and Dynamic Pricing for WooCommerce - Stable (latest release)\n"
+
+#: admin/partials/admin_notices/update.php:14
+#: admin/partials/admin_notices/updating.php:14
+msgid "Easy WooCommerce Discounts data update"
+msgstr "Actualización de datos de Easy WooCommerce Discounts"
+
+#: includes/class-wccs-settings-manager.php:1109
+msgid "Disable calculate cart totals option to fix compatibility issues with some plugins.%1$s %2$sOnly use it when necessary because it can cause issues for mini-cart prices and pricing rules that are using subtotal conditions.%3$s"
+msgstr "Desactiva la opción de calcular los totales del carrito para solucionar problemas de compatibilidad con algunos plugins.%1$s %2$sUtilízala únicamente cuando sea necesario, ya que puede causar problemas con los precios del mini-carrito y las reglas de precios que utilizan condiciones de subtotal.%3$s"
+
+#: includes/class-wccs-settings-manager.php:1108
+msgid "Disable Calculate Cart Totals"
+msgstr "Desactivar el cálculo de los totales del carrito"
+
+#: includes/class-wccs-settings-manager.php:1098
+msgid "Automatically update products price in the background when a new rule added or the plugin settings updated or WooCommerce settings updated or a product added or updated."
+msgstr "Actualiza automáticamente el precio de los productos en segundo plano cuando se añade una nueva regla o se actualiza la configuración del plugin o la configuración de WooCommerce o se añade o actualiza un producto."
+
+#: includes/class-wccs-settings-manager.php:1097
+msgid "Auto Update Products Price"
+msgstr "Actualizar automáticamente el precio de los productos"
+
+#: includes/class-wccs-settings-manager.php:1090
+msgid "Cache products price based on simple pricing rules to improve performance in the front-end."
+msgstr "Guarda en caché el precio de los productos basándote en reglas de precios sencillas para mejorar el rendimiento en la vista pública."
+
+#: includes/class-wccs-settings-manager.php:1089
+msgid "Update Products Price"
+msgstr "Actualizar el precio de los productos"
+
+#: includes/class-wccs-settings-manager.php:29
+msgid "Performance"
+msgstr "Rendimiento"
+
+#. translators: %d: interval
+#: includes/abstracts/class-wccs-background-process.php:173
+msgid "Every %d minutes"
+msgstr "Cada %d minutos"
+
+#: includes/class-wccs-background-batch-price-updater.php:94
+#: includes/class-wccs-background-batch-price-updater.php:96
+msgid "Cancelled product price update job."
+msgstr "Trabajo de actualización de precios de productos cancelado."
+
+#: includes/class-wccs-background-price-updater.php:130
+#: includes/class-wccs-background-price-updater.php:132
+msgid "Completed product price update job."
+msgstr "Trabajo de actualización de precios de productos completado."
+
+#. Plugin Name of the plugin
+#: easy-woocommerce-discounts.php
+msgid "Discount Rules and Dynamic Pricing for WooCommerce"
+msgstr "Reglas de descuento y precios dinámicos para WooCommerce"
+
+#: includes/class-wccs-settings-manager.php:319
+msgid ""
+"If product is on sale with a WooCommerce onsale price consider it when the %1$s is %2$s or %3$s.%4$s\n"
+"\t\t\t\t\t\t\t\t\t\t\te.g: If the product discounted price by the plugin is 20$ and product onsale price in WooCommerce is 10$\n"
+"\t\t\t\t\t\t\t\t\t\t\tand the %1$s is %2$s the price will be 10$ because it is the maximum discount."
+msgstr ""
+"Si el producto está en oferta con un precio en oferta de WooCommerce se considera cuando el %1$s es %2$s o %3$s.%4$s\n"
+"\t\t\t\t\t\t\t\t\t\t\tpor ejemplo: si el precio de descuento del producto por el plugin es de 20 € y el precio en oferta del producto en WooCommerce es de 10 €\n"
+"\t\t\t\t\t\t\t\t\t\t\ty el %1$s es %2$s el precio será de 10 € porque es el máximo descuento."
+
+#: includes/class-wccs-settings-manager.php:317
+msgid "Consider Product Sale Price"
+msgstr "Considerar el precio de venta del producto"
+
+#: includes/class-wccs-settings-manager.php:343
+msgid "Cart item price"
+msgstr "Precio del artículo en el carrito"
+
+#: includes/class-wccs-settings-manager.php:342
+msgid "Product price"
+msgstr "Precio del producto"
+
+#: includes/class-wccs-settings-manager.php:338
+msgid "The base price of the product that discounts should apply to it.%1$s Product Price: Discounts will apply to the product regular or sale price.%1$s Cart Item Price: Discounts will apply to the cart item price. Useful when a custom pricing plugin is enabled on your site."
+msgstr "El precio base del producto al que se aplicarán los descuentos.%1$s Precio del producto: los descuentos se aplicarán al precio normal o de oferta del producto.%1$s Precio del artículo del carrito: los descuentos se aplicarán al precio del artículo del carrito. Útil cuando un plugin de precios personalizados está activado en su sitio."
+
+#: includes/class-wccs-settings-manager.php:337
+msgid "Product Base Price"
+msgstr "Precio base del producto"
+
+#: includes/class-wccs-settings-manager.php:441
+msgid "Setting min quantity of a product based on applied bulk or tiered pricing rule min value."
+msgstr "Establece la cantidad mínima de un producto basándose en el valor mínimo de la regla de precios por lotes o segmentada aplicada."
+
+#: includes/class-wccs-settings-manager.php:440
+msgid "Set Min Quantity"
+msgstr "Establecer la cantidad mínima"
+
+#: includes/class-wccs-settings-manager.php:812
+msgid "If enabled cart discounts and cart coupons amount will be included in the total discounts."
+msgstr "Si se activan los descuentos del carrito y los cupones del carrito el importe se incluirá en los descuentos totales."
+
+#: includes/class-wccs-settings-manager.php:811
+msgid "Include Cart Discounts And Coupons"
+msgstr "Incluir descuentos y cupones en el carrito"
+
+#: includes/class-wccs-settings-manager.php:800
+msgid "Position In Checkout"
+msgstr "Posición en la finalización de compra"
+
+#: includes/class-wccs-settings-manager.php:794
+#: includes/class-wccs-settings-manager.php:805
+msgid "After order total"
+msgstr "Después del total del pedido"
+
+#: includes/class-wccs-settings-manager.php:793
+#: includes/class-wccs-settings-manager.php:804
+msgid "Before order total"
+msgstr "Antes del total del pedido"
+
+#: includes/class-wccs-settings-manager.php:789
+msgid "Position In Cart"
+msgstr "Posición en el carrito"
+
+#: includes/class-wccs-settings-manager.php:783
+msgid "Label of the total discounts."
+msgstr "Etiqueta de los descuentos totales."
+
+#: includes/class-wccs-settings-manager.php:782
+msgid "Total Discounts Label"
+msgstr "Etiqueta del descuento total"
+
+#: includes/class-wccs-settings-manager.php:772
+msgid "If enabled displays total discounts that the user get for the current order in the cart and checkout pages."
+msgstr "Si está activada muestra en las páginas del carrito y de finalizar el pago el total de descuentos que el usuario obtiene por el pedido actual."
+
+#: includes/class-wccs-settings-manager.php:771
+msgid "Display Total Discounts"
+msgstr "Mostrar los descuentos totales"
+
+#: admin/class-wccs-admin-order-hooks.php:36
+#: includes/class-wccs-settings-manager.php:80
+#: includes/class-wccs-settings-manager.php:785
+#: public/class-wccs-public-total-discounts-hooks.php:20
+#: public/class-wccs-public-total-discounts-hooks.php:60
+msgid "Total Discounts"
+msgstr "Descuentos totales"
+
+#: includes/class-wccs-settings-manager.php:673
+msgid "Discount Available"
+msgstr "Descuento disponible"
+
+#: includes/class-wccs-settings-manager.php:669
+msgid "Discount Available: Displays live price when a discount available for the product.%1$s Always: Displays live price always."
+msgstr "Descuento disponible: muestra el precio en tiempo real cuando hay un descuento disponible para el producto.%1$s Siempre: muestra el precio en tiempo real siempre."
+
+#: includes/class-wccs-settings-manager.php:668
+msgid "Display Type"
+msgstr "Mostrar el tipo"
+
+#: includes/class-wccs-settings-manager.php:1054
+msgid "Enable it to use local texts or labels.%1$s Note: Disable it on a multilingual site and just translate texts that appears in front-end of your site which are exists in the langulage file of the plugin."
+msgstr "Activar para utilizar textos o etiquetas locales.%1$s Nota: desactivar en un sitio multilingüe y traducir solo los textos del archivo de idioma del plugin que aparecen en la vista pública del sitio."
+
+#: includes/class-wccs-settings-manager.php:1032
+msgid "Visit our %1$s to view new discounted products based on your cart."
+msgstr "Visite nuestra %1$s para ver los nuevos productos con descuento basados en tu carrito."
+
+#: includes/class-wccs-settings-manager.php:1022
+msgid "Not Selected"
+msgstr "No seleccionados"
+
+#: includes/class-wccs-settings-manager.php:907
+msgid "Limited-time offer! Sale ends in"
+msgstr "¡Descuento por tiempo limitado! La oferta termina en"
+
+#: includes/class-wccs-settings-manager.php:720
+msgid "Total Price"
+msgstr "Precio total"
+
+#: includes/class-wccs-settings-manager.php:712
+msgid "Your Price"
+msgstr "Tu precio"
+
+#: includes/class-wccs-settings-manager.php:623
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/class-wccs-settings-manager.php:622
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/class-wccs-settings-manager.php:468
+msgid "Apply all of fees"
+msgstr "Aplicar todas las tasas"
+
+#: includes/class-wccs-settings-manager.php:467
+msgid "Apply minimum fee"
+msgstr "Aplicar la tasa mínima"
+
+#: includes/class-wccs-settings-manager.php:466
+msgid "Apply maximum fee"
+msgstr "Aplicar la tasa máxima"
+
+#: includes/class-wccs-settings-manager.php:465
+msgid "Apply first matched rule fee"
+msgstr "Aplicar la primera regla de tasas coincidente"
+
+#: includes/class-wccs-settings-manager.php:354
+msgid "On-sale price"
+msgstr "Precio en oferta"
+
+#: includes/class-wccs-settings-manager.php:353
+msgid "Regular price"
+msgstr "Precio normal"
+
+#: includes/class-wccs-settings-manager.php:267
+msgid "Sale"
+msgstr "Oferta"
+
+#: includes/class-wccs-settings-manager.php:263
+msgid "Sale: Displays \"Sale\" inside the badge.%1$s Discount: Displays discount value inside the badge.%1$s Note: It will only applies to simple pricing rules."
+msgstr "Oferta: muestra «Oferta» dentro de la insignia.%1$s Descuento: muestra el valor del descuento dentro de la insignia.%1$s Nota: Solo se aplicará a las reglas de precios simples."
+
+#: includes/class-wccs-settings-manager.php:262
+msgid "Sale Badge Type"
+msgstr "Tipo de insignia de oferta"
+
+#: includes/class-wccs-settings-manager.php:125
+#: includes/class-wccs-settings-manager.php:312
+msgid "Apply sum of discounts"
+msgstr "Aplicar la suma de descuentos"
+
+#: includes/class-wccs-settings-manager.php:124
+#: includes/class-wccs-settings-manager.php:311
+#: includes/class-wccs-settings-manager.php:325
+msgid "Apply minimum discount"
+msgstr "Aplicar el descuento mínimo"
+
+#: includes/class-wccs-settings-manager.php:123
+#: includes/class-wccs-settings-manager.php:310
+#: includes/class-wccs-settings-manager.php:324
+msgid "Apply maximum discount"
+msgstr "Aplicar el descuento máximo"
+
+#: includes/class-wccs-settings-manager.php:122
+#: includes/class-wccs-settings-manager.php:309
+msgid "Apply first matched rule discount"
+msgstr "Aplicar el descuento de la primera regla coincidente"
+
+#: includes/class-wccs-settings-manager.php:597
+#: public/class-wccs-public-product-pricing.php:472
+msgid "Discount per Quantity"
+msgstr "Descuento por cantidad"
+
+#: includes/class-wccs-settings-manager.php:567
+msgid "When a free shipping method is available hide other shipping methods."
+msgstr "Cuando un método de envío gratuito está disponible, oculta otros métodos de envío."
+
+#: includes/class-wccs-settings-manager.php:566
+msgid "Hide On Free Shipping"
+msgstr "Ocultar en el envío gratuito"
+
+#: includes/class-wccs-settings-manager.php:74
+#: includes/class-wccs-shipping-method.php:78
+msgid "Shipping"
+msgstr "Envío"
+
+#: includes/class-wccs-settings-manager.php:840
+msgid "Yes - When a discount can apply"
+msgstr "Sí - Cuando se puede aplicar un descuento"
+
+#: includes/class-wccs-settings-manager.php:839
+msgid "Yes - When a discount available"
+msgstr "Sí - Cuando hay un descuento disponible"
+
+#: includes/class-wccs-settings-manager.php:828
+msgid "If enabled displays Countdown Timer in the product page.%1$sWhen a discount available: If the product has a pricing rule with a date-time condition then show the countdown timer based on <strong>Threshold Time Value</strong>.%1$sWhen a discount can apply: If the product has a pricing rule with a date-time condition then check all of that rule conditions and if all conditions are true then show the countdown timer based on <strong>Threshold Time Value</strong>."
+msgstr "Si se activa, se muestra el temporizador de cuenta atrás en la página del producto.%1$sCuando hay un descuento disponible: Si el producto tiene una regla de precios con una condición de fecha-hora, entonces muestra el temporizador de cuenta regresiva basado en <strong>Valor del umbral tiempo</strong>.%1$sCuando se puede aplicar un descuento: Si el producto tiene una regla de precios con una condición de fecha-hora entonces comprueba todas las condiciones de esa regla y si todas las condiciones son verdaderas entonces muestra el temporizador de cuenta regresiva basado en <strong>Valor del umbral tiempo</strong>."
+
+#: includes/class-wccs-settings-manager.php:219
+msgid "When change with HTML selected it shows discounted price as %1$s In other words the main price shown as a deleted price.%2$sWhen change without HTML selected it shows discounted price as %3$s and does not show the product main price."
+msgstr "Cuando el cambio con HTML seleccionado se muestra el precio con descuento como %1$s En otras palabras el precio principal se muestra como un precio eliminado.%2$sCuando el cambio sin HTML seleccionado se muestra el precio con descuento como %3$s y no muestra el precio principal del producto."
+
+#: includes/class-wccs-wc-extension-activation.php:80
+msgid " requires WooCommerce! Please %s to continue!"
+msgstr " requiere WooCommerce. ¡Por favor %s para continuar!"
+
+#: includes/class-wccs-wc-extension-activation.php:77
+msgid "install it"
+msgstr "instalarlo"
+
+#: includes/class-wccs-wc-extension-activation.php:74
+msgid "activate it"
+msgstr "activar"
+
+#: includes/class-wccs-wc-extension-activation.php:39
+msgid "WooCommerce Extension"
+msgstr "Extension de WooCommerce"
+
+#: includes/class-wccs-settings-manager.php:1134
+msgid "Enter your license key to enable and receive automatic updates."
+msgstr "Ingresa tu clave de licencia para activar y recibir actualizaciones automáticas."
+
+#: includes/class-wccs-settings-manager.php:1133
+msgid "License/Purchase Key"
+msgstr "Licencia/clave de compra"
+
+#: includes/class-wccs-settings-manager.php:1038
+msgid "This title will replace with %s placeholder in discount page message."
+msgstr "Este título será sustituido por el marcador de posición %s en el mensaje de la página de descuentos."
+
+#: includes/class-wccs-settings-manager.php:1037
+msgid "Discount Page Title"
+msgstr "Título de la página de descuento"
+
+#: includes/class-wccs-settings-manager.php:1030
+msgid "%s is a placeholder for discount page url and should be exists in the message."
+msgstr "%s es un marcador de posición para la URL de la página de descuento y debería existir en el mensaje."
+
+#: includes/class-wccs-settings-manager.php:1029
+msgid "Example Message : Visit our %s to view new discounted products based on your cart."
+msgstr "Ejemplo de mensaje: visita nuestra %s para ver los nuevos productos con descuento basados en tu cesta."
+
+#: includes/class-wccs-settings-manager.php:1028
+msgid "This message will show in the cart page."
+msgstr "Este mensaje se mostrará en la página del carrito."
+
+#: includes/class-wccs-settings-manager.php:1019
+msgid "Discount page that shows discounted products."
+msgstr "Página de descuento que muestra los productos rebajados."
+
+#: includes/class-wccs-settings-manager.php:1012
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/class-wccs-settings-manager.php:1011
+msgid "Discounts available"
+msgstr "Descuentos disponibles"
+
+#: includes/class-wccs-settings-manager.php:674
+#: includes/class-wccs-settings-manager.php:1010
+msgid "Always"
+msgstr "Siempre"
+
+#: includes/class-wccs-settings-manager.php:1006
+msgid "Showing discount page in cart and checkout pages as a notice to user."
+msgstr "Mostrar la página de descuentos en las páginas de carrito y de finalizar el pago como un aviso para el usuario."
+
+#: includes/class-wccs-settings-manager.php:1005
+msgid "Show Discount Page"
+msgstr "Mostrar página de descuentos"
+
+#: includes/class-wccs-settings-manager.php:995
+msgid "Hinge color of rotor."
+msgstr "Color del pivote del rotor."
+
+#: includes/class-wccs-settings-manager.php:994
+msgid "Hinge color"
+msgstr "Color del pivote"
+
+#: includes/class-wccs-settings-manager.php:988
+msgid "Background color of rotor bottom."
+msgstr "Color del fondo de la parte inferior del rotor."
+
+#: includes/class-wccs-settings-manager.php:987
+msgid "Rotor bottom background color"
+msgstr "Color del fondo de la parte inferior del rotor"
+
+#: includes/class-wccs-settings-manager.php:981
+msgid "Color of rotor bottom."
+msgstr "Color de la parte inferior del rotor."
+
+#: includes/class-wccs-settings-manager.php:980
+msgid "Rotor bottom color"
+msgstr "Color de la parte inferior del rotor"
+
+#: includes/class-wccs-settings-manager.php:974
+msgid "Background color of rotor top."
+msgstr "Color del fondo de la parte superior del rotor."
+
+#: includes/class-wccs-settings-manager.php:973
+msgid "Rotor top background color"
+msgstr "Color del fondo de la parte superior del rotor"
+
+#: includes/class-wccs-settings-manager.php:967
+msgid "Color of rotor top."
+msgstr "Color de la parte superior del rotor."
+
+#: includes/class-wccs-settings-manager.php:966
+msgid "Rotor top color"
+msgstr "Color de la parte superior del rotor"
+
+#: includes/class-wccs-settings-manager.php:960
+msgid "Days, Hours, Minutes, Seconds text color."
+msgstr "Color del texto días, horas, minutos, segundos."
+
+#: includes/class-wccs-settings-manager.php:959
+msgid "Heading color"
+msgstr "Color del encabezado"
+
+#: includes/class-wccs-settings-manager.php:953
+msgid "Countdown Timer title color."
+msgstr "Color del título del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:952
+msgid "Title color"
+msgstr "Color del título"
+
+#: includes/class-wccs-settings-manager.php:945
+msgid "Countdown Timer title font-size."
+msgstr "Tamaño de la fuente del título del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:944
+msgid "Title Font Size"
+msgstr "Tamaño de fuente del título"
+
+#: includes/class-wccs-settings-manager.php:937
+msgid "Seconds label in Countdown Timer heading."
+msgstr "Etiqueta de segundos en el encabezado del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:936
+#: includes/class-wccs-settings-manager.php:939
+msgid "Seconds"
+msgstr "Segundos"
+
+#: includes/class-wccs-settings-manager.php:929
+msgid "Minutes label in Countdown Timer heading."
+msgstr "Etiqueta de minutos en el encabezado del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:928
+#: includes/class-wccs-settings-manager.php:931
+msgid "Minutes"
+msgstr "Minutos"
+
+#: includes/class-wccs-settings-manager.php:921
+msgid "Hours label in Countdown Timer heading."
+msgstr "Etiqueta de horas en el encabezado del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:920
+#: includes/class-wccs-settings-manager.php:923
+msgid "Hours"
+msgstr "Horas"
+
+#: includes/class-wccs-settings-manager.php:913
+msgid "Days label in Countdown Timer heading."
+msgstr "Etiqueta del encabezado de los días en el temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:905
+msgid "Title of Countdown Timer."
+msgstr "Título del temporizador de cuenta regresiva."
+
+#: includes/class-wccs-settings-manager.php:904
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wccs-settings-manager.php:888
+msgid "Hour"
+msgstr "Hora"
+
+#: includes/class-wccs-settings-manager.php:887
+msgid "Minute"
+msgstr "Minuto"
+
+#: includes/class-wccs-settings-manager.php:882
+msgid "e.g: If its value is \"Day\" and \"Threshold Time Value\" is \"1\" Countdown Timer will display before 1day to the end time of the rule.%1$s Note: Please note that when its value is \"No Limit\" Countdown Timer will display always if pricing rule has date/time condition."
+msgstr "Por ejemplo: si su valor es \"Día\" y el \"Valor del umbral de tiempo\" es \"1\" el temporizador de cuenta regresiva se mostrará1 día antes de  la hora de finalización de la regla.%1$s Nota: Por favor, ten en cuenta que cuando su valor es \"Sin límite\" el temporizador de cuenta regresiva se mostrará siempre si la regla de precios tiene condición de fecha/hora."
+
+#: includes/class-wccs-settings-manager.php:881
+msgid "Threshold Time Type"
+msgstr "Tipo de umbral tiempo"
+
+#: includes/class-wccs-settings-manager.php:874
+msgid "Display Countdown Timer when its close to the end time of the rule.%1$s e.g: If its value is 1 and \"Threshold Time Type\" is \"Day\" Countdown Timer will display before 1day to the end time of the rule."
+msgstr "Muestra el temporizador de cuenta regresiva cuando está cerca de la hora de finalización de la regla.%1$s Por ejemplo: si su valor es 1 y el «Tipo de umbral tiempo» es «Día» el temporizador de cuenta regresiva se mostrará 1 día antes de la hora de finalización de la regla."
+
+#: includes/class-wccs-settings-manager.php:873
+msgid "Threshold Time Value"
+msgstr "Valor del umbral tiempo"
+
+#: includes/class-wccs-settings-manager.php:847
+msgid "Countdown Timer Position"
+msgstr "Posición del temporizador de cuenta regresiva"
+
+#: includes/class-wccs-settings-manager.php:826
+msgid "Display Countdown Timer"
+msgstr "Mostrar el temporizador de cuenta regresiva"
+
+#: includes/class-wccs-settings-manager.php:741
+msgid "Message Position"
+msgstr "Posición del mensaje"
+
+#: includes/class-wccs-settings-manager.php:730
+msgid "Display pricing rule message in the product page."
+msgstr "Mostrar el mensaje de la regla de precios en la página del producto."
+
+#: includes/class-wccs-settings-manager.php:729
+msgid "Display Message"
+msgstr "Mostrar mensaje"
+
+#: includes/class-wccs-settings-manager.php:718
+msgid "Label of the live total price."
+msgstr "Etiqueta del precio total en tiempo real."
+
+#: includes/class-wccs-settings-manager.php:717
+msgid "Live Total Price Label"
+msgstr "Etiqueta del precio total en tiempo real"
+
+#: includes/class-wccs-settings-manager.php:710
+msgid "Label of the live price."
+msgstr "Etiqueta del precio en tiempo real."
+
+#: includes/class-wccs-settings-manager.php:709
+msgid "Live Pricing Label"
+msgstr "Etiqueta del precio en tiempo real"
+
+#: includes/class-wccs-settings-manager.php:683
+msgid "Live Price Position"
+msgstr "Posición del precio en tiempo real"
+
+#: includes/class-wccs-settings-manager.php:657
+msgid "If enabled displays product discounted total price in the product page.%1$s Note: It calculates total price based on %2$slive price * quantity%3$s."
+msgstr "Si se activa muestra el precio total con descuento en la página del producto.%1$s Nota: esto calcula el precio total basado en %2$sprecio en tiempo real * cantidad%3$s."
+
+#: includes/class-wccs-settings-manager.php:656
+msgid "Display Live Total Price"
+msgstr "Mostrar el precio total en tiempo real"
+
+#: includes/class-wccs-settings-manager.php:645
+msgid "If enabled displays product discounted price in the product page."
+msgstr "Si está activado muestra el precio con descuento del producto en la página del producto."
+
+#: includes/class-wccs-settings-manager.php:644
+msgid "Display Live Price"
+msgstr "Mostrar el precio en tiempo real"
+
+#: includes/class-wccs-settings-manager.php:618
+msgid "Quantity Table Layout"
+msgstr "Diseño de la tabla de cantidades"
+
+#: includes/class-wccs-settings-manager.php:612
+#: includes/class-wccs-settings-manager.php:694
+#: includes/class-wccs-settings-manager.php:752
+#: includes/class-wccs-settings-manager.php:795
+#: includes/class-wccs-settings-manager.php:806
+#: includes/class-wccs-settings-manager.php:858 admin/js/conditions/index.js:1
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/class-wccs-settings-manager.php:611
+#: includes/class-wccs-settings-manager.php:693
+#: includes/class-wccs-settings-manager.php:751
+#: includes/class-wccs-settings-manager.php:857
+msgid "After product meta"
+msgstr "Después de los metadatos del producto"
+
+#: includes/class-wccs-settings-manager.php:610
+#: includes/class-wccs-settings-manager.php:692
+#: includes/class-wccs-settings-manager.php:750
+#: includes/class-wccs-settings-manager.php:856
+msgid "After product excerpt"
+msgstr "Después del resumen del pedido"
+
+#: includes/class-wccs-settings-manager.php:609
+#: includes/class-wccs-settings-manager.php:691
+#: includes/class-wccs-settings-manager.php:749
+#: includes/class-wccs-settings-manager.php:855
+msgid "Before product excerpt"
+msgstr "Antes del resumen del producto"
+
+#: includes/class-wccs-settings-manager.php:608
+#: includes/class-wccs-settings-manager.php:690
+#: includes/class-wccs-settings-manager.php:748
+#: includes/class-wccs-settings-manager.php:854
+msgid "After \"Add to cart\" form"
+msgstr "Después del formulario «añadir al carrito»"
+
+#: includes/class-wccs-settings-manager.php:607
+#: includes/class-wccs-settings-manager.php:689
+#: includes/class-wccs-settings-manager.php:747
+#: includes/class-wccs-settings-manager.php:853
+msgid "Before \"Add to cart\" form"
+msgstr "Antes del formulario «añadir al carrito»"
+
+#: includes/class-wccs-settings-manager.php:606
+#: includes/class-wccs-settings-manager.php:688
+#: includes/class-wccs-settings-manager.php:746
+#: includes/class-wccs-settings-manager.php:852
+msgid "After \"Add to cart\" button"
+msgstr "Después del botón «añadir al carrito»"
+
+#: includes/class-wccs-settings-manager.php:605
+#: includes/class-wccs-settings-manager.php:687
+#: includes/class-wccs-settings-manager.php:745
+#: includes/class-wccs-settings-manager.php:851
+msgid "Before \"Add to cart\" button"
+msgstr "Antes del botón «añadir al carrito»"
+
+#: includes/class-wccs-settings-manager.php:601
+msgid "Quantity Table Position"
+msgstr "Posición de la tabla de cantidades"
+
+#: includes/class-wccs-settings-manager.php:595
+msgid "Title of Quantity Table"
+msgstr "Título de la tabla de cantidades"
+
+#: includes/class-wccs-settings-manager.php:585
+msgid "Display Quantity Table"
+msgstr "Mostrar la tabla de cantidades"
+
+#: includes/class-wccs-settings-manager.php:544
+msgid "Name of the fee showed in the cart totals block as a checkout fee title when using the combine mode for display multiple fees."
+msgstr "Nombre de la tasa mostrada en el bloque de totales del carrito como un título de una tasa de pago cuando se utiliza el modo de combinación para mostrar varias tasas."
+
+#: includes/class-wccs-settings-manager.php:543
+msgid "Checkout Fee Label"
+msgstr "Etiqueta de la tasa de pago"
+
+#: includes/class-wccs-settings-manager.php:537
+msgid "Combine to one total fee"
+msgstr "Combinar en una tasa total"
+
+#: includes/class-wccs-settings-manager.php:536
+msgid "Display all fees separately"
+msgstr "Mostrar todas las tasas por separado"
+
+#: includes/class-wccs-settings-manager.php:532
+msgid "Display Multiple Fees"
+msgstr "Mostrar tasas múltiples"
+
+#: includes/class-wccs-settings-manager.php:520
+msgid "Checkout fee tax class based on cart items"
+msgstr "Clase de impuesto de la tasa de pago basada en los artículos del carrito"
+
+#: includes/class-wccs-settings-manager.php:519
+msgid "Is not taxable"
+msgstr "No imponible"
+
+#: includes/class-wccs-settings-manager.php:515
+msgid "Checkout Fee Tax Class"
+msgstr "Clase de impuesto de la tasa de pago"
+
+#: includes/class-wccs-settings-manager.php:506
+msgid "Checkout Fee Limit"
+msgstr "Límite de la tasa de pago"
+
+#: includes/class-wccs-settings-manager.php:494
+#: includes/class-wccs-settings-manager.php:495
+msgid "Total fee limit %s"
+msgstr "Límite total de la tasa %s"
+
+#: includes/class-wccs-settings-manager.php:492
+msgid "Total Fee Limit"
+msgstr "Límite total de la tasa"
+
+#: includes/class-wccs-settings-manager.php:487
+msgid "No fee limit"
+msgstr "Sin límite de tasas"
+
+#: includes/class-wccs-settings-manager.php:480
+msgid "Checkout Fee Limit Type"
+msgstr "Tipo de límite de la tasa de pago"
+
+#: includes/class-wccs-settings-manager.php:461
+msgid "Checkout Fee Apply Method"
+msgstr "Método de aplicación de la tasa de pago"
+
+#: includes/class-wccs-settings-manager.php:429
+msgid "Automatically add free products to the cart for \"purchase X receive Y\" rules.%1$s To use this feature just add one product or one variation to the \"Discounted products\" of \"purchase X receive Y\" rule.%1$s Check out %2$s."
+msgstr "Añadir automáticamente productos gratuitos al carrito para las reglas «Compra X recibe Y».%1$s Para utilizar esta función solo tienes que añadir un producto o una variación a los «productos con descuento» de la regla «Compra X recibe Y».%1$s Revisa %2$s."
+
+#: includes/class-wccs-settings-manager.php:428
+msgid "Automatically add free products to cart"
+msgstr "Añade automáticamente productos gratuitos al carrito"
+
+#: includes/class-wccs-settings-manager.php:417
+msgid "Enable this option to update cart in the cart page when you used one of Shipping Method, Shipping Country, Shipping State, Shipping Postcode or Shipping Zone in your product pricing rules."
+msgstr "Activa esta opción para actualizar la cesta en la página del carrito cuando utilices uno de los métodos de envío, país de envío, estado de envío, código postal de envío o zona de envío en las reglas de precios de los productos."
+
+#: includes/class-wccs-settings-manager.php:416
+msgid "Update Cart On Shipping Change"
+msgstr "Actualizar el carrito al cambiar el envío"
+
+#: includes/class-wccs-settings-manager.php:410
+msgid "Default color of purchase messages in the message box."
+msgstr "Color por defecto para los mensajes de compra en la caja de mensajes."
+
+#: includes/class-wccs-settings-manager.php:409
+msgid "Purchase Message Color"
+msgstr "Color del mensaje de compra"
+
+#: includes/class-wccs-settings-manager.php:403
+msgid "Default background color of purchase messages in the message box."
+msgstr "Color de fondo por defecto para los mensajes de compra en la caja de mensajes."
+
+#: includes/class-wccs-settings-manager.php:402
+msgid "Purchase Message Background Color"
+msgstr "Color de fondo del mensaje de compra"
+
+#: includes/class-wccs-settings-manager.php:384
+#: includes/class-wccs-settings-manager.php:385
+msgid "Price discount limit %s"
+msgstr "Límite de descuento en el precio %s"
+
+#: includes/class-wccs-settings-manager.php:382
+msgid "Price Discount Limit"
+msgstr "Límite de descuento en el precio"
+
+#: includes/class-wccs-settings-manager.php:361
+msgid "If set to yes it will round product adjusted price.%1$s exp: Subtotal of 2 quantities of a product with price %2$s and %3$s discount will be %4$s when round is enabled otherwise it will be %5$s"
+msgstr "Si se establece en «Sí» se redondeará el precio ajustado del producto.%1$s Ejemplo: El subtotal de 2 cantidades de un producto con precio %2$s y descuento %3$s será %4$s si se activa el redondeo, de lo contrario será %5$s"
+
+#: includes/class-wccs-settings-manager.php:360
+msgid "Round Adjustment"
+msgstr "Ajuste de redondeo"
+
+#: includes/class-wccs-settings-manager.php:349
+msgid "Base price that used for on-sale products in pricing rules to applying discount on that price."
+msgstr "Precio base que se utiliza para los productos en oferta en las reglas de fijación de precios para aplicar el descuento sobre ese precio."
+
+#: includes/class-wccs-settings-manager.php:348
+msgid "On-Sale Products Price"
+msgstr "Precio de productos en oferta"
+
+#: includes/class-wccs-settings-manager.php:296
+msgid "After product images"
+msgstr "Después de las imágenes del producto"
+
+#: includes/class-wccs-settings-manager.php:295
+msgid "Before product images"
+msgstr "Antes de las imágenes del producto"
+
+#: includes/class-wccs-settings-manager.php:291
+msgid "Sale badge position for bulk, tiered, purchase, products group rules in the product page."
+msgstr "Posición de la insignia de oferta para las reglas de compra por lotes, escalonadas, compra o grupo de productos en la página de producto."
+
+#: includes/class-wccs-settings-manager.php:290
+msgid "Sale Badge Position On Product Page"
+msgstr "Posición de la insignia de oferta en la página de producto"
+
+#: includes/class-wccs-settings-manager.php:285
+#: includes/class-wccs-settings-manager.php:300
+msgid "After product price"
+msgstr "Después del precio del producto"
+
+#: includes/class-wccs-settings-manager.php:284
+#: includes/class-wccs-settings-manager.php:299
+msgid "Before product price"
+msgstr "Antes del precio del producto"
+
+#: includes/class-wccs-settings-manager.php:283
+msgid "After product rating"
+msgstr "Después de la valoración del producto"
+
+#: includes/class-wccs-settings-manager.php:282
+msgid "Before product rating"
+msgstr "Antes de la valoración del producto"
+
+#: includes/class-wccs-settings-manager.php:281
+#: includes/class-wccs-settings-manager.php:298
+msgid "After product title"
+msgstr "Después del título del producto"
+
+#: includes/class-wccs-settings-manager.php:280
+#: includes/class-wccs-settings-manager.php:297
+msgid "Before product title"
+msgstr "Antes del título del pedido"
+
+#: includes/class-wccs-settings-manager.php:279
+msgid "After product thumbnail"
+msgstr "Después de la miniatura del producto"
+
+#: includes/class-wccs-settings-manager.php:278
+msgid "Before product thumbnail"
+msgstr "Antes de la miniatura del producto"
+
+#: includes/class-wccs-settings-manager.php:274
+msgid "Sale badge position for bulk, tiered, purchase, products group rules in the archive page."
+msgstr "Posición de la insignia de oferta para las reglas de compra por lotes, escalonadas, compra o grupo de productos en la página de archivo."
+
+#: includes/class-wccs-settings-manager.php:273
+msgid "Sale Badge Position On Archive Page"
+msgstr "Posición de la insignia de oferta en la página de archivo"
+
+#: includes/class-wccs-settings-manager.php:255
+msgid "Show sale badge on products group pricing products."
+msgstr "Mostrar el distintivo de oferta en los productos con precio por lotes."
+
+#: includes/class-wccs-settings-manager.php:250
+msgid "Show sale badge on purchase pricing products."
+msgstr "Mostrar el distintivo de oferta en el precio de compra de los productos."
+
+#: includes/class-wccs-settings-manager.php:245
+msgid "Show sale badge on tiered pricing products."
+msgstr "Mostrar distintivo de oferta en productos con precios segmentados."
+
+#: includes/class-wccs-settings-manager.php:241
+msgid "Show sale badge on bulk pricing products."
+msgstr "Mostrar el distintivo de oferta en los productos con precio por lotes."
+
+#: includes/class-wccs-settings-manager.php:237
+msgid "Show sale badge on simple pricing products."
+msgstr "Mostrar el distintivo de oferta en los productos de precio simple."
+
+#: includes/class-wccs-settings-manager.php:231
+msgid "Show Sale Badge"
+msgstr "Mostrar insignia de oferta"
+
+#: includes/class-wccs-settings-manager.php:223
+msgid "Do not change"
+msgstr "No cambiar"
+
+#: includes/class-wccs-settings-manager.php:218
+msgid "Change Display Price"
+msgstr "Cambiar la visualización del precio"
+
+#: includes/class-wccs-settings-manager.php:197
+msgid "Name of the discount showed in the cart totals block as a discount title when using the combine mode for display multiple discounts."
+msgstr "Nombre del descuento mostrado en el bloque de totales del carrito como título del descuento cuando se utiliza el modo de combinación para mostrar múltiples descuentos."
+
+#: includes/class-wccs-settings-manager.php:196
+msgid "Coupon Label"
+msgstr "Etiqueta del cupón"
+
+#: includes/class-wccs-settings-manager.php:191
+msgid "Combine to one total discount"
+msgstr "Combinar en un descuento total"
+
+#: includes/class-wccs-settings-manager.php:190
+msgid "Display all discounts separately"
+msgstr "Mostrar todos los descuentos por separado"
+
+#: includes/class-wccs-settings-manager.php:186
+msgid "Display Multiple Discounts"
+msgstr "Mostrar descuentos múltiples"
+
+#: includes/class-wccs-settings-manager.php:178
+#: includes/class-wccs-settings-manager.php:394
+#: includes/class-wccs-settings-manager.php:507
+msgid "Available in the pro version."
+msgstr "Disponible en la versión pro."
+
+#: includes/class-wccs-settings-manager.php:177
+#: includes/class-wccs-settings-manager.php:393
+msgid "Discount Limit"
+msgstr "Límite de descuento"
+
+#: includes/class-wccs-settings-manager.php:165
+#: includes/class-wccs-settings-manager.php:166
+msgid "Total discount limit %s"
+msgstr "Límite total de descuento %s"
+
+#: includes/class-wccs-settings-manager.php:163
+msgid "Total Discount Limit"
+msgstr "Límite total de descuento"
+
+#: includes/class-wccs-settings-manager.php:159
+#: includes/class-wccs-settings-manager.php:378
+msgid "No discount limit"
+msgstr "Sin límite de descuento"
+
+#: includes/class-wccs-settings-manager.php:157
+#: includes/class-wccs-settings-manager.php:376
+#: includes/class-wccs-settings-manager.php:485
+#: includes/class-wccs-settings-manager.php:886
+msgid "No Limit"
+msgstr "Sin límite"
+
+#: includes/class-wccs-settings-manager.php:152
+#: includes/class-wccs-settings-manager.php:371
+msgid "Discount Limit Type"
+msgstr "Tipo de limitación de descuento"
+
+#: includes/class-wccs-settings-manager.php:142
+msgid "Apply cart discounts with cart regular coupons."
+msgstr "Aplicar descuentos en el carrito con los cupones regulares del carrito."
+
+#: includes/class-wccs-settings-manager.php:141
+msgid "Apply with regular coupons"
+msgstr "Aplicar con cupones regulares"
+
+#: includes/class-wccs-settings-manager.php:131
+msgid "Apply cart discounts with cart individual use coupons."
+msgstr "Aplicar descuentos en el carro con cupones de uso individual."
+
+#: includes/class-wccs-settings-manager.php:130
+msgid "Apply with individual use coupons"
+msgstr "Aplicar con cupones de uso individual"
+
+#: includes/class-wccs-settings-manager.php:118
+#: includes/class-wccs-settings-manager.php:305
+#: includes/class-wccs-settings-manager.php:323
+msgid "Discount Apply Method"
+msgstr "Método de aplicación del descuento"
+
+#: includes/class-wccs-settings-manager.php:85
+#: includes/class-wccs-settings-manager.php:88
+#: includes/class-wccs-settings-manager.php:91
+msgid "Main"
+msgstr "Principal"
+
+#: includes/class-wccs-settings-manager.php:82
+#: includes/class-wccs-settings-manager.php:1018
+#: includes/class-wccs-settings-manager.php:1040
+msgid "Discount Page"
+msgstr "Página de descuento"
+
+#: includes/class-wccs-settings-manager.php:81
+msgid "Countdown Timer"
+msgstr "Temporizador de cuenta regresiva"
+
+#: includes/class-wccs-settings-manager.php:79
+msgid "Messages"
+msgstr "Mensajes"
+
+#: includes/class-wccs-settings-manager.php:77
+msgid "Quantity Table"
+msgstr "Tabla de cantidades"
+
+#: includes/class-wccs-settings-manager.php:72
+msgid "Product Pricing"
+msgstr "Precios de productos"
+
+#: includes/class-wccs-settings-manager.php:71
+msgid "Cart Discount"
+msgstr "Descuento en el carrito"
+
+#: includes/class-wccs-settings-manager.php:30
+msgid "Enable Updates"
+msgstr "Activar actualizaciones"
+
+#: includes/class-wccs-settings-manager.php:28
+msgid "Localization"
+msgstr "Localización"
+
+#: includes/class-wccs-settings-manager.php:27
+msgid "Promotion"
+msgstr "Promoción"
+
+#: includes/class-wccs-settings-manager.php:26
+msgid "General"
+msgstr "General"
+
+#. translators: 1: price from 2: price to
+#: includes/helpers/class-wccs-helpers.php:51
+msgctxt "Price range: from-to"
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#: public/partials/product-pricing/sale-flash.php:40
+msgid "Sale!"
+msgstr "¡Oferta!"
+
+#: admin/class-wccs-admin-ajax.php:564
+msgid "Some errors occurred in getting select data."
+msgstr "Se han producido algunos errores al obtener los datos seleccionados."
+
+#: admin/class-wccs-admin-ajax.php:552
+msgid "Options are required to get select data."
+msgstr "Las opciones son necesarias para obtener los datos seleccionados."
+
+#: admin/class-wccs-admin-ajax.php:502
+msgid "Some errors occurred in selecting data."
+msgstr "Se han producido algunos errores al seleccionar los datos."
+
+#: admin/class-wccs-admin-ajax.php:490
+msgid "Search term is required to select data."
+msgstr "El término de búsqueda es necesario para seleccionar los datos."
+
+#: admin/class-wccs-admin-ajax.php:466
+msgid "Condition duplicated successfully."
+msgstr "Condición duplicada correctamente."
+
+#: admin/class-wccs-admin-ajax.php:454
+msgid "Errors occurred in duplicating condition."
+msgstr "Se produjeron errores al duplicar la condición."
+
+#: admin/class-wccs-admin-ajax.php:441
+msgid "Some errors occurred in duplicating condition."
+msgstr "Se han producido algunos errores al duplicar la condición."
+
+#: admin/class-wccs-admin-ajax.php:429
+msgid "Condition id required to duplicate it."
+msgstr "El ID de la condición es necesario para duplicarla."
+
+#: admin/class-wccs-admin-ajax.php:405
+msgid "Conditions did not ordered successfully."
+msgstr "Las condiciones no se ordenaron correctamente."
+
+#: admin/class-wccs-admin-ajax.php:394
+msgid "Conditions ordered successfully."
+msgstr "Las condiciones se ordenaron correctamente."
+
+#: admin/class-wccs-admin-ajax.php:378
+msgid "Some errors occurred in ordering conditions."
+msgstr "Se han producido algunos errores en las condiciones de pedido."
+
+#: admin/class-wccs-admin-ajax.php:370
+msgid "Type required for ordering."
+msgstr "Tipo necesario para el pedido."
+
+#: admin/class-wccs-admin-ajax.php:366
+msgid "Conditions required for ordering"
+msgstr "Condiciones necesarias para realizar el pedido"
+
+#: admin/class-wccs-admin-ajax.php:343
+msgid "Errors occurred in updating condition."
+msgstr "Se produjeron errores al actualizar la condición."
+
+#: admin/class-wccs-admin-ajax.php:332
+msgid "Condition updated successfully."
+msgstr "Condición actualizada correctamente."
+
+#: admin/class-wccs-admin-ajax.php:282
+msgid "Some errors occurred in updating condition."
+msgstr "Se han producido algunos errores al actualizar la condición."
+
+#: admin/class-wccs-admin-ajax.php:274
+msgid "Data is required to updating condition."
+msgstr "Se requieren datos para actualizar la condición."
+
+#: admin/class-wccs-admin-ajax.php:266
+msgid "ID is required to updating condition."
+msgstr "El ID es necesario para actualizar la condición."
+
+#: admin/class-wccs-admin-ajax.php:243
+msgid "Errors occurred in deleting condition."
+msgstr "Ocurrieron errores en el borrado de la condición."
+
+#: admin/class-wccs-admin-ajax.php:233
+msgid "Condition deleted successfully."
+msgstr "Condición borrada correctamente."
+
+#: admin/class-wccs-admin-ajax.php:217
+msgid "Some errors occurred in deleting condition."
+msgstr "Se han producido algunos errores al borrar la condición."
+
+#: admin/class-wccs-admin-ajax.php:209
+msgid "Condition id required to deleting it."
+msgstr "Se necesita el ID de la condición para borrarla."
+
+#: admin/class-wccs-admin-ajax.php:185
+msgid "Errors occurred in saving condition."
+msgstr "Se han producido errores al guardar la condición."
+
+#: admin/class-wccs-admin-ajax.php:175
+msgid "Condition %s successfully."
+msgstr "Condición %s correctamente."
+
+#: admin/class-wccs-admin-ajax.php:61
+msgid "Some errors occurred in saving condition."
+msgstr "Se han producido algunos errores al guardar la condición."
+
+#: admin/class-wccs-admin-ajax.php:53
+msgid "Condition type required"
+msgstr "El tipo de condición es necesario"
+
+#: admin/class-wccs-admin-menu.php:90
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-wccs-admin-menu.php:81
+msgid "Woo Pricing & Discounts"
+msgstr "Woo precios y descuentos"
+
+#: admin/class-wccs-admin-menu.php:80 admin/class-wccs-admin-menu.php:89
+msgid "Advanced WooCommerce Dynamic Pricing & Discounts"
+msgstr "Advanced WooCommerce Dynamic Pricing & Discounts"
+
+#: admin/menus/class-wccs-admin-settings-menu.php:202
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+#: admin/class-wccs-admin-html-element.php:41
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Falta la función de devolución de llamada utilizada para el ajuste de <strong>%s</strong>."
+
+#: admin/partials/admin_notices/update.php:19
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr "Se recomienda encarecidamente que hagas una copia de seguridad de la base de datos antes de proceder. Está seguro de que quieres ejecutar el actualizador ahora?"
+
+#: admin/partials/admin_notices/update.php:15
+#: admin/partials/menu/update-required.php:15
+msgid "Run the updater"
+msgstr "Ejecutar el actualizador"
+
+#: admin/partials/admin_notices/update.php:14
+msgid "We need to update database to the latest version."
+msgstr "Necesitamos actualizar la base de datos a la última versión."
+
+#: admin/partials/admin_notices/updating.php:14
+msgid "Taking a while? Click here to run it now."
+msgstr "¿Tarda un poco? Haz clic aquí para ejecutarlo ahora."
+
+#: admin/partials/admin_notices/updating.php:14
+msgid "Your database is being updated in the background."
+msgstr "Tu base de datos se está actualizando en segundo plano."
+
+#: admin/partials/admin_notices/updated.php:10
+msgid "WooCommerce Dynamic Pricing & Discounts data update complete. Thank you for updating to the latest version!"
+msgstr "La actualización de datos de WooCommerce Dynamic Pricing & Discounts se ha completado. ¡Gracias por actualizar al la última versión!"
+
+#: admin/partials/admin_notices/updated.php:8
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: admin/class-wccs-admin-notices.php:101 includes/class-wc-conditions.php:164
+#: includes/class-wc-conditions.php:176
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampas, ¿eh?"
+
+#: admin/class-wccs-admin-notices.php:97
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Acción fallida. Por favor, actualiza la página y vuelve a intentarlo."
+
+#: includes/class-wccs-settings-manager.php:78
+msgid "Live Price"
+msgstr "Precio en tiempo real"
+
+#: admin/class-wccs-admin.php:164 admin/js/conditions/index.js:1
+msgid "Go Pro"
+msgstr "Ir a pro"
+
+#: includes/class-wccs-settings-manager.php:165
+#: includes/class-wccs-settings-manager.php:166
+#: includes/class-wccs-settings-manager.php:245
+#: includes/class-wccs-settings-manager.php:250
+#: includes/class-wccs-settings-manager.php:255
+#: includes/class-wccs-settings-manager.php:384
+#: includes/class-wccs-settings-manager.php:385
+#: includes/class-wccs-settings-manager.php:421
+#: includes/class-wccs-settings-manager.php:433
+#: includes/class-wccs-settings-manager.php:445
+#: includes/class-wccs-settings-manager.php:456
+#: includes/class-wccs-settings-manager.php:465
+#: includes/class-wccs-settings-manager.php:466
+#: includes/class-wccs-settings-manager.php:467
+#: includes/class-wccs-settings-manager.php:468
+#: includes/class-wccs-settings-manager.php:487
+#: includes/class-wccs-settings-manager.php:494
+#: includes/class-wccs-settings-manager.php:495
+#: includes/class-wccs-settings-manager.php:519
+#: includes/class-wccs-settings-manager.php:520
+#: includes/class-wccs-settings-manager.php:536
+#: includes/class-wccs-settings-manager.php:537
+#: includes/class-wccs-settings-manager.php:633
+#: includes/class-wccs-settings-manager.php:649
+#: includes/class-wccs-settings-manager.php:661
+#: includes/class-wccs-settings-manager.php:687
+#: includes/class-wccs-settings-manager.php:688
+#: includes/class-wccs-settings-manager.php:689
+#: includes/class-wccs-settings-manager.php:690
+#: includes/class-wccs-settings-manager.php:691
+#: includes/class-wccs-settings-manager.php:692
+#: includes/class-wccs-settings-manager.php:693
+#: includes/class-wccs-settings-manager.php:734
+#: includes/class-wccs-settings-manager.php:745
+#: includes/class-wccs-settings-manager.php:746
+#: includes/class-wccs-settings-manager.php:747
+#: includes/class-wccs-settings-manager.php:748
+#: includes/class-wccs-settings-manager.php:749
+#: includes/class-wccs-settings-manager.php:750
+#: includes/class-wccs-settings-manager.php:751
+#: includes/class-wccs-settings-manager.php:851
+#: includes/class-wccs-settings-manager.php:852
+#: includes/class-wccs-settings-manager.php:853
+#: includes/class-wccs-settings-manager.php:854
+#: includes/class-wccs-settings-manager.php:855
+#: includes/class-wccs-settings-manager.php:856
+#: includes/class-wccs-settings-manager.php:857
+#: includes/class-wccs-settings-manager.php:886
+#: includes/class-wccs-settings-manager.php:887
+#: includes/class-wccs-settings-manager.php:888
+#: includes/class-wccs-settings-manager.php:889
+#: includes/class-wccs-settings-manager.php:890
+#: includes/class-wccs-settings-manager.php:891
+#: includes/class-wccs-settings-manager.php:905
+#: includes/class-wccs-settings-manager.php:913
+#: includes/class-wccs-settings-manager.php:921
+#: includes/class-wccs-settings-manager.php:929
+#: includes/class-wccs-settings-manager.php:937
+#: includes/class-wccs-settings-manager.php:945
+#: includes/class-wccs-settings-manager.php:953
+#: includes/class-wccs-settings-manager.php:960
+#: includes/class-wccs-settings-manager.php:967
+#: includes/class-wccs-settings-manager.php:974
+#: includes/class-wccs-settings-manager.php:981
+#: includes/class-wccs-settings-manager.php:988
+#: includes/class-wccs-settings-manager.php:995
+#: includes/class-wccs-settings-manager.php:1010
+#: includes/class-wccs-settings-manager.php:1011
+#: includes/class-wccs-settings-manager.php:1012
+msgid "Pro Version"
+msgstr "Versión pro"
+
+#: includes/class-wccs-settings-manager.php:73
+#: includes/class-wccs-settings-manager.php:456
+msgid "Checkout Fee"
+msgstr "Tasas de pago"
+
+#: includes/class-wccs-settings-manager.php:136
+#: includes/class-wccs-settings-manager.php:147
+#: includes/class-wccs-settings-manager.php:209
+#: includes/class-wccs-settings-manager.php:331
+#: includes/class-wccs-settings-manager.php:366
+#: includes/class-wccs-settings-manager.php:434
+#: includes/class-wccs-settings-manager.php:446
+#: includes/class-wccs-settings-manager.php:561
+#: includes/class-wccs-settings-manager.php:572
+#: includes/class-wccs-settings-manager.php:590
+#: includes/class-wccs-settings-manager.php:650
+#: includes/class-wccs-settings-manager.php:662
+#: includes/class-wccs-settings-manager.php:735
+#: includes/class-wccs-settings-manager.php:777
+#: includes/class-wccs-settings-manager.php:817
+#: includes/class-wccs-settings-manager.php:841
+#: includes/class-wccs-settings-manager.php:1059
+#: includes/class-wccs-settings-manager.php:1103
+#: includes/class-wccs-settings-manager.php:1114
+msgid "No"
+msgstr "No"
+
+#: includes/class-wccs-settings-manager.php:135
+#: includes/class-wccs-settings-manager.php:146
+#: includes/class-wccs-settings-manager.php:208
+#: includes/class-wccs-settings-manager.php:330
+#: includes/class-wccs-settings-manager.php:365
+#: includes/class-wccs-settings-manager.php:433
+#: includes/class-wccs-settings-manager.php:445
+#: includes/class-wccs-settings-manager.php:560
+#: includes/class-wccs-settings-manager.php:571
+#: includes/class-wccs-settings-manager.php:589
+#: includes/class-wccs-settings-manager.php:649
+#: includes/class-wccs-settings-manager.php:661
+#: includes/class-wccs-settings-manager.php:734
+#: includes/class-wccs-settings-manager.php:776
+#: includes/class-wccs-settings-manager.php:816
+#: includes/class-wccs-settings-manager.php:1058
+#: includes/class-wccs-settings-manager.php:1102
+#: includes/class-wccs-settings-manager.php:1113 admin/js/conditions/index.js:1
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-wccs-settings-manager.php:1070
+#: includes/class-wccs-settings-manager.php:1072
+#: public/class-wccs-public-product-pricing.php:475
+#: admin/js/conditions/index.js:1
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/class-wccs-settings-manager.php:1064
+#: includes/class-wccs-settings-manager.php:1066
+#: public/class-wccs-public-product-pricing.php:473
+#: admin/js/conditions/index.js:1
+msgid "Price"
+msgstr "Precio"
+
+#: includes/class-wccs-settings-manager.php:891 admin/js/conditions/index.js:1
+msgid "Month"
+msgstr "Mes"
+
+#: includes/class-wccs-settings-manager.php:890 admin/js/conditions/index.js:1
+msgid "Week"
+msgstr "Semana"
+
+#: includes/class-wccs-settings-manager.php:889 admin/js/conditions/index.js:1
+msgid "Day"
+msgstr "Día"
+
+#: includes/class-wccs-settings-manager.php:422
+#: includes/class-wccs-settings-manager.php:634
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: includes/class-wccs-settings-manager.php:421
+#: includes/class-wccs-settings-manager.php:555
+#: includes/class-wccs-settings-manager.php:633
+#: includes/class-wccs-settings-manager.php:1053
+msgid "Enabled"
+msgstr "Activado"
+
+#: includes/class-wccs-settings-manager.php:912
+#: includes/class-wccs-settings-manager.php:915 admin/js/conditions/index.js:1
+msgid "Days"
+msgstr "Dias"
+
+#: includes/class-wccs-settings-manager.php:268
+#: includes/class-wccs-settings-manager.php:1076
+#: includes/class-wccs-settings-manager.php:1078
+#: public/class-wccs-public-cart-discount-hooks.php:181
+#: public/class-wccs-public-product-pricing.php:474
+#: admin/js/conditions/index.js:1
+msgid "Discount"
+msgstr "Descuento"
+
+#. Author URI of the plugin
+#: easy-woocommerce-discounts.php
+msgid "https://www.asanaplugins.com/"
+msgstr "https://www.asanaplugins.com/"
+
+#. Description of the plugin
+#: easy-woocommerce-discounts.php
+msgid "All purpose WooCommerce discounts, pricing, shipping and promotion tool."
+msgstr "Herramienta de descuentos, precios, envíos y promociones para WooCommerce."
+
+#. Plugin URI of the plugin
+#: easy-woocommerce-discounts.php
+msgid "https://www.asanaplugins.com/product/woocommerce-dynamic-pricing-and-discounts-plugin/?utm_source=easy-woocommerce-discounts-free&utm_campaign=easy-woocommerce-discounts&utm_medium=link"
+msgstr "https://www.asanaplugins.com/product/woocommerce-dynamic-pricing-and-discounts-plugin/?utm_source=easy-woocommerce-discounts-free&utm_campaign=easy-woocommerce-discounts&utm_medium=link"

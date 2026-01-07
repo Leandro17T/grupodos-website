@@ -1,0 +1,69 @@
+/* /modules/12-cuotas-oca/assets/css/frontend.css */
+
+
+
+.gdos-payment-option--oca {
+
+    /* Estilos del bloque */
+
+    background-color: #eaf6ff;
+
+    padding: 20px 25px; /* <-- MÁS RELLENO (20px arriba/abajo, 25px a los lados) */
+
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+
+    width: fit-content; /* <-- Hace que el contenedor se ajuste al ancho de su contenido */
+
+    max-width: 100%; /* Asegura que no se desborde en pantallas pequeñas */
+
+
+
+    /* --- ALINEACIÓN CORREGIDA --- */
+
+    display: flex;
+
+    flex-direction: column; /* Pone los elementos en columna (vertical) */
+
+    align-items: flex-start; /* <-- ALINEA LOS ELEMENTOS INTERNOS A LA IZQUIERDA */
+
+    gap: 5px;               /* Espacio vertical entre la imagen y el texto */
+
+}
+
+
+
+.gdos-payment-option--oca .gdos-payment-option__icon {
+
+    width: 50px;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0;
+
+}
+
+
+
+.gdos-payment-option--oca .gdos-payment-option__description {
+
+    margin: 0;
+
+    line-height: 1.4;
+
+    color: #002e5d;
+
+    text-align: left; /* <-- Alinea el texto a la izquierda si ocupa más de una línea */
+
+}
+
+
+
+.gdos-payment-option--oca .gdos-payment-option__price {
+
+    font-weight: 600;
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Estados de pedido personalizados">
+  <domain name="estados-pedido">
+    <project name="Estados de pedido personalizados" slug="estados-pedido">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/estados-pedido.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>includes</directory>
+  </exclude>
+</bundle>

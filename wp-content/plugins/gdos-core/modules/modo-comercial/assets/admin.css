@@ -1,0 +1,181 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/modo-comercial/assets/admin.css */
+
+.gdos-mc-wrap {
+    max-width: 1000px;
+    margin: 20px 20px 0 0;
+}
+
+/* --- Títulos y Textos --- */
+.gdos-mc-title {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+    color: #1d2327;
+}
+
+.gdos-mc-subtitle {
+    font-size: 14px;
+    color: #50575e;
+    margin: 0 0 20px;
+    max-width: 800px;
+}
+
+/* --- Tarjetas (Contenedores) --- */
+.gdos-mc-card {
+    background: #fff;
+    border: 1px solid #c3c4c7; /* WP Standard Border */
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.gdos-mc-card h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f1;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* --- Layout Flex (Filas) --- */
+.gdos-mc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #f0f0f1;
+}
+
+.gdos-mc-row:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.gdos-mc-row > span {
+    font-weight: 600;
+    color: #1d2327;
+    font-size: 14px;
+}
+
+/* --- Layout Grid (Fechas y Colores) --- */
+.gdos-mc-grid {
+    display: grid;
+    /* Responsive automático: columnas de mínimo 250px */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.gdos-mc-grid label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.gdos-mc-grid label span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #50575e;
+}
+
+.gdos-mc-grid input[type="text"],
+.gdos-mc-grid input[type="datetime-local"],
+.gdos-mc-grid input[type="color"] {
+    width: 100%;
+    height: 36px; /* Altura estándar WP */
+    line-height: normal;
+}
+
+.gdos-mc-grid input[type="color"] {
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.gdos-mc-grid small {
+    color: #646970;
+    font-style: italic;
+}
+
+/* --- Área de Texto Completo (CSS) --- */
+.gdos-mc-row-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.gdos-mc-row-col span {
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.gdos-mc-row-col textarea {
+    width: 100%;
+    font-family: monospace;
+    background: #f6f7f7;
+    font-size: 12px;
+}
+
+/* --- Status Bar --- */
+.gdos-mc-status-bar {
+    margin-top: 20px;
+    padding: 12px 16px;
+    background-color: #f0f6fc; /* Fondo azul muy claro */
+    border-left: 4px solid #2271b1; /* Borde azul WP */
+    color: #1d2327;
+    font-size: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* --- Toggle Switch (Estilo WP) --- */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #8c8f94; /* WP Gray */
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2271b1; /* WP Blue Primary */
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2271b1;
+}
+
+input:checked + .slider:before {
+    transform: translateX(18px);
+}

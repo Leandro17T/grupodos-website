@@ -1,0 +1,260 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Seguimiento de envíos en Woo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-28 09:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2-alpha-57119\n"
+"X-Domain: seguimiento-pedidos"
+
+#: email.php:36
+#, php-format
+msgid " el día %s"
+msgstr ""
+
+#: campos.php:56
+msgid "%cp% será sustituido por el código postal de envío"
+msgstr ""
+
+#: campos.php:56
+msgid "%ref% será sustituido por el número de seguimiento"
+msgstr ""
+
+#: cpt.php:100
+#, php-format
+msgid "%s agencia actualizada."
+msgid_plural "%s agencias actualizadas."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cpt.php:101
+#, php-format
+msgid "%s agencia no se ha actualizado, alguien la está editando."
+msgid_plural "%s agencias no se han actualizado, alguien las está editando."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cpt.php:102
+#, php-format
+msgid "%s agencia se ha eliminado."
+msgid_plural "%s agencias se han eliminado."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cpt.php:103
+#, php-format
+msgid "%s agencia se ha enviado a la papelera."
+msgid_plural "%s agencias se han enviado a la papelera."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cpt.php:104
+#, php-format
+msgid "%s agencia se ha recuperado de la papelera."
+msgid_plural "%s agencias se han recuperado de la papelera."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cpt.php:53
+msgid "Actualizar agencia"
+msgstr ""
+
+#: cpt.php:43 cpt.php:45 cpt.php:65 cpt.php:134
+msgid "Agencia"
+msgstr ""
+
+#: cpt.php:88 cpt.php:89
+msgid "Agencia actualizada."
+msgstr ""
+
+#: cpt.php:90
+msgid "Agencia creada."
+msgstr ""
+
+#: cpt.php:91
+msgid "Agencia guardada."
+msgstr ""
+
+#: cpt.php:42 cpt.php:44 cpt.php:48
+msgid "Agencias"
+msgstr ""
+
+#: cpt.php:46
+msgid "Archivos de agencias"
+msgstr ""
+
+#: cpt.php:47
+msgid "Atributos de agencia"
+msgstr ""
+
+#: cpt.php:49
+msgid "Añadir agencia"
+msgstr ""
+
+#: cpt.php:56
+msgid "Buscar agencia"
+msgstr ""
+
+#: preview.php:40
+msgid "Datos de seguimiento"
+msgstr ""
+
+#: cpt.php:52
+msgid "Editar agencia"
+msgstr ""
+
+#: cuenta.php:56
+#, php-format
+msgid "El código de seguimiento es %s"
+msgstr ""
+
+#: cuenta.php:44
+#, php-format
+msgid "el día %s"
+msgstr ""
+
+#: wc-seguimiento-pedidos.php:126
+#, php-format
+msgid ""
+"El plugin %s necesita que Woo esté activado. Por favor, activa Woo primero."
+msgstr ""
+
+#: campos.php:39
+#, php-format
+msgid ""
+"El plugin %s no ha podido recuperar la lista de campos personalizados. Por "
+"favor, contacta con el %ssoporte%s."
+msgstr ""
+
+#: metabox.php:68
+msgid "Elige la agencia"
+msgstr ""
+
+#. Author of the plugin
+msgid "Enrique J. Ros"
+msgstr ""
+
+#: cpt.php:61
+msgid "Filtrar lista de agencias"
+msgstr ""
+
+#: cpt.php:66
+msgid "Gestiona agencias de envío"
+msgstr ""
+
+#: wc-seguimiento-pedidos.php:157 wc-seguimiento-pedidos.php:180
+msgid "Gestionar agencias"
+msgstr ""
+
+#: wc-seguimiento-pedidos.php:156
+#, php-format
+msgid ""
+"Gracias por usar %s. Se han creado algunas agencias por defecto, puedes "
+"gestionarlas (editarlas, eliminarlas, añadir las tuyas...) en la página de "
+"gestión de agencias."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.enriquejros.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.enriquejros.com/plugins/seguimiento-envios-woocommerce/"
+msgstr ""
+
+#: cuenta.php:52 metabox.php:48
+msgid "Información de seguimiento"
+msgstr ""
+
+#: email.php:35
+msgid "Información de seguimiento del envío"
+msgstr ""
+
+#: cpt.php:59
+msgid "Lista de agencias"
+msgstr ""
+
+#: cpt.php:60
+msgid "Navegación por lista de agencias"
+msgstr ""
+
+#: cpt.php:57
+msgid "No hay agencias"
+msgstr ""
+
+#: cpt.php:58
+msgid "No hay agencias en la papelera"
+msgstr ""
+
+#: wc-seguimiento-pedidos.php:70
+#, php-format
+msgid "No puedes clonar instancias de %s."
+msgstr ""
+
+#: cpt.php:50 cpt.php:51
+msgid "Nueva agencia"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Proporciona al cliente la información para el seguimiento del envío del "
+"pedido"
+msgstr ""
+
+#: cuenta.php:81 orders.php:37
+msgid "Seguimiento"
+msgstr ""
+
+#. Name of the plugin
+#: wc-seguimiento-pedidos.php:41
+msgid "Seguimiento de envíos en Woo"
+msgstr ""
+
+#: campos.php:39
+msgid "Seguimiento de pedidos en WooCommerce"
+msgstr ""
+
+#: wc-seguimiento-pedidos.php:181
+msgid "Soporte"
+msgstr ""
+
+#: cuenta.php:55
+#, php-format
+msgid "Su pedido ha sido enviado a través de %s %s"
+msgstr ""
+
+#: email.php:36
+#, php-format
+msgid ""
+"Su pedido ha sido enviado a través de %s%s, con el código de seguimiento %s. "
+"Puede conocer el estado del envío a través del siguiente enlace:"
+msgstr ""
+
+#: cpt.php:135
+msgid "URL"
+msgstr ""
+
+#: campos.php:49
+msgid "URL para el seguimiento"
+msgstr ""
+
+#: cpt.php:54
+msgid "Ver agencia"
+msgstr ""
+
+#: cpt.php:55
+msgid "Ver agencias"
+msgstr ""
+
+#: cuenta.php:62 email.php:39
+msgid "Ver el estado del envío"
+msgstr ""

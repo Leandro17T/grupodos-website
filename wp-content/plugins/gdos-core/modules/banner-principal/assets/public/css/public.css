@@ -1,0 +1,235 @@
+/* REFACTORIZADO: 2025-12-06 (FINAL: Flechas Cuadradas Redondeadas + Layout Rígido + Countdown Centrado) */
+/* /modules/banner-principal/assets/public/css/public.css */
+
+/* --- 1. CONTENEDOR PRINCIPAL --- */
+.gdos-slider {
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 1; /* Visible inmediatamente */
+    z-index: 1;
+    overflow: hidden; /* Corta todo lo que sobresalga */
+}
+
+/* --- 2. VIEWPORT (Marco de visión) --- */
+.gdos-viewport {
+    position: relative;
+    width: 100%;
+    overflow: hidden !important; 
+    border-radius: 10px;
+    
+    /* Reserva de espacio para evitar saltos (CLS) */
+    aspect-ratio: 1440 / 400;
+    
+    /* Fix para bordes redondeados en Safari con transformaciones */
+    transform: translateZ(0);
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+/* Media Queries para Aspect Ratio */
+@media (max-width: 1024px) { .gdos-viewport { aspect-ratio: 1024 / 768; } }
+@media (max-width: 767px) { .gdos-viewport { aspect-ratio: 600 / 640; } }
+
+/* --- 3. TRACK (Tira de diapositivas) --- */
+.gdos-track {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* CRÍTICO: Fuerza una sola línea horizontal */
+    width: 100%;
+    height: 100%;
+    margin: 0; padding: 0; list-style: none;
+    
+    transform: translateX(0);
+    will-change: transform;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* --- 4. SLIDE INDIVIDUAL --- */
+.gdos-slide {
+    display: block;
+    /* CRÍTICO: Fuerza ancho completo y evita compresión */
+    flex: 0 0 100% !important; 
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    
+    position: relative;
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+.gdos-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Llena el espacio sin deformarse */
+    pointer-events: none; /* Evita arrastrar la imagen fantasma */
+}
+
+/* --- 5. NAVEGACIÓN (Flechas Cuadradas Redondeadas) --- */
+.gdos-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100; /* Encima de todo */
+    
+    width: 44px; /* Ancho y alto iguales para que sea cuadrado */
+    height: 44px;
+    
+    /* Fondo oscuro semitransparente + Borde sutil */
+    background: rgba(0, 0, 0, 0.4) !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    
+    /* CAMBIO AQUÍ: 8px para esquinas redondeadas en lugar de 50% */
+    border-radius: 8px !important; 
+    
+    padding: 0 !important;
+    margin: 0 !important;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    /* Visibilidad Permanente */
+    opacity: 1 !important;
+    visibility: visible !important;
+    
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efecto Hover: Más oscuro y grande */
+.gdos-nav:hover {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    transform: translateY(-50%) scale(1.05); /* Escala más sutil para cuadrados */
+}
+
+.gdos-prev { left: 20px; } 
+.gdos-next { right: 20px; }
+
+/* Icono SVG */
+.gdos-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    stroke: #ffffff;
+    stroke-width: 3; /* Grosor para buena visibilidad */
+    fill: none;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+}
+
+/* --- 6. COUNTDOWN (Franja Centrada) --- */
+.gdos-countdown {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 50;
+    
+    /* Fondo oscuro semitransparente */
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    /* Blur opcional */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+    color: #fff;
+    padding: 15px 0;
+    
+    /* Centrado Perfecto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Separación Título <-> Reloj */
+    
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    pointer-events: none; /* Permite clicks pasantes si es necesario */
+}
+
+/* Título ("TERMINA EN:") */
+.gdos-cd-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 4px; /* Alineación óptica */
+    color: rgba(255,255,255,0.95);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Grupo de Tiempo */
+.gdos-cd-time {
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+}
+
+/* Bloque Individual */
+.gdos-cd-block {
+    display: flex;
+    align-items: baseline;
+    gap: 4px; /* Espacio entre Número y Etiqueta */
+    line-height: 1;
+}
+
+/* Número */
+.gdos-cd-seg {
+    font-size: 26px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Etiqueta (D, H, M, S) */
+.gdos-cd-tag {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* Separador Oculto */
+.gdos-cd-sep { display: none; }
+
+/* --- RESPONSIVE MOBILE --- */
+@media (max-width: 767px) {
+    /* Flechas ajustadas para móvil */
+    .gdos-nav {
+        width: 36px;
+        height: 36px;
+        border-width: 1px !important;
+        border-radius: 6px !important; /* Un poco menos redondeado en móvil */
+    }
+    .gdos-prev { left: 10px; }
+    .gdos-next { right: 10px; }
+    .gdos-icon { width: 16px; height: 16px; stroke-width: 2.5; }
+
+    /* Countdown apilado */
+    .gdos-countdown {
+        flex-direction: column;
+        gap: 6px;
+        padding: 10px 0;
+        background-color: rgba(0, 0, 0, 0.75); /* Un poco más oscuro en móvil */
+    }
+
+    .gdos-cd-title {
+        font-size: 11px;
+        padding-top: 0;
+        opacity: 0.9;
+    }
+
+    .gdos-cd-time {
+        gap: 15px;
+    }
+
+    .gdos-cd-seg {
+        font-size: 20px;
+    }
+    
+    .gdos-cd-tag {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,339 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/banner-principal/assets/admin/css/admin.css */
+
+.gdos-card {
+    /* Variables Locales */
+    --gdos-adm-bg: #ffffff;
+    --gdos-adm-border: #dcdcde;
+    --gdos-adm-accent: #2271b1;
+    --gdos-adm-text: #1d2327;
+    --gdos-adm-text-muted: #646970;
+    
+    background: var(--gdos-adm-bg);
+    border: 1px solid var(--gdos-adm-border);
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.gdos-card * {
+    box-sizing: border-box;
+}
+
+/* --- HEADER & TABS --- */
+.gdos-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--gdos-adm-border);
+    background: #fcfcfc;
+    border-radius: 8px 8px 0 0;
+    
+    /* Sticky header para listas largas */
+    position: sticky;
+    top: 32px;
+    z-index: 100;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gdos-tabs {
+    display: flex;
+    gap: 5px;
+}
+
+.gdos-tab {
+    appearance: none;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--gdos-adm-text-muted);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.gdos-tab:hover {
+    color: var(--gdos-adm-accent);
+    background: #f0f0f1;
+}
+
+.gdos-tab.active {
+    background: var(--gdos-adm-accent);
+    color: #fff;
+    border-color: var(--gdos-adm-accent);
+}
+
+/* --- ACTIONS --- */
+.gdos-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gdos-size-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border: 1px dashed #c3c4c7;
+    border-radius: 20px;
+    background: #fff;
+    color: var(--gdos-adm-text-muted);
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* --- LISTA & ROWS --- */
+.gdos-panel {
+    display: none;
+    padding: 20px;
+    background: #f0f0f1; /* Fondo gris suave para contrastar con las tarjetas blancas */
+}
+
+.gdos-panel.active {
+    display: block;
+    animation: gdosFadeIn 0.3s ease;
+}
+
+@keyframes gdosFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.gdos-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Fila Individual */
+.gdos-row {
+    display: grid;
+    /* Grid: Handle | Media | Data */
+    grid-template-columns: 30px 140px 1fr;
+    gap: 20px;
+    
+    background: #fff;
+    border: 1px solid var(--gdos-adm-border);
+    border-radius: 6px;
+    padding: 15px;
+    align-items: start;
+    
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.gdos-row:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* --- HANDLE (Arrastrar) --- */
+.gdos-handle {
+    cursor: grab;
+    color: #a7aaad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100px; /* Centrado vertical visual */
+}
+
+.gdos-handle:hover {
+    color: var(--gdos-adm-text);
+}
+
+.gdos-handle::before {
+    content: "⣿"; /* Icono de grip más limpio */
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* --- COLUMNA MEDIA (Imagen + Botones) --- */
+.gdos-media-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gdos-thumb {
+    width: 100%;
+    aspect-ratio: 16/9; /* Proporción panorámica moderna */
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.gdos-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gdos-thumb .placeholder {
+    color: #a7aaad;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.gdos-media-col .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.gdos-media-col .button {
+    width: 100%;
+    justify-content: center;
+}
+
+.gdos-remove {
+    color: #b32d2e !important;
+    border-color: #b32d2e !important;
+}
+.gdos-remove:hover {
+    background: #b32d2e !important;
+    color: #fff !important;
+}
+
+/* --- COLUMNA DATA (Inputs) --- */
+.gdos-data-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--gdos-adm-text);
+}
+
+.field input[type="text"],
+.field input[type="url"],
+.field input[type="number"],
+.field input[type="date"],
+.field input[type="time"] {
+    width: 100%;
+    height: 36px; /* Altura cómoda */
+}
+
+/* Grids internos para inputs */
+.gdos-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+}
+
+.gdos-advanced-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 5px;
+    padding-top: 15px;
+    border-top: 1px dashed #eee;
+}
+
+/* Selección de Días */
+.gdos-days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.gdos-days label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    background: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 11px;
+    user-select: none;
+}
+
+.gdos-days label:has(input:checked) {
+    border-color: var(--gdos-adm-accent);
+    background: #f0f6fc;
+    color: var(--gdos-adm-accent);
+    font-weight: 600;
+}
+
+/* Estado del Slide (Chips) */
+.gdos-chip-holder {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+
+.gdos-chip {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.gdos-chip--ok   { background-color: #46b450; } /* Verde WP */
+.gdos-chip--warn { background-color: #ffb900; color: #333; } /* Amarillo WP */
+.gdos-chip--off  { background-color: #d63638; } /* Rojo WP */
+
+/* UI Sortable Placeholder */
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    border: 2px dashed var(--gdos-adm-accent);
+    background: rgba(34, 113, 177, 0.05);
+    border-radius: 6px;
+    height: 200px; /* Altura aproximada de una fila */
+}
+
+/* --- RESPONSIVE ADMIN --- */
+@media (max-width: 960px) {
+    .gdos-row {
+        grid-template-columns: 1fr; /* Stack vertical */
+        gap: 15px;
+    }
+    
+    .gdos-handle {
+        height: 30px;
+        min-height: 0;
+        background: #f6f7f7;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        cursor: grab;
+    }
+    .gdos-handle::before {
+        content: "Arrastrar para reordenar"; /* Texto en lugar de icono */
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .gdos-media-col {
+        flex-direction: row; /* Imagen y botones lado a lado */
+        align-items: center;
+    }
+    
+    .gdos-thumb {
+        width: 120px;
+        height: 80px;
+    }
+    
+    .gdos-advanced-grid {
+        grid-template-columns: 1fr;
+    }
+}

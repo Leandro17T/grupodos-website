@@ -1,0 +1,128 @@
+/* Contenedor General */
+.gdos-dashboard-wrapper {
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+/* Cabecera: Saludo y Fecha */
+.gdos-welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.gdos-greeting {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2327;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gdos-date {
+    font-size: 11px;
+    color: #646970;
+    text-transform: capitalize;
+}
+
+/* Grid de Tarjetas */
+.gdos-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+/* Estilo Base de Tarjeta */
+.gdos-card {
+    position: relative;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-radius: 6px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+}
+
+.gdos-card:hover {
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Enlace fantasma para hacer clicable toda la tarjeta */
+.gdos-card-link {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
+}
+
+/* Iconos circulares */
+.gdos-card-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.gdos-card-icon .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+/* Colores Semánticos */
+/* Alerta (Preparación) */
+.gdos-card.card-alert { border-left: 3px solid #d63638; }
+.gdos-card.card-alert .gdos-card-icon { background: #fbeaea; color: #d63638; }
+.gdos-card.card-alert:hover { border-color: #d63638; }
+
+/* Info (Hoy) */
+.gdos-card.card-info { border-left: 3px solid #2271b1; }
+.gdos-card.card-info .gdos-card-icon { background: #eef5fa; color: #2271b1; }
+.gdos-card.card-info:hover { border-color: #2271b1; }
+
+/* Tipografía de Datos */
+.gdos-card-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.gdos-big-number {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1d2327;
+}
+
+.gdos-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #646970;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+}
+
+/* Botón Principal */
+.gdos-main-action {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 38px !important;
+    font-size: 13px !important;
+}
+
+.gdos-main-action .dashicons {
+    margin-top: 3px;
+    margin-left: 6px;
+    font-size: 16px;
+}

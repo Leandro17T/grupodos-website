@@ -1,0 +1,19 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/garantia-producto/assets/css/frontend.css */
+
+.garantia-producto {
+    display: block;                /* Asegura comportamiento de bloque */
+    box-sizing: border-box;        /* Evita que el padding aumente el ancho total */
+    width: 100%;
+    max-width: 100%;               /* Seguridad responsive */
+    
+    font-size: 0.9em;
+    line-height: 1.5;              /* Mejora la legibilidad del texto */
+    padding: 12px 16px;            /* Espaciado interno balanceado */
+    margin: 15px 0;
+    
+    border-left: 3px solid #0073aa; /* Borde azul corporativo WP/Woo */
+    background-color: #f8f9fa;      /* Fondo gris muy suave y moderno */
+    color: #555;
+    border-radius: 0 4px 4px 0;     /* Borde redondeado solo a la derecha */
+}

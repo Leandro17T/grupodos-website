@@ -1,0 +1,179 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/cupon-switch-producto/assets/css/frontend.css */
+
+.gdos-cupon-wrap {
+    /* --- Variables Locales --- */
+    --gdos-sw-bg-off: #cbd5e1;      /* Gris Pizarra */
+    --gdos-sw-bg-on:  #10b981;      /* Verde Esmeralda */
+    --gdos-sw-thumb:  #ffffff;      /* Blanco */
+    
+    --gdos-card-bg:   #ffffff;
+    --gdos-card-border: #e2e8f0;
+    --gdos-card-active: #f0fdf4;    /* Verde muy suave */
+    --gdos-card-border-active: #86efac;
+
+    --gdos-text-main: #334155;
+    --gdos-text-active: #14532d;
+
+    /* Layout */
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+/* 1. LA TARJETA (Label contenedor) */
+.gdos-cupon-switch {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: var(--gdos-card-bg);
+    border: 1px solid var(--gdos-card-border);
+    padding: 16px 20px;
+    border-radius: 12px;
+    
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    /* Transición suave para todo */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+/* Hover */
+.gdos-cupon-switch:hover {
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* ACCESIBILIDAD: Foco por teclado */
+.gdos-cupon-switch:focus-within {
+    outline: 2px solid var(--gdos-sw-bg-on);
+    outline-offset: 2px;
+}
+
+/* Estado ACTIVO (Usando :has para detectar si el hijo tiene clase .is-on) */
+.gdos-cupon-switch:has(.is-on) {
+    background-color: var(--gdos-card-active);
+    border-color: var(--gdos-card-border-active);
+}
+
+/* 2. EL TEXTO */
+.gdos-cupon-label {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--gdos-text-main);
+    padding-right: 15px;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.gdos-cupon-switch:has(.is-on) .gdos-cupon-label {
+    color: var(--gdos-text-active);
+}
+
+/* 3. EL TOGGLE (Pista) */
+.gdos-cupon-toggle {
+    flex-shrink: 0;
+    position: relative;
+    width: 52px;
+    height: 30px;
+    background-color: var(--gdos-sw-bg-off);
+    border-radius: 99px;
+    transition: background-color 0.4s ease;
+}
+
+.gdos-cupon-toggle.is-on {
+    background-color: var(--gdos-sw-bg-on);
+}
+
+/* 4. EL BOTÓN (Thumb) */
+.gdos-cupon-toggle .thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background: var(--gdos-sw-thumb);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    
+    /* Animación de resorte */
+    transform: translateX(0);
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.gdos-cupon-toggle.is-on .thumb {
+    transform: translateX(22px);
+}
+
+/* Textos pequeños ON/OFF dentro del thumb */
+.thumb-text {
+    font-size: 8px;
+    font-weight: 800;
+    position: absolute;
+    text-transform: uppercase;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.thumb-text--off { 
+    color: #64748b; 
+    opacity: 1; 
+    transform: scale(1); 
+}
+.thumb-text--on { 
+    color: var(--gdos-sw-bg-on); 
+    opacity: 0; 
+    transform: scale(0.5); 
+}
+
+/* Transición de textos */
+.gdos-cupon-toggle.is-on .thumb-text--off { opacity: 0; transform: scale(0.5); }
+.gdos-cupon-toggle.is-on .thumb-text--on  { opacity: 1; transform: scale(1); }
+
+/* 5. MENSAJES DE ERROR */
+.gdos-cupon-msg {
+    display: none;
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: right;
+    color: #ef4444; /* Rojo error */
+    font-weight: 500;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 6. MODIFICACIÓN DEL BOTÓN DE CARRITO (Estado Éxito) */
+/* Alta especificidad para sobrescribir el tema sin romper nada */
+body .single_add_to_cart_button.gdos-btn-disabled,
+body .single_add_to_cart_button.gdos-btn-disabled:disabled,
+body .single_add_to_cart_button.gdos-btn-disabled[disabled] {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    border-color: #059669 !important;
+    color: #ffffff !important;
+    
+    opacity: 1 !important;
+    cursor: default !important;
+    pointer-events: none; /* Asegura que no sea clickeable */
+    
+    box-shadow: none !important;
+    text-shadow: none !important;
+    
+    transition: background 0.3s ease;
+}

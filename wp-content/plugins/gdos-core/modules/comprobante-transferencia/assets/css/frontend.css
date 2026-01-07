@@ -1,0 +1,348 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/comprobante-transferencia/assets/css/frontend.css */
+
+:root {
+    /* --- Paleta de Colores GDOS --- */
+    --gdos-color-primary: #16a34a;      /* Verde Éxito */
+    --gdos-color-primary-dark: #15803d; 
+    --gdos-color-danger: #ef4444;       /* Rojo Error */
+    --gdos-color-danger-bg: #fef2f2;
+    --gdos-color-text: #0f172a;         /* Texto Principal */
+    --gdos-color-muted: #64748b;        /* Texto Secundario */
+    --gdos-color-border: #e2e8f0;       /* Bordes */
+    --gdos-bg-card: #ffffff;
+    --gdos-bg-accent: #f8fafc;
+}
+
+/* --- 1. SECCIÓN DE TOTAL --- */
+.gdos-transfer-total { 
+    text-align: center; 
+    margin-bottom: 24px; 
+    padding: 10px; 
+}
+.gdos-transfer-total p {
+    font-size: 14px; 
+    color: var(--gdos-color-muted); 
+    margin: 0 0 4px 0;
+    font-weight: 500; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+}
+.gdos-amount-value {
+    font-size: 32px; 
+    font-weight: 800; 
+    color: var(--gdos-color-text); 
+    line-height: 1.2;
+}
+
+/* --- 2. ALERTA --- */
+.gdos-alert-box {
+    background-color: #fff1f2 !important;
+    border: 1px solid #fecdd3 !important;
+    border-left: 4px solid #e11d48 !important;
+    border-radius: 6px; 
+    padding: 16px; 
+    margin: 0 0 20px 0;
+    display: flex; 
+    align-items: flex-start; 
+    gap: 12px;
+    color: #881337 !important;
+    font-size: 14px; 
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.gdos-alert-icon { 
+    flex-shrink: 0; 
+    display: flex; 
+    align-items: center; 
+    height: 20px; 
+}
+.gdos-alert-icon svg { 
+    stroke: #e11d48; 
+    display: block;
+}
+.gdos-alert-content strong { 
+    color: #881337 !important; 
+}
+
+/* --- 3. TARJETA PRINCIPAL (SLIP CARD) --- */
+.gdos-slip-card {
+    background: var(--gdos-bg-card) !important; 
+    border: 1px solid var(--gdos-color-border) !important; 
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important; 
+    margin: 0 0 2rem 0 !important;
+    overflow: hidden; 
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.gdos-slip-head {
+    background: var(--gdos-bg-accent); 
+    padding: 16px 24px; 
+    border-bottom: 1px solid var(--gdos-color-border);
+    display: flex; 
+    align-items: center; 
+    gap: 12px;
+}
+.gdos-slip-title {
+    font-size: 16px !important; 
+    font-weight: 700 !important; 
+    color: var(--gdos-color-text) !important; 
+    margin: 0 !important; 
+    text-transform: none !important;
+}
+.gdos-slip-body { 
+    padding: 24px; 
+}
+
+/* --- 4. ESTADO DE ÉXITO --- */
+.gdos-success-state {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.gdos-success-icon {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.gdos-success-icon svg {
+    stroke: var(--gdos-color-primary); 
+    display: block;
+}
+
+.gdos-success-text {
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
+    line-height: 1.5;
+    text-align: center !important;
+    width: 100%;
+}
+
+/* Contenedor de Botones */
+.gdos-action-buttons {
+    display: flex !important;
+    gap: 12px;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* --- 5. DROPZONE --- */
+.gdos-dropzone {
+    border: 2px dashed #cbd5e1; 
+    border-radius: 8px; 
+    background: #fdfdff;
+    padding: 32px 20px; 
+    margin-bottom: 24px; 
+    transition: all 0.2s;
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    box-sizing: border-box;
+}
+.gdos-dropzone:hover, 
+.gdos-dropzone.is-dragover { 
+    border-color: #3b82f6; 
+    background-color: #eff6ff; 
+}
+.gdos-dz-main { 
+    font-weight: 700; 
+    color: #334155; 
+    margin: 12px 0 4px 0 !important; 
+}
+.gdos-dz-sub { 
+    font-size: 13px; 
+    color: var(--gdos-color-muted); 
+    margin: 0 0 16px 0 !important; 
+}
+.gdos-file-name { 
+    margin-top: 12px; 
+    font-weight: 600; 
+    color: var(--gdos-color-primary); 
+    font-size: 14px; 
+}
+
+/* --- 6. BOTONES (Estilos Forzados) --- */
+.gdos-btn {
+    display: inline-flex !important; 
+    align-items: center; 
+    justify-content: center;
+    border-radius: 6px; 
+    font-weight: 600; 
+    text-decoration: none !important; 
+    cursor: pointer; 
+    transition: all 0.2s; 
+    border-style: solid !important; 
+    border-width: 1px !important; 
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.gdos-btn-primary {
+    background-color: var(--gdos-color-primary) !important; 
+    color: #ffffff !important; 
+    width: 100%; 
+    padding: 16px;
+    font-size: 16px; 
+    box-shadow: 0 4px 6px rgba(22, 163, 74, 0.25); 
+    border: none !important;
+}
+.gdos-btn-primary:hover { 
+    background-color: var(--gdos-color-primary-dark) !important; 
+    transform: translateY(-1px); 
+}
+
+/* Botón Ver (Outline Azul/Gris) */
+.gdos-btn-outline {
+    background: #fff !important; 
+    border-color: #cbd5e1 !important; 
+    color: #475569 !important; 
+    padding: 10px 18px !important; 
+    font-size: 14px !important;
+}
+.gdos-btn-outline:hover { 
+    border-color: #3b82f6 !important; 
+    color: #3b82f6 !important; 
+    background: #eff6ff !important; 
+}
+
+/* Botón Borrar (Danger) */
+.gdos-btn-danger {
+    background: #fff !important; 
+    border-color: #fca5a5 !important; 
+    color: var(--gdos-color-danger) !important; 
+    padding: 10px 18px !important; 
+    font-size: 14px !important;
+}
+.gdos-btn-danger:hover { 
+    border-color: #dc2626 !important; 
+    color: #dc2626 !important; 
+    background: var(--gdos-color-danger-bg) !important; 
+}
+
+/* --- 7. DATOS BANCARIOS (CARDS MODERNAS) --- */
+.woocommerce-bacs-bank-details, 
+section.woocommerce-bacs-bank-details {
+    background: transparent !important; 
+    border: none !important; 
+    padding: 0 !important; 
+    box-shadow: none !important; 
+    margin-bottom: 2rem !important;
+}
+
+.gdos-bacs-grid { 
+    display: grid; 
+    gap: 20px; 
+    grid-template-columns: 1fr; 
+}
+@media(min-width: 768px) { 
+    .gdos-bacs-grid { 
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    } 
+}
+
+.gdos-bacs-card {
+    background: var(--gdos-bg-card); 
+    border: 1px solid var(--gdos-color-border); 
+    border-radius: 12px; 
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.2s ease;
+    box-sizing: border-box;
+}
+.gdos-bacs-card:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); 
+    border-color: #cbd5e1; 
+}
+
+.gdos-bacs-card ul { margin: 0 !important; padding: 0 !important; list-style: none !important; }
+.gdos-bacs-card ul li {
+    margin-bottom: 12px !important; 
+    padding-bottom: 12px !important; 
+    border-bottom: 1px solid #f1f5f9 !important;
+    background: transparent !important; 
+    border-radius: 0 !important; 
+    padding: 0 0 12px 0 !important;
+    display: flex !important; 
+    flex-direction: column; 
+    align-items: flex-start;
+}
+.gdos-bacs-card ul li:last-child { 
+    border-bottom: none !important; 
+    margin-bottom: 0 !important; 
+    padding-bottom: 0 !important; 
+}
+
+.gdos-bacs-label { 
+    font-size: 11px; 
+    text-transform: uppercase; 
+    color: var(--gdos-color-muted); 
+    font-weight: 600; 
+    letter-spacing: 0.5px; 
+    margin-bottom: 4px; 
+    display: block; 
+}
+.gdos-bacs-value { 
+    font-size: 16px; 
+    color: var(--gdos-color-text); 
+    font-weight: 700; 
+    width: 100%; 
+    word-break: break-all; /* Evita que IBANs largos rompan el diseño */
+}
+.gdos-mono { 
+    font-family: 'Courier New', monospace; 
+}
+
+/* Botón Copiar */
+.gdos-number-row { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    gap: 10px;
+}
+.gdos-copy-btn {
+    appearance: none; 
+    background: #f1f5f9; 
+    border: 1px solid #cbd5e1; 
+    border-radius: 6px; 
+    color: #475569;
+    cursor: pointer; 
+    font-size: 11px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    padding: 6px 12px;
+    transition: all 0.2s ease; 
+    white-space: nowrap; 
+    margin-left: auto; /* Empuja el botón a la derecha */
+}
+.gdos-copy-btn:hover { 
+    border-color: #3b82f6; 
+    color: #3b82f6; 
+    background: #fff; 
+}
+.gdos-copy-btn.copied { 
+    border-color: var(--gdos-color-primary); 
+    color: var(--gdos-color-primary); 
+    background: #f0fdf4; 
+}
+
+.woocommerce-bacs-bank-details > h2, 
+section.woocommerce-bacs-bank-details > h2 { 
+    display: none !important; 
+}
+.gdos-bacs-main-title { 
+    font-size: 18px; 
+    font-weight: 700; 
+    color: var(--gdos-color-text); 
+    margin-bottom: 20px; 
+}

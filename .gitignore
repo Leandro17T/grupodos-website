@@ -1,0 +1,20 @@
+# WordPress Defaults
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+*.log
+*.sql
+*.sqlite
+
+# OS Defaults
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE Defaults
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

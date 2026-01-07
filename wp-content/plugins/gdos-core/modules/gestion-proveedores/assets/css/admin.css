@@ -1,0 +1,15 @@
+/* /modules/gestion-proveedores/assets/css/admin.css */
+.column-proveedor {
+    max-width: 80px; /* <-- Corregido */
+    width: 80px;     /* <-- Corregido */
+    overflow: hidden;
+    white-space: nowrap;
+}
+.gdos-proveedor-label {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 4px;
+}

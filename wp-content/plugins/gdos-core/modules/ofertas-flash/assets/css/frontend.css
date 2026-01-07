@@ -1,0 +1,387 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/ofertas-flash/assets/css/frontend.css */
+
+/* ============================================================
+   1. VARIABLES Y CONFIGURACIÓN BASE
+   ============================================================ */
+:root {
+    --gdos-vw: 100vw;
+}
+
+@supports (width: 100svw) {
+    :root { --gdos-vw: 100svw; } /* iOS Moderno */
+}
+
+.gdos-flash-wrap {
+    margin: 30px 0;
+    font-family: inherit;
+    /* Variables fallback (se sobreescriben inline desde PHP) */
+    --gdos-accent: #2196F3;
+    --gdos-border-start: #FFEB3B;
+    --gdos-border-end: #1e40af;
+    --gdos-buy: #1E40AF;
+    --gdos-timer: #111111;
+}
+
+.gdos-flash-wrap *,
+.gdos-flash-wrap *::before,
+.gdos-flash-wrap *::after {
+    box-sizing: border-box;
+}
+
+/* ============================================================
+   2. HEADER (Título + Timer)
+   ============================================================ */
+.gdos-flash-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.gdos-flash-title {
+    margin: 0;
+    line-height: 1.2;
+    color: var(--gdos-accent);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.gdos-title-gif {
+    height: 28px !important;
+    width: auto !important;
+    vertical-align: middle;
+    display: inline-block;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.gdos-title-text {
+    font-size: 1em;
+}
+
+/* Timer Global */
+.gdos-flash-global-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--gdos-timer, currentColor);
+}
+
+.gdos-flash-global-timer .gdos-tt { opacity: 0.9; }
+.gdos-flash-global-timer .gdos-count { font-variant-numeric: tabular-nums; }
+
+
+/* ============================================================
+   3. LAYOUT GRID (Desktop First)
+   ============================================================ */
+.gdos-flash-grid {
+    position: relative;
+    margin: 0 auto;
+}
+
+.gdos-flash-track {
+    display: grid;
+    /* Por defecto: 6 columnas */
+    grid-template-columns: repeat(6, 1fr);
+    gap: 14px;
+    align-items: stretch;
+}
+
+
+/* ============================================================
+   4. TARJETA DE PRODUCTO (Card)
+   ============================================================ */
+.gdos-flash-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 14px;
+    
+    /* Diseño Borde Degradado + Fondo Blanco */
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(135deg, var(--gdos-border-start), var(--gdos-border-end)) border-box;
+    border: 1.5px solid transparent;
+    
+    /* Efectos Visuales */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    backdrop-filter: saturate(110%) blur(0px);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.gdos-flash-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+/* Imagen del Producto */
+.gdos-img {
+    display: block;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid rgba(17,17,17,0.06);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6);
+    background: linear-gradient(180deg, #fff, #fafafa);
+    position: relative;
+    height: 0;
+    padding-bottom: 100%; /* Aspect Ratio 1:1 */
+}
+
+.gdos-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: transparent;
+}
+
+/* Cuerpo de la tarjeta */
+.gdos-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.gdos-spacer {
+    flex: 1 1 auto;
+    min-height: 8px;
+}
+
+
+/* ============================================================
+   5. DETALLES DEL PRODUCTO
+   ============================================================ */
+
+/* Bloque de Precios */
+.gdos-price-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+/* Precio Principal (IVA OFF) */
+.gdos-price-main {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.gdos-price-main .gcf-label {
+    font-weight: 500;
+    color: #555;
+    opacity: 0.9;
+    font-size: 0.94rem;
+}
+
+.gdos-price-main .gcf-price,
+.gdos-price-main .gcf-price-off {
+    font-weight: 900;
+    font-size: 1.35rem;
+    line-height: 1.1;
+    /* Forzamos el color del acento */
+    color: var(--gdos-accent) !important;
+}
+
+.gdos-price-main .gcf-price * {
+    color: inherit !important;
+}
+
+/* Precio Regular (Tachado/Referencia) */
+.gdos-price-regular {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.gdos-price-regular .gcf-label {
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.gdos-price-regular .gcf-price {
+    font-weight: 700;
+    color: #222;
+}
+
+.gdos-price-regular del,
+.gdos-price-regular ins {
+    all: unset; /* Reset de estilos de WC */
+}
+
+/* Cuotas */
+.gdos-cuotas {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #1e40af;
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    flex-wrap: wrap;
+}
+
+.gdos-cuotas-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Título */
+.gdos-title {
+    font-size: 0.95rem;
+    line-height: 1.3;
+    color: #111;
+    margin-top: 6px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    
+    /* Line Clamp (2 líneas) */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 2.6em;
+    max-height: 2.6em;
+}
+
+/* Botón Comprar */
+.gdos-buy {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-top: 10px;
+    
+    background: var(--gdos-buy);
+    color: #fff !important;
+    border: 1px solid color-mix(in oklab, var(--gdos-buy) 25%, #0000);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    
+    transition: transform 0.16s ease, box-shadow 0.16s ease, filter 0.16s ease;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.gdos-buy:hover,
+.gdos-buy:focus {
+    filter: brightness(1.05);
+    color: #fff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.10);
+}
+
+.gdos-buy:focus-visible {
+    outline: 2px solid color-mix(in oklab, var(--gdos-buy) 50%, #0000);
+    outline-offset: 2px;
+}
+
+.gdos-buy-icon {
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+    display: inline-block;
+}
+
+
+/* ============================================================
+   6. RESPONSIVE (Media Queries)
+   ============================================================ */
+
+/* Mobile / Tablet (<= 1024px) */
+/* Lógica: Full width del wrapper, pero contenido al 95% centrado */
+@media (max-width: 1024px) {
+    .gdos-flash-wrap {
+        width: var(--gdos-vw);
+        margin-left: calc(50% - var(--gdos-vw) / 2);
+        margin-right: calc(50% - var(--gdos-vw) / 2);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .gdos-flash-grid {
+        width: calc(var(--gdos-vw) * 0.95);
+        max-width: calc(var(--gdos-vw) * 0.95);
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .gdos-flash-track {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columnas */
+        gap: 10px;
+    }
+
+    /* Ajustes de espaciado en cabecera */
+    .gdos-flash-head {
+        margin-bottom: 18px;
+    }
+
+    /* Ocultar decoraciones innecesarias */
+    .gdos-dots { display: none; }
+}
+
+/* Safe Areas iOS (Notch support) */
+@supports (padding: max(0px)) {
+    @media (max-width: 1024px) {
+        .gdos-flash-grid {
+            padding-left: max(0px, env(safe-area-inset-left));
+            padding-right: max(0px, env(safe-area-inset-right));
+        }
+    }
+}
+
+/* Mobile Pequeño (<= 600px) */
+@media (max-width: 600px) {
+    .gdos-flash-track {
+        gap: 8px;
+    }
+    .gdos-title {
+        font-size: 0.9rem;
+    }
+}
+
+/* Ultra Pequeño (<= 380px) */
+@media (max-width: 380px) {
+    .gdos-buy {
+        font-size: 0.78rem;
+        padding: 10px 8px;
+    }
+}
+
+/* Accesibilidad: Reducción de movimiento */
+@media (prefers-reduced-motion: reduce) {
+    .gdos-flash-card,
+    .gdos-buy {
+        transition: none !important;
+    }
+}

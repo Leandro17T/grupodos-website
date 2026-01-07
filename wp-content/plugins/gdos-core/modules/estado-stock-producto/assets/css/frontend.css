@@ -1,0 +1,45 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/estado-stock-producto/assets/css/frontend.css */
+
+.gdos-stock-status {
+    /* Variables locales */
+    --gdos-stock-ok: #1e8751;   /* Verde éxito */
+    --gdos-stock-no: #b91c1c;   /* Rojo error */
+    --gdos-icon-size: 20px;
+
+    display: flex;
+    align-items: center;    /* Centrado vertical perfecto */
+    gap: 8px;               /* Espacio consistente */
+    
+    width: 100%;
+    box-sizing: border-box;
+    
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.95em;
+    line-height: 1.2;       /* Altura de línea segura */
+    
+    margin: 10px 0;
+    padding: 0;
+}
+
+.gdos-stock-status__icon {
+    width: var(--gdos-icon-size);
+    height: var(--gdos-icon-size);
+    
+    /* CRÍTICO: Evita que el icono se aplaste en móviles */
+    flex-shrink: 0;
+    
+    /* Asegura proporción del SVG */
+    object-fit: contain;
+    display: block; 
+}
+
+/* Modificadores de Estado */
+.gdos-stock-status--in-stock {
+    color: var(--gdos-stock-ok);
+}
+
+.gdos-stock-status--out-of-stock {
+    color: var(--gdos-stock-no);
+}

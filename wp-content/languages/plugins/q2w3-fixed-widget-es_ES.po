@@ -1,0 +1,155 @@
+# Translation of Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-31 08:44:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Advanced Ads"
+msgstr "Anuncios avanzados"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com/fixed-widget-wordpress"
+msgstr "https://wpadvancedads.com/fixed-widget-wordpress"
+
+#: q2w3-fixed-widget.php:436
+msgid "The improved script works best with themes that support flexbox instead of float."
+msgstr "El script mejorado funciona mejor con temas compatibles con flexbox en lugar de float."
+
+#: q2w3-fixed-widget.php:434
+msgid "Enable this option to use the completely updated script. It takes care of common issues and layout shifts."
+msgstr "Activa esta opción para usar el script completamente actualizado. Se encarga de los problemas comunes y de los cambios de diseño."
+
+#: q2w3-fixed-widget.php:431
+msgid "Improved version"
+msgstr "Versión mejorada"
+
+#: q2w3-fixed-widget.php:491
+msgid "provides many features to manage and optimize your ads and to boost your conversions. It works perfectly with the Fixed Widget plugin."
+msgstr "ofrece muchas características para gestionar y optimizar tus anuncios e impulsar tus conversiones. Funciona perfectamente con el plugin de widget fijo."
+
+#: q2w3-fixed-widget.php:481
+msgid "The stop elements will push sticky elements up as soon as they reach them while scrolling."
+msgstr "Los elementos de parada empujarán los elementos fijos cuando lleguen a ellos al hacer scroll."
+
+#: q2w3-fixed-widget.php:480
+msgid "The distance fixed elements will keep from the bottom of the window."
+msgstr "Los elementos de distancia fija se mantendrán al fondo de la ventana."
+
+#: q2w3-fixed-widget.php:479
+msgid "The distance fixed elements will keep from the top of the window."
+msgstr "Los elementos de distancia fija se mantendrán en la parte superior de la ventana."
+
+#: q2w3-fixed-widget.php:464 q2w3-fixed-widget.php:482
+msgid "One entry per line."
+msgstr "Un registro por línea."
+
+#: q2w3-fixed-widget.php:464 q2w3-fixed-widget.php:482
+msgid "Accepts IDs, Class, and Type selectors."
+msgstr "Acepta IDs, clases y selectores de tipo."
+
+#: q2w3-fixed-widget.php:464
+msgid "Add HTML element selectors that should be fixed."
+msgstr "Añade selectores del elemento HTML que deberían ser fijos."
+
+#: q2w3-fixed-widget.php:454
+msgid "Minimum Screen Height"
+msgstr "Altura mínima de la pantalla"
+
+#: q2w3-fixed-widget.php:453
+msgid "Disable the plugin on small devices. When the browser screen width is less than the specified value, Fixed Widget will not make any elements sticky."
+msgstr "Desactiva el plugin en dispositivos pequeños. Cuando el ancho de la pantalla del navegador es menor que el valor especificado Fixed Widget no hará fijo ningún elemento. "
+
+#: q2w3-fixed-widget.php:453
+msgid "Minimum Screen Width"
+msgstr "Ancho mínimo de pantalla"
+
+#. translators: %1$s is an opening a tag, %2ds is a closing one
+#: q2w3-fixed-widget.php:441
+msgid "If you discover any issues then please report them %1$shere%2$s"
+msgstr "Si descubres algún problema, por favor, informa sobre ellos %1$saquí%2$s"
+
+#: q2w3-fixed-widget.php:385
+msgid "Custom Fixed Elements"
+msgstr "Elementos fijos personalizados"
+
+#: q2w3-fixed-widget.php:384 q2w3-fixed-widget.php:481
+msgid "Stop Elements"
+msgstr "Elementos de parada"
+
+#. Plugin Name of the plugin
+#: q2w3-fixed-widget.php:293 q2w3-fixed-widget.php:391 js/backend.js:1409
+msgid "Fixed Widget"
+msgstr "Widget fijo"
+
+#: q2w3-fixed-widget.php:537
+msgid "Settings"
+msgstr "Ajustes"
+
+#: q2w3-fixed-widget.php:508
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: q2w3-fixed-widget.php:505
+msgid "Activate Now"
+msgstr "Activar ahora"
+
+#: q2w3-fixed-widget.php:454
+msgid " Works like the Minimum Width option."
+msgstr "Funciona como la opción de desactivar el ancho."
+
+#: q2w3-fixed-widget.php:415
+msgid " Note for users of caching plugins. Please, don’t forget to clear the cache after changing options."
+msgstr "Nota para los usuarios de plugins de caché. Por favor, no olvides vaciar la caché después de cambiar las opciones."
+
+#: q2w3-fixed-widget.php:387
+msgid "Documentation and Support"
+msgstr "Documentación y soporte"
+
+#: q2w3-fixed-widget.php:386
+msgid "Recommended Integration"
+msgstr "Integración recomendada"
+
+#. Description of the plugin
+msgid "Use the fixed widget plugin to create sticky widgets that stay in the visible screen area when the page is scrolled up or down and boost your conversions."
+msgstr "Utiliza el plugin de widget fijo para crear widgets fijos que se mantienen en el área visible de la pantalla cuando se hace scroll arriba o abajo en la página y mejora tus conversiones."
+
+#. Plugin URI of the plugin
+msgid "https://wpadvancedads.com/fixed-widget-wordpress/"
+msgstr "https://wpadvancedads.com/fixed-widget-wordpress/"
+
+#: q2w3-fixed-widget.php:480
+msgid "Margin Bottom"
+msgstr "Margen inferior:"
+
+#: q2w3-fixed-widget.php:453 q2w3-fixed-widget.php:454
+#: q2w3-fixed-widget.php:479 q2w3-fixed-widget.php:480
+msgid "px"
+msgstr "px"
+
+#: q2w3-fixed-widget.php:479
+msgid "Margin Top"
+msgstr "Margen superior:"
+
+#: q2w3-fixed-widget.php:417
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: q2w3-fixed-widget.php:394
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: q2w3-fixed-widget.php:383
+msgid "General Options"
+msgstr "Opciones generales"
+
+#: q2w3-fixed-widget.php:263
+msgid "Fixed widget"
+msgstr "Widget fijo"

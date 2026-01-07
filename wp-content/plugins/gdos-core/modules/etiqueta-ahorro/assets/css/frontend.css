@@ -1,0 +1,29 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/etiqueta-ahorro/assets/css/frontend.css */
+
+.gdos-saving-badge {
+    /* Variables locales */
+    --gdos-badge-bg: #e8e8e8;
+    --gdos-badge-text: #333;
+
+    display: inline-block;
+    box-sizing: border-box;
+    
+    /* Tipografía */
+    font-family: inherit;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1.2;      /* Reseteo para centrado vertical perfecto */
+    color: var(--gdos-badge-text);
+    text-decoration: none;
+    
+    /* Caja */
+    background-color: var(--gdos-badge-bg);
+    padding: 4px 10px;     /* Ajustado ligeramente para balancear */
+    border-radius: 4px;
+    margin: 5px 0;         /* Shorthand para top y bottom */
+    
+    /* UX/UI */
+    white-space: nowrap;    /* Evita que el precio se corte en dos líneas */
+    vertical-align: middle; /* Alineación correcta con textos vecinos */
+}

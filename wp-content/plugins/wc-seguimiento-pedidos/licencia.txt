@@ -1,0 +1,45 @@
+(c) 2018 - 2023 Enrique J. Ros
+
+La compra de este plugin te proporciona el derecho a utilizarlo en los términos establecidos en esta licencia, pero el código fuente es propiedad intelectual de Enrique J. Ros (enrique@enriquejros.com) y está protegido por las leyes de propiedad intelectual vigentes.
+
+Puedes consultar una copia permanentemente actualizada de esta licencia en https://www.enriquejros.com/licencia-plugins/
+
+
+¿A qué te da derecho la compra de este plugin?
+----------------------------------------------
+
+Puedes instalarlo y utilizarlo en cualquiera de las webs que desarrolles, administres o gestiones, ya sean tuyas o para tus clientes, sin límite de número. También incluye:
+
+	* Actualizaciones, sin límite de tiempo.
+
+	* Soporte, para cualquier tema relacionado con la instalación y/o el funcionamiento del plugin, durante seis meses (o durante el tiempo en que esté activa la suscripción, si eres suscriptor de plugins - más info: https://www.enriquejros.com/suscripcion-plugins-premium/ ).
+
+	* Garantía de reembolso para la compra de plugins individuales (consulta los detalles más abajo) durante 30 días.
+
+
+¿Qué no puedes hacer con el plugin?
+-----------------------------------
+
+No puedes venderlo o comercializarlo de ningún modo. No puedes regalarlo, compartirlo ni ofrecerlo como obsequio o beneficio por la compra o contratación de algún otro producto o servicio. Es decir, no puedes lucrarte con él.
+
+
+Garantía de reembolso de 30 días
+--------------------------------
+
+Aunque todos mis plugins están testados y comprobados en diversas situaciones, soy consciente de que la diversidad de plugins y plantillas disponibles para WordPress puede hacer que no todo funcione perfectamente todo el tiempo y se produzcan incidencias.
+
+Yo me hago plenamente responsable de mi código y si tienes alguna incidencia técnica con el plugin que no pueda resolver y le haga perder utilidad estaré encantado de hacerte un reembolso completo de dicho plugin. Sólo unas pocas condiciones, bastante sencillas:
+
+	1. Debes asegurarte de no estar usando versiones obsoletas de WordPress o de WooCommerce. En esos casos no puedo garantizar el correcto funcionamiento del plugin y no se aplica la garantía de reembolso, ya que la culpa del mal funcionamiento no sería del plugin, sino de las versiones obsoletas de WordPress o WooCommerce.
+
+	2. No realizo reembolsos basados en "creí que el plugin hacía A, pero resulta que hace B". Todas las funcionalidades del plugin están detalladas en la página de compra, dejando claro qué es exactamente lo que hace. Si aún así tienes dudas no tienes más que contactarme y te las resuelvo con la mayor brevedad.
+
+	3. No puedo realizar devoluciones por incidencias técnicas si no me permites intentar solucionarlas. Cada plugin incluye mi soporte personal, y estaré encantado de revisar y resolver cada incidencia que pudiera surgir. Pero si tú no me lo permites no puedo hacer nada.
+
+	4. La solicitud de devolución debe realizarse dentro de los 30 días naturales a partir de la compra.
+
+
+Disclaimer
+----------
+
+Este plugin se proporciona "tal cual", sin garantía de ningún tipo, expresa o implícita, incluyendo pero no limitándose a las garantías de comerciabilidad, ideoneidad para un propósito particular y no incumplimiento. En ningún causo el autor será responsable por cualquier reclamación, daños u otras responsabilidades, ya sea mediante un contrato u otra manera, derivadas de o en conexión con el plugin o su utilización.

@@ -1,0 +1,34 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">color</custom-field>
+		<custom-field action="copy">_color</custom-field>
+		<custom-field action="copy">color_label</custom-field>
+		<custom-field action="copy">_color_label</custom-field>
+		<custom-field action="copy">icono</custom-field>
+		<custom-field action="copy">_icono</custom-field>
+		<custom-field action="copy">notificaciones</custom-field>
+		<custom-field action="copy">_notificaciones</custom-field>
+		<custom-field action="copy">email_admin</custom-field>
+		<custom-field action="copy">_email_admin</custom-field>
+		<custom-field action="translate">asunto</custom-field>
+		<custom-field action="copy">_asunto</custom-field>
+		<custom-field action="translate">heading</custom-field>
+		<custom-field action="copy">_heading</custom-field>
+		<custom-field action="translate">plantilla</custom-field>
+		<custom-field action="copy">_plantilla</custom-field>
+		<custom-field action="translate">adjuntos</custom-field>
+		<custom-field action="copy">_adjuntos</custom-field>
+		<custom-field action="translate">adjuntos_0_adjunto</custom-field>
+		<custom-field action="copy">_adjuntos_0_adjunto</custom-field>
+		<custom-field action="copy">estilos</custom-field>
+		<custom-field action="copy">_estilos</custom-field>
+		<custom-field action="translate">sigestado</custom-field>
+		<custom-field action="copy">_sigestado</custom-field>
+		<custom-field action="copy">informes</custom-field>
+		<custom-field action="copy">_informes</custom-field>
+		<custom-field action="copy">autopago</custom-field>
+		<custom-field action="copy">_autopago</custom-field>
+		<custom-field action="copy">autorol</custom-field>
+		<custom-field action="copy">_autorol</custom-field>
+	</custom-fields>
+</wpml-config>

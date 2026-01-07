@@ -1,0 +1,57 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/tipo-envio-producto/assets/css/frontend.css */
+
+/* --- Contenedor Base (Minimalista) --- */
+.gdos-tipo-envio {
+    display: flex;
+    align-items: center; /* Alineación vertical centrada estricta */
+    gap: 8px;
+    
+    margin: 8px 0;
+    padding: 6px 0;
+    
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    
+    font-size: 14px;
+    line-height: 1.4;
+    color: inherit; /* Se adapta al color de texto del tema padre */
+    text-align: left;
+}
+
+/* --- Ícono --- */
+.gdos-tipo-envio__icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    
+    /* Seguridad: Evita deformación si el SVG no es cuadrado */
+    object-fit: contain; 
+    
+    /* Seguridad: Evita que el icono se encoja si el texto es muy largo */
+    flex-shrink: 0; 
+}
+
+/* --- Texto --- */
+.gdos-tipo-envio span {
+    display: block; /* Mejor comportamiento que inline-block en flex items */
+    font-weight: 400;
+}
+
+.gdos-tipo-envio span strong {
+    font-weight: 600; /* Enfasis visual jerárquico */
+}
+
+/* --- Responsivo (Móvil) --- */
+@media (max-width: 767px) {
+    .gdos-tipo-envio {
+        font-size: 13px;
+        gap: 6px;
+    }
+    
+    .gdos-tipo-envio__icon {
+        width: 16px;
+        height: 16px;
+    }
+}

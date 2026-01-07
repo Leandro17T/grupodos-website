@@ -1,0 +1,1694 @@
+0000.050 (R) [notice] Buscando archivo (db), nombre del archivo: backup_2026-01-06-2321_Bazar_Grupo_Dos_f74c79e38603-db.gz
+0000.050 (R) [notice] Tamaño esperado del archivo: 82343.5 KB: Ok
+0000.052 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.058 (R) [notice] Descomprimiendo la copia de seguridad... (backup_2026-01-06-2321_Bazar_Grupo_Dos_f74c79e38603-db.gz, 80.4 Mb)
+0000.188 (R) [notice] Restaurando la base de datos... (en sitios grandes podría tardar mucho tiempo - si obtiene errores de exceso de tiempo de ejecución de comandos (timeout), lo que puede pasar si su proveedor de alojamiento (hosting) tiene configurado su alojamiento con recursos limitados, entonces debe usar un método diferente como phpMyAdmin)
+0000.257 (R) [notice] Activando el modo de mantenimiento&#8230;
+0000.267 (R) [notice] Copia de seguridad de: https://grupodos.com.uy
+0000.271 (R) [notice] URL del contenido: https://grupodos.com.uy/wp-content
+0000.271 (R) [notice] URL de subidas: http://grupodos.com.uy/wp-content/uploads
+0000.271 (R) [notice] Antiguo prefijo de la tabla: wp_
+0000.271 (R) [notice] ABSPATH anterior: /home/grupodos.com.uy/public_html/
+0000.271 (R) [notice] Slug del pplugin UpdraftPlus: updraftplus/updraftplus.php
+0000.271 (R) [notice] Información del sitio: multisite = 0
+0000.271 (R) [notice] Información del sitio: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.271 (R) [notice] Información del sitio: WooCommerce = 10.4.3
+0000.271 (R) [notice] Tablas omitidas: cerber_acl, cerber_blocks, cerber_countries, cerber_lab, cerber_lab_ip, cerber_lab_net, cerber_log, cerber_qmem, cerber_traffic
+0000.272 (R) [notice] New table prefix: gf_
+0000.280 (R) [notice] Procesando table (InnoDB):  wp_options - se restaurará como: gf_options
+0000.925 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.932 (R) [notice] Atomic restore: renaming new table (gf_options) to final table name (wp_options)
+0002.081 (R) [notice] Tabla de búsqueda y reemplazo: wp_options: filas: 14730
+0002.307 (R) [notice] Searching and replacing reached row: 5000
+0003.637 (R) [notice] Searching and replacing reached row: 10000
+0003.847 (R) [notice] Procesando table (InnoDB):  wp_users - se restaurará como: gf_users
+0003.971 (R) [notice] Database queries processed: 50 in 3.77 seconds
+0003.972 (R) [notice] Atomic restore: dropping original table (wp_users)
+0003.983 (R) [notice] Atomic restore: renaming new table (gf_users) to final table name (wp_users)
+0003.998 (R) [notice] Tabla de búsqueda y reemplazo: wp_users: filas: 1322
+0004.027 (R) [notice] Procesando table (InnoDB):  wp_usermeta - se restaurará como: gf_usermeta
+0006.424 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0006.434 (R) [notice] Atomic restore: renaming new table (gf_usermeta) to final table name (wp_usermeta)
+0006.524 (R) [notice] Tabla de búsqueda y reemplazo: wp_usermeta: filas: 157258
+0006.569 (R) [notice] Searching and replacing reached row: 5000
+0006.639 (R) [notice] Searching and replacing reached row: 10000
+0006.692 (R) [notice] Searching and replacing reached row: 15000
+0006.745 (R) [notice] Searching and replacing reached row: 20000
+0006.844 (R) [notice] Searching and replacing reached row: 25000
+0006.918 (R) [notice] Searching and replacing reached row: 30000
+0006.988 (R) [notice] Searching and replacing reached row: 35000
+0007.049 (R) [notice] Searching and replacing reached row: 40000
+0007.105 (R) [notice] Searching and replacing reached row: 45000
+0007.158 (R) [notice] Searching and replacing reached row: 50000
+0007.233 (R) [notice] Searching and replacing reached row: 55000
+0007.367 (R) [notice] Searching and replacing reached row: 60000
+0007.422 (R) [notice] Searching and replacing reached row: 65000
+0007.529 (R) [notice] Searching and replacing reached row: 70000
+0007.633 (R) [notice] Searching and replacing reached row: 75000
+0007.749 (R) [notice] Searching and replacing reached row: 80000
+0007.854 (R) [notice] Searching and replacing reached row: 85000
+0008.011 (R) [notice] Searching and replacing reached row: 90000
+0008.222 (R) [notice] Searching and replacing reached row: 95000
+0008.495 (R) [notice] Searching and replacing reached row: 100000
+0008.739 (R) [notice] Searching and replacing reached row: 105000
+0008.958 (R) [notice] Searching and replacing reached row: 110000
+0009.085 (R) [notice] Searching and replacing reached row: 115000
+0009.396 (R) [notice] Searching and replacing reached row: 120000
+0009.604 (R) [notice] Searching and replacing reached row: 125000
+0009.746 (R) [notice] Searching and replacing reached row: 130000
+0009.933 (R) [notice] Searching and replacing reached row: 135000
+0010.187 (R) [notice] Searching and replacing reached row: 140000
+0010.433 (R) [notice] Searching and replacing reached row: 145000
+0010.700 (R) [notice] Searching and replacing reached row: 150000
+0011.015 (R) [notice] Searching and replacing reached row: 155000
+0011.255 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_actions - se restaurará como: gf_actionscheduler_actions
+0011.515 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0011.517 (R) [notice] Atomic restore: renaming new table (gf_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0011.529 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_actions: filas: 389
+0011.536 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_claims - se restaurará como: gf_actionscheduler_claims
+0011.571 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0011.573 (R) [notice] Atomic restore: renaming new table (gf_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0011.600 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_claims: filas: 16
+0011.601 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_groups - se restaurará como: gf_actionscheduler_groups
+0011.721 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0011.722 (R) [notice] Atomic restore: renaming new table (gf_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0011.732 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_groups: filas: 23
+0011.733 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_logs - se restaurará como: gf_actionscheduler_logs
+0012.496 (R) [notice] Database queries processed: 100 in 12.30 seconds
+0019.537 (R) [notice] Database queries processed: 150 in 19.34 seconds
+0019.594 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0019.595 (R) [notice] Atomic restore: renaming new table (gf_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0019.737 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_logs: filas: 501508
+0019.770 (R) [notice] Searching and replacing reached row: 5000
+0019.799 (R) [notice] Searching and replacing reached row: 10000
+0019.830 (R) [notice] Searching and replacing reached row: 15000
+0019.862 (R) [notice] Searching and replacing reached row: 20000
+0019.894 (R) [notice] Searching and replacing reached row: 25000
+0019.927 (R) [notice] Searching and replacing reached row: 30000
+0019.963 (R) [notice] Searching and replacing reached row: 35000
+0020.000 (R) [notice] Searching and replacing reached row: 40000
+0020.037 (R) [notice] Searching and replacing reached row: 45000
+0020.090 (R) [notice] Searching and replacing reached row: 50000
+0020.180 (R) [notice] Searching and replacing reached row: 55000
+0020.278 (R) [notice] Searching and replacing reached row: 60000
+0020.389 (R) [notice] Searching and replacing reached row: 65000
+0020.455 (R) [notice] Searching and replacing reached row: 70000
+0020.536 (R) [notice] Searching and replacing reached row: 75000
+0020.648 (R) [notice] Searching and replacing reached row: 80000
+0020.778 (R) [notice] Searching and replacing reached row: 85000
+0020.901 (R) [notice] Searching and replacing reached row: 90000
+0021.020 (R) [notice] Searching and replacing reached row: 95000
+0021.153 (R) [notice] Searching and replacing reached row: 100000
+0021.299 (R) [notice] Searching and replacing reached row: 105000
+0021.428 (R) [notice] Searching and replacing reached row: 110000
+0021.495 (R) [notice] Searching and replacing reached row: 115000
+0021.607 (R) [notice] Searching and replacing reached row: 120000
+0021.694 (R) [notice] Searching and replacing reached row: 125000
+0021.849 (R) [notice] Searching and replacing reached row: 130000
+0022.007 (R) [notice] Searching and replacing reached row: 135000
+0022.126 (R) [notice] Searching and replacing reached row: 140000
+0022.295 (R) [notice] Searching and replacing reached row: 145000
+0022.449 (R) [notice] Searching and replacing reached row: 150000
+0022.628 (R) [notice] Searching and replacing reached row: 155000
+0022.807 (R) [notice] Searching and replacing reached row: 160000
+0022.983 (R) [notice] Searching and replacing reached row: 165000
+0023.164 (R) [notice] Searching and replacing reached row: 170000
+0023.352 (R) [notice] Searching and replacing reached row: 175000
+0023.526 (R) [notice] Searching and replacing reached row: 180000
+0023.691 (R) [notice] Searching and replacing reached row: 185000
+0023.867 (R) [notice] Searching and replacing reached row: 190000
+0024.019 (R) [notice] Searching and replacing reached row: 195000
+0024.218 (R) [notice] Searching and replacing reached row: 200000
+0024.424 (R) [notice] Searching and replacing reached row: 205000
+0024.591 (R) [notice] Searching and replacing reached row: 210000
+0024.758 (R) [notice] Searching and replacing reached row: 215000
+0024.913 (R) [notice] Searching and replacing reached row: 220000
+0025.131 (R) [notice] Searching and replacing reached row: 225000
+0025.327 (R) [notice] Searching and replacing reached row: 230000
+0025.558 (R) [notice] Searching and replacing reached row: 235000
+0025.769 (R) [notice] Searching and replacing reached row: 240000
+0025.981 (R) [notice] Searching and replacing reached row: 245000
+0026.178 (R) [notice] Searching and replacing reached row: 250000
+0026.390 (R) [notice] Searching and replacing reached row: 255000
+0026.616 (R) [notice] Searching and replacing reached row: 260000
+0026.835 (R) [notice] Searching and replacing reached row: 265000
+0027.070 (R) [notice] Searching and replacing reached row: 270000
+0027.261 (R) [notice] Searching and replacing reached row: 275000
+0027.416 (R) [notice] Searching and replacing reached row: 280000
+0027.651 (R) [notice] Searching and replacing reached row: 285000
+0027.889 (R) [notice] Searching and replacing reached row: 290000
+0028.112 (R) [notice] Searching and replacing reached row: 295000
+0028.315 (R) [notice] Searching and replacing reached row: 300000
+0028.565 (R) [notice] Searching and replacing reached row: 305000
+0028.792 (R) [notice] Searching and replacing reached row: 310000
+0029.042 (R) [notice] Searching and replacing reached row: 315000
+0029.279 (R) [notice] Searching and replacing reached row: 320000
+0029.528 (R) [notice] Searching and replacing reached row: 325000
+0029.758 (R) [notice] Searching and replacing reached row: 330000
+0030.052 (R) [notice] Searching and replacing reached row: 335000
+0030.328 (R) [notice] Searching and replacing reached row: 340000
+0030.496 (R) [notice] Searching and replacing reached row: 345000
+0030.671 (R) [notice] Searching and replacing reached row: 350000
+0030.890 (R) [notice] Searching and replacing reached row: 355000
+0031.164 (R) [notice] Searching and replacing reached row: 360000
+0031.345 (R) [notice] Searching and replacing reached row: 365000
+0031.534 (R) [notice] Searching and replacing reached row: 370000
+0031.720 (R) [notice] Searching and replacing reached row: 375000
+0031.908 (R) [notice] Searching and replacing reached row: 380000
+0032.123 (R) [notice] Searching and replacing reached row: 385000
+0032.434 (R) [notice] Searching and replacing reached row: 390000
+0032.629 (R) [notice] Searching and replacing reached row: 395000
+0032.884 (R) [notice] Searching and replacing reached row: 400000
+0033.064 (R) [notice] Searching and replacing reached row: 405000
+0033.307 (R) [notice] Searching and replacing reached row: 410000
+0033.540 (R) [notice] Searching and replacing reached row: 415000
+0033.763 (R) [notice] Searching and replacing reached row: 420000
+0034.023 (R) [notice] Searching and replacing reached row: 425000
+0034.241 (R) [notice] Searching and replacing reached row: 430000
+0034.610 (R) [notice] Searching and replacing reached row: 435000
+0034.838 (R) [notice] Searching and replacing reached row: 440000
+0035.135 (R) [notice] Searching and replacing reached row: 445000
+0035.528 (R) [notice] Searching and replacing reached row: 450000
+0035.801 (R) [notice] Searching and replacing reached row: 455000
+0036.083 (R) [notice] Searching and replacing reached row: 460000
+0036.410 (R) [notice] Searching and replacing reached row: 465000
+0036.689 (R) [notice] Searching and replacing reached row: 470000
+0036.992 (R) [notice] Searching and replacing reached row: 475000
+0037.268 (R) [notice] Searching and replacing reached row: 480000
+0037.515 (R) [notice] Searching and replacing reached row: 485000
+0037.890 (R) [notice] Searching and replacing reached row: 490000
+0038.270 (R) [notice] Searching and replacing reached row: 495000
+0038.656 (R) [notice] Searching and replacing reached row: 500000
+0038.912 (R) [notice] Procesando table (InnoDB):  wp_commentmeta - se restaurará como: gf_commentmeta
+0039.109 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0039.120 (R) [notice] Atomic restore: renaming new table (gf_commentmeta) to final table name (wp_commentmeta)
+0039.131 (R) [notice] Tabla de búsqueda y reemplazo: wp_commentmeta: filas: 5730
+0039.210 (R) [notice] Searching and replacing reached row: 5000
+0039.221 (R) [notice] Procesando table (InnoDB):  wp_comments - se restaurará como: gf_comments
+0041.660 (R) [notice] Database queries processed: 200 in 41.46 seconds
+0041.781 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0041.793 (R) [notice] Atomic restore: renaming new table (gf_comments) to final table name (wp_comments)
+0041.908 (R) [notice] Tabla de búsqueda y reemplazo: wp_comments: filas: 46758
+0042.023 (R) [notice] Searching and replacing reached row: 5000
+0042.156 (R) [notice] Searching and replacing reached row: 10000
+0042.302 (R) [notice] Searching and replacing reached row: 15000
+0042.466 (R) [notice] Searching and replacing reached row: 20000
+0042.608 (R) [notice] Searching and replacing reached row: 25000
+0042.754 (R) [notice] Searching and replacing reached row: 30000
+0042.940 (R) [notice] Searching and replacing reached row: 35000
+0043.148 (R) [notice] Searching and replacing reached row: 40000
+0043.425 (R) [notice] Searching and replacing reached row: 45000
+0043.566 (R) [notice] Procesando table (InnoDB):  wp_e_notes - se restaurará como: gf_e_notes
+0043.665 (R) [notice] Atomic restore: dropping original table (wp_e_notes)
+0043.666 (R) [notice] Atomic restore: renaming new table (gf_e_notes) to final table name (wp_e_notes)
+0043.683 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_notes: filas: 0
+0043.683 (R) [notice] Procesando table (InnoDB):  wp_e_notes_users_relations - se restaurará como: gf_e_notes_users_relations
+0043.719 (R) [notice] Atomic restore: dropping original table (wp_e_notes_users_relations)
+0043.720 (R) [notice] Atomic restore: renaming new table (gf_e_notes_users_relations) to final table name (wp_e_notes_users_relations)
+0043.728 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_notes_users_relations: filas: 0
+0043.728 (R) [notice] Procesando table (InnoDB):  wp_links - se restaurará como: gf_links
+0043.759 (R) [notice] Atomic restore: dropping original table (wp_links)
+0043.766 (R) [notice] Atomic restore: renaming new table (gf_links) to final table name (wp_links)
+0043.776 (R) [notice] Tabla de búsqueda y reemplazo: wp_links: filas: 7
+0043.777 (R) [notice] Procesando table (InnoDB):  wp_postmeta - se restaurará como: gf_postmeta
+0045.606 (R) [notice] Database queries processed: 250 in 45.41 seconds
+0057.575 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0057.600 (R) [notice] Atomic restore: renaming new table (gf_postmeta) to final table name (wp_postmeta)
+0058.520 (R) [notice] Tabla de búsqueda y reemplazo: wp_postmeta: filas: 11071
+0064.777 (R) [notice] Searching and replacing reached row: 5000
+0073.497 (R) [notice] Searching and replacing reached row: 10000
+0076.172 (R) [notice] Procesando table (InnoDB):  wp_posts - se restaurará como: gf_posts
+0079.083 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0079.103 (R) [notice] Atomic restore: renaming new table (gf_posts) to final table name (wp_posts)
+0079.166 (R) [notice] Tabla de búsqueda y reemplazo: wp_posts: filas: 29088
+0079.334 (R) [notice] Searching and replacing reached row: 5000
+0079.553 (R) [notice] Searching and replacing reached row: 10000
+0079.767 (R) [notice] Searching and replacing reached row: 15000
+0079.988 (R) [notice] Searching and replacing reached row: 20000
+0080.242 (R) [notice] Searching and replacing reached row: 25000
+0083.711 (R) [notice] Procesando table (InnoDB):  wp_snippets - se restaurará como: gf_snippets
+0083.842 (R) [notice] Atomic restore: dropping original table (wp_snippets)
+0083.843 (R) [notice] Atomic restore: renaming new table (gf_snippets) to final table name (wp_snippets)
+0083.853 (R) [notice] Tabla de búsqueda y reemplazo: wp_snippets: filas: 7
+0083.854 (R) [notice] Procesando table (InnoDB):  wp_term_relationships - se restaurará como: gf_term_relationships
+0084.181 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0084.187 (R) [notice] Atomic restore: renaming new table (gf_term_relationships) to final table name (wp_term_relationships)
+0084.194 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0084.194 (R) [notice] Procesando table (InnoDB):  wp_term_taxonomy - se restaurará como: gf_term_taxonomy
+0084.234 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0084.241 (R) [notice] Atomic restore: renaming new table (gf_term_taxonomy) to final table name (wp_term_taxonomy)
+0084.249 (R) [notice] Tabla de búsqueda y reemplazo: wp_term_taxonomy: filas: 328
+0084.251 (R) [notice] Procesando table (InnoDB):  wp_termmeta - se restaurará como: gf_termmeta
+0084.729 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0084.743 (R) [notice] Atomic restore: renaming new table (gf_termmeta) to final table name (wp_termmeta)
+0084.756 (R) [notice] Tabla de búsqueda y reemplazo: wp_termmeta: filas: 28861
+0084.812 (R) [notice] Searching and replacing reached row: 5000
+0084.870 (R) [notice] Searching and replacing reached row: 10000
+0084.929 (R) [notice] Searching and replacing reached row: 15000
+0084.991 (R) [notice] Searching and replacing reached row: 20000
+0085.056 (R) [notice] Searching and replacing reached row: 25000
+0085.241 (R) [notice] Procesando table (InnoDB):  wp_terms - se restaurará como: gf_terms
+0085.282 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0085.288 (R) [notice] Atomic restore: renaming new table (gf_terms) to final table name (wp_terms)
+0085.297 (R) [notice] Tabla de búsqueda y reemplazo: wp_terms: filas: 398
+0085.299 (R) [notice] Procesando table (InnoDB):  wp_wc_category_lookup - se restaurará como: gf_wc_category_lookup
+0085.321 (R) [notice] Atomic restore: dropping original table (wp_wc_category_lookup)
+0085.321 (R) [notice] Atomic restore: renaming new table (gf_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0085.329 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_category_lookup: filas: 388
+0085.331 (R) [notice] Procesando table (InnoDB):  wp_wc_product_meta_lookup - se restaurará como: gf_wc_product_meta_lookup
+0085.486 (R) [notice] Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0085.487 (R) [notice] Atomic restore: renaming new table (gf_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0085.498 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_meta_lookup: filas: 3581
+0085.597 (R) [notice] Procesando table (InnoDB):  wp_wc_reserved_stock - se restaurará como: gf_wc_reserved_stock
+0085.693 (R) [notice] Atomic restore: dropping original table (wp_wc_reserved_stock)
+0085.695 (R) [notice] Atomic restore: renaming new table (gf_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0085.711 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_reserved_stock: filas: 1314
+0085.719 (R) [notice] Procesando table (InnoDB):  wp_wc_tax_rate_classes - se restaurará como: gf_wc_tax_rate_classes
+0085.767 (R) [notice] Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0085.768 (R) [notice] Atomic restore: renaming new table (gf_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0085.776 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_tax_rate_classes: filas: 2
+0085.777 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_order_itemmeta - se restaurará como: gf_woocommerce_order_itemmeta
+0088.964 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0088.965 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0089.012 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_order_itemmeta: filas: 190882
+0089.037 (R) [notice] Searching and replacing reached row: 5000
+0089.076 (R) [notice] Searching and replacing reached row: 10000
+0089.141 (R) [notice] Searching and replacing reached row: 15000
+0089.208 (R) [notice] Searching and replacing reached row: 20000
+0089.279 (R) [notice] Searching and replacing reached row: 25000
+0089.352 (R) [notice] Searching and replacing reached row: 30000
+0089.428 (R) [notice] Searching and replacing reached row: 35000
+0089.508 (R) [notice] Searching and replacing reached row: 40000
+0089.594 (R) [notice] Searching and replacing reached row: 45000
+0089.687 (R) [notice] Searching and replacing reached row: 50000
+0089.763 (R) [notice] Searching and replacing reached row: 55000
+0089.856 (R) [notice] Searching and replacing reached row: 60000
+0089.948 (R) [notice] Searching and replacing reached row: 65000
+0090.043 (R) [notice] Searching and replacing reached row: 70000
+0090.144 (R) [notice] Searching and replacing reached row: 75000
+0090.244 (R) [notice] Searching and replacing reached row: 80000
+0090.349 (R) [notice] Searching and replacing reached row: 85000
+0090.459 (R) [notice] Searching and replacing reached row: 90000
+0090.576 (R) [notice] Searching and replacing reached row: 95000
+0090.669 (R) [notice] Searching and replacing reached row: 100000
+0090.794 (R) [notice] Searching and replacing reached row: 105000
+0090.913 (R) [notice] Searching and replacing reached row: 110000
+0091.032 (R) [notice] Searching and replacing reached row: 115000
+0091.155 (R) [notice] Searching and replacing reached row: 120000
+0091.282 (R) [notice] Searching and replacing reached row: 125000
+0091.410 (R) [notice] Searching and replacing reached row: 130000
+0091.540 (R) [notice] Searching and replacing reached row: 135000
+0091.683 (R) [notice] Searching and replacing reached row: 140000
+0091.823 (R) [notice] Searching and replacing reached row: 145000
+0091.963 (R) [notice] Searching and replacing reached row: 150000
+0092.106 (R) [notice] Searching and replacing reached row: 155000
+0092.248 (R) [notice] Searching and replacing reached row: 160000
+0092.392 (R) [notice] Searching and replacing reached row: 165000
+0092.538 (R) [notice] Searching and replacing reached row: 170000
+0092.695 (R) [notice] Searching and replacing reached row: 175000
+0092.850 (R) [notice] Searching and replacing reached row: 180000
+0093.014 (R) [notice] Searching and replacing reached row: 185000
+0093.175 (R) [notice] Searching and replacing reached row: 190000
+0093.290 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_payment_tokenmeta - se restaurará como: gf_woocommerce_payment_tokenmeta
+0093.372 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0093.373 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0093.383 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_payment_tokenmeta: filas: 0
+0093.383 (R) [notice] Procesando table (InnoDB):  wp_woodmart_unsubscribed_emails - se restaurará como: gf_woodmart_unsubscribed_emails
+0093.426 (R) [notice] Atomic restore: dropping original table (wp_woodmart_unsubscribed_emails)
+0093.427 (R) [notice] Atomic restore: renaming new table (gf_woodmart_unsubscribed_emails) to final table name (wp_woodmart_unsubscribed_emails)
+0093.453 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_unsubscribed_emails: filas: 0
+0093.453 (R) [notice] Procesando table (InnoDB):  wp_bv_activities_store - se restaurará como: gf_bv_activities_store
+0093.527 (R) [notice] Atomic restore: dropping original table (wp_bv_activities_store)
+0093.528 (R) [notice] Atomic restore: renaming new table (gf_bv_activities_store) to final table name (wp_bv_activities_store)
+0093.538 (R) [notice] Tabla de búsqueda y reemplazo: wp_bv_activities_store: filas: 1
+0093.539 (R) [notice] Procesando table (InnoDB):  wp_bwf_contact - se restaurará como: gf_bwf_contact
+0093.606 (R) [notice] Database queries processed: 500 in 93.41 seconds
+0093.824 (R) [notice] Atomic restore: dropping original table (wp_bwf_contact)
+0093.825 (R) [notice] Atomic restore: renaming new table (gf_bwf_contact) to final table name (wp_bwf_contact)
+0093.839 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_contact: filas: 4636
+0093.930 (R) [notice] Procesando table (InnoDB):  wp_bwf_contact_meta - se restaurará como: gf_bwf_contact_meta
+0093.979 (R) [notice] Atomic restore: dropping original table (wp_bwf_contact_meta)
+0093.981 (R) [notice] Atomic restore: renaming new table (gf_bwf_contact_meta) to final table name (wp_bwf_contact_meta)
+0094.024 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_contact_meta: filas: 0
+0094.024 (R) [notice] Procesando table (InnoDB):  wp_bwf_wc_customers - se restaurará como: gf_bwf_wc_customers
+0094.116 (R) [notice] Atomic restore: dropping original table (wp_bwf_wc_customers)
+0094.117 (R) [notice] Atomic restore: renaming new table (gf_bwf_wc_customers) to final table name (wp_bwf_wc_customers)
+0094.125 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_wc_customers: filas: 2256
+0094.164 (R) [notice] Procesando table (InnoDB):  wp_cartflows_ca_cart_abandonment - se restaurará como: gf_cartflows_ca_cart_abandonment
+0094.409 (R) [notice] Atomic restore: dropping original table (wp_cartflows_ca_cart_abandonment)
+0094.410 (R) [notice] Atomic restore: renaming new table (gf_cartflows_ca_cart_abandonment) to final table name (wp_cartflows_ca_cart_abandonment)
+0094.419 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_cart_abandonment: filas: 1244
+0094.530 (R) [notice] Constraints found, will disable atomic restore for current table (wp_cartflows_ca_email_history)
+0094.531 (R) [notice] Procesando table (InnoDB):  wp_cartflows_ca_email_history
+0094.733 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_history: filas: 2486
+0094.769 (R) [notice] Procesando table (InnoDB):  wp_cartflows_ca_email_templates - se restaurará como: gf_cartflows_ca_email_templates
+0094.806 (R) [notice] Atomic restore: dropping original table (wp_cartflows_ca_email_templates)
+0094.808 (R) [notice] Atomic restore: renaming new table (gf_cartflows_ca_email_templates) to final table name (wp_cartflows_ca_email_templates)
+0094.822 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_templates: filas: 2
+0094.823 (R) [notice] Constraints found, will disable atomic restore for current table (wp_cartflows_ca_email_templates_meta)
+0094.825 (R) [notice] Procesando table (InnoDB):  wp_cartflows_ca_email_templates_meta
+0094.861 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_templates_meta: filas: 18
+0094.862 (R) [notice] Procesando table (InnoDB):  wp_cerber_files - se restaurará como: gf_cerber_files
+0094.862 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+0109.142 (R) [notice] Atomic restore: dropping original table (wp_cerber_files)
+0109.143 (R) [notice] Atomic restore: renaming new table (gf_cerber_files) to final table name (wp_cerber_files)
+0109.814 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_files: filas: 500099
+0117.300 (R) [notice] Searching and replacing reached row: 5000
+0124.354 (R) [notice] Searching and replacing reached row: 10000
+0131.902 (R) [notice] Searching and replacing reached row: 15000
+0139.306 (R) [notice] Searching and replacing reached row: 20000
+0146.576 (R) [notice] Searching and replacing reached row: 25000
+0153.835 (R) [notice] Searching and replacing reached row: 30000
+0162.087 (R) [notice] Searching and replacing reached row: 35000
+0169.646 (R) [notice] Searching and replacing reached row: 40000
+0177.267 (R) [notice] Searching and replacing reached row: 45000
+0185.171 (R) [notice] Searching and replacing reached row: 50000
+0193.330 (R) [notice] Searching and replacing reached row: 55000
+0200.908 (R) [notice] Searching and replacing reached row: 60000
+0208.002 (R) [notice] Searching and replacing reached row: 65000
+0215.406 (R) [notice] Searching and replacing reached row: 70000
+0223.462 (R) [notice] Searching and replacing reached row: 75000
+0231.111 (R) [notice] Searching and replacing reached row: 80000
+0238.913 (R) [notice] Searching and replacing reached row: 85000
+0246.738 (R) [notice] Searching and replacing reached row: 90000
+0254.955 (R) [notice] Searching and replacing reached row: 95000
+0262.639 (R) [notice] Searching and replacing reached row: 100000
+0270.210 (R) [notice] Searching and replacing reached row: 105000
+0278.892 (R) [notice] Searching and replacing reached row: 110000
+0286.986 (R) [notice] Searching and replacing reached row: 115000
+0294.531 (R) [notice] Searching and replacing reached row: 120000
+0302.232 (R) [notice] Searching and replacing reached row: 125000
+0310.258 (R) [notice] Searching and replacing reached row: 130000
+0317.888 (R) [notice] Searching and replacing reached row: 135000
+0326.214 (R) [notice] Searching and replacing reached row: 140000
+0333.486 (R) [notice] Searching and replacing reached row: 145000
+0342.237 (R) [notice] Searching and replacing reached row: 150000
+0351.951 (R) [notice] Searching and replacing reached row: 155000
+0361.224 (R) [notice] Searching and replacing reached row: 160000
+0369.993 (R) [notice] Searching and replacing reached row: 165000
+0378.225 (R) [notice] Searching and replacing reached row: 170000
+0385.740 (R) [notice] Searching and replacing reached row: 175000
+0393.590 (R) [notice] Searching and replacing reached row: 180000
+0401.668 (R) [notice] Searching and replacing reached row: 185000
+0409.203 (R) [notice] Searching and replacing reached row: 190000
+0417.198 (R) [notice] Searching and replacing reached row: 195000
+0424.989 (R) [notice] Searching and replacing reached row: 200000
+0433.236 (R) [notice] Searching and replacing reached row: 205000
+0441.163 (R) [notice] Searching and replacing reached row: 210000
+0448.940 (R) [notice] Searching and replacing reached row: 215000
+0456.414 (R) [notice] Searching and replacing reached row: 220000
+0464.575 (R) [notice] Searching and replacing reached row: 225000
+0471.972 (R) [notice] Searching and replacing reached row: 230000
+0479.922 (R) [notice] Searching and replacing reached row: 235000
+0487.842 (R) [notice] Searching and replacing reached row: 240000
+0497.445 (R) [notice] Searching and replacing reached row: 245000
+0506.051 (R) [notice] Searching and replacing reached row: 250000
+0514.938 (R) [notice] Searching and replacing reached row: 255000
+0522.942 (R) [notice] Searching and replacing reached row: 260000
+0531.237 (R) [notice] Searching and replacing reached row: 265000
+0538.826 (R) [notice] Searching and replacing reached row: 270000
+0546.707 (R) [notice] Searching and replacing reached row: 275000
+0555.529 (R) [notice] Searching and replacing reached row: 280000
+0563.679 (R) [notice] Searching and replacing reached row: 285000
+0571.293 (R) [notice] Searching and replacing reached row: 290000
+0579.314 (R) [notice] Searching and replacing reached row: 295000
+0587.088 (R) [notice] Searching and replacing reached row: 300000
+0594.928 (R) [notice] Searching and replacing reached row: 305000
+0603.448 (R) [notice] Searching and replacing reached row: 310000
+0611.605 (R) [notice] Searching and replacing reached row: 315000
+0619.684 (R) [notice] Searching and replacing reached row: 320000
+0627.970 (R) [notice] Searching and replacing reached row: 325000
+0635.668 (R) [notice] Searching and replacing reached row: 330000
+0644.246 (R) [notice] Searching and replacing reached row: 335000
+0653.911 (R) [notice] Searching and replacing reached row: 340000
+0662.875 (R) [notice] Searching and replacing reached row: 345000
+0670.546 (R) [notice] Searching and replacing reached row: 350000
+0678.950 (R) [notice] Searching and replacing reached row: 355000
+0686.780 (R) [notice] Searching and replacing reached row: 360000
+0695.397 (R) [notice] Searching and replacing reached row: 365000
+0703.663 (R) [notice] Searching and replacing reached row: 370000
+0712.614 (R) [notice] Searching and replacing reached row: 375000
+0722.268 (R) [notice] Searching and replacing reached row: 380000
+0731.993 (R) [notice] Searching and replacing reached row: 385000
+0741.627 (R) [notice] Searching and replacing reached row: 390000
+0751.060 (R) [notice] Searching and replacing reached row: 395000
+0760.298 (R) [notice] Searching and replacing reached row: 400000
+0770.280 (R) [notice] Searching and replacing reached row: 405000
+0780.010 (R) [notice] Searching and replacing reached row: 410000
+0789.786 (R) [notice] Searching and replacing reached row: 415000
+0799.965 (R) [notice] Searching and replacing reached row: 420000
+0809.599 (R) [notice] Searching and replacing reached row: 425000
+0819.982 (R) [notice] Searching and replacing reached row: 430000
+0829.178 (R) [notice] Searching and replacing reached row: 435000
+0837.818 (R) [notice] Searching and replacing reached row: 440000
+0846.680 (R) [notice] Searching and replacing reached row: 445000
+0856.576 (R) [notice] Searching and replacing reached row: 450000
+0866.328 (R) [notice] Searching and replacing reached row: 455000
+0875.938 (R) [notice] Searching and replacing reached row: 460000
+0884.915 (R) [notice] Searching and replacing reached row: 465000
+0892.960 (R) [notice] Searching and replacing reached row: 470000
+0901.274 (R) [notice] Searching and replacing reached row: 475000
+0910.023 (R) [notice] Searching and replacing reached row: 480000
+0918.380 (R) [notice] Searching and replacing reached row: 485000
+0927.020 (R) [notice] Searching and replacing reached row: 490000
+0935.194 (R) [notice] Searching and replacing reached row: 495000
+0944.527 (R) [notice] Searching and replacing reached row: 500000
+0945.420 (R) [notice] Procesando table (InnoDB):  wp_cerber_sets - se restaurará como: gf_cerber_sets
+0945.420 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+0945.638 (R) [notice] Atomic restore: dropping original table (wp_cerber_sets)
+0945.655 (R) [notice] Atomic restore: renaming new table (gf_cerber_sets) to final table name (wp_cerber_sets)
+0945.672 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_sets: filas: 165
+0945.726 (R) [notice] Procesando table (InnoDB):  wp_cerber_uss - se restaurará como: gf_cerber_uss
+0945.726 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+0945.775 (R) [notice] Atomic restore: dropping original table (wp_cerber_uss)
+0945.791 (R) [notice] Atomic restore: renaming new table (gf_cerber_uss) to final table name (wp_cerber_uss)
+0945.807 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_uss: filas: 385
+0945.813 (R) [notice] Procesando table (InnoDB):  wp_contabilium_log - se restaurará como: gf_contabilium_log
+0945.884 (R) [notice] Atomic restore: dropping original table (wp_contabilium_log)
+0945.885 (R) [notice] Atomic restore: renaming new table (gf_contabilium_log) to final table name (wp_contabilium_log)
+0945.906 (R) [notice] Tabla de búsqueda y reemplazo: wp_contabilium_log: filas: 108
+0945.908 (R) [notice] Procesando table (InnoDB):  wp_duplicator_pro_entities - se restaurará como: gf_duplicator_pro_entities
+0945.991 (R) [notice] Atomic restore: dropping original table (wp_duplicator_pro_entities)
+0945.992 (R) [notice] Atomic restore: renaming new table (gf_duplicator_pro_entities) to final table name (wp_duplicator_pro_entities)
+0946.002 (R) [notice] Tabla de búsqueda y reemplazo: wp_duplicator_pro_entities: filas: 7
+0946.012 (R) [notice] Procesando table (InnoDB):  wp_duplicator_pro_packages - se restaurará como: gf_duplicator_pro_packages
+0946.058 (R) [notice] Atomic restore: dropping original table (wp_duplicator_pro_packages)
+0946.059 (R) [notice] Atomic restore: renaming new table (gf_duplicator_pro_packages) to final table name (wp_duplicator_pro_packages)
+0946.067 (R) [notice] Tabla de búsqueda y reemplazo: wp_duplicator_pro_packages: filas: 3
+0946.082 (R) [notice] Procesando table (InnoDB):  wp_e_events - se restaurará como: gf_e_events
+0946.118 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0946.129 (R) [notice] Atomic restore: renaming new table (gf_e_events) to final table name (wp_e_events)
+0946.145 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_events: filas: 0
+0946.145 (R) [notice] Procesando table (InnoDB):  wp_e_submissions - se restaurará como: gf_e_submissions
+0946.223 (R) [notice] Atomic restore: dropping original table (wp_e_submissions)
+0946.224 (R) [notice] Atomic restore: renaming new table (gf_e_submissions) to final table name (wp_e_submissions)
+0946.236 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions: filas: 0
+0946.236 (R) [notice] Procesando table (InnoDB):  wp_e_submissions_actions_log - se restaurará como: gf_e_submissions_actions_log
+0946.271 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0946.272 (R) [notice] Atomic restore: renaming new table (gf_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0946.282 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions_actions_log: filas: 0
+0946.282 (R) [notice] Procesando table (InnoDB):  wp_e_submissions_values - se restaurará como: gf_e_submissions_values
+0946.312 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_values)
+0946.314 (R) [notice] Atomic restore: renaming new table (gf_e_submissions_values) to final table name (wp_e_submissions_values)
+0946.323 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions_values: filas: 0
+0946.323 (R) [notice] Procesando table (InnoDB):  wp_financing_options - se restaurará como: gf_financing_options
+0946.368 (R) [notice] Atomic restore: dropping original table (wp_financing_options)
+0946.370 (R) [notice] Atomic restore: renaming new table (gf_financing_options) to final table name (wp_financing_options)
+0946.380 (R) [notice] Tabla de búsqueda y reemplazo: wp_financing_options: filas: 9
+0946.391 (R) [notice] Procesando table (InnoDB):  wp_gla_attribute_mapping_rules - se restaurará como: gf_gla_attribute_mapping_rules
+0946.416 (R) [notice] Atomic restore: dropping original table (wp_gla_attribute_mapping_rules)
+0946.416 (R) [notice] Atomic restore: renaming new table (gf_gla_attribute_mapping_rules) to final table name (wp_gla_attribute_mapping_rules)
+0946.424 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_attribute_mapping_rules: filas: 0
+0946.424 (R) [notice] Procesando table (InnoDB):  wp_gla_budget_recommendations - se restaurará como: gf_gla_budget_recommendations
+0946.539 (R) [notice] Atomic restore: dropping original table (wp_gla_budget_recommendations)
+0946.539 (R) [notice] Atomic restore: renaming new table (gf_gla_budget_recommendations) to final table name (wp_gla_budget_recommendations)
+0946.548 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_budget_recommendations: filas: 4230
+0946.602 (R) [notice] Procesando table (InnoDB):  wp_gla_merchant_issues - se restaurará como: gf_gla_merchant_issues
+0946.642 (R) [notice] Atomic restore: dropping original table (wp_gla_merchant_issues)
+0946.643 (R) [notice] Atomic restore: renaming new table (gf_gla_merchant_issues) to final table name (wp_gla_merchant_issues)
+0946.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_merchant_issues: filas: 0
+0946.657 (R) [notice] Procesando table (InnoDB):  wp_gla_shipping_rates - se restaurará como: gf_gla_shipping_rates
+0946.696 (R) [notice] Atomic restore: dropping original table (wp_gla_shipping_rates)
+0946.697 (R) [notice] Atomic restore: renaming new table (gf_gla_shipping_rates) to final table name (wp_gla_shipping_rates)
+0946.708 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_shipping_rates: filas: 0
+0946.708 (R) [notice] Procesando table (InnoDB):  wp_gla_shipping_times - se restaurará como: gf_gla_shipping_times
+0946.743 (R) [notice] Atomic restore: dropping original table (wp_gla_shipping_times)
+0946.745 (R) [notice] Atomic restore: renaming new table (gf_gla_shipping_times) to final table name (wp_gla_shipping_times)
+0946.757 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_shipping_times: filas: 1
+0946.757 (R) [notice] Procesando table (InnoDB):  wp_jet_post_types - se restaurará como: gf_jet_post_types
+0946.800 (R) [notice] Atomic restore: dropping original table (wp_jet_post_types)
+0946.801 (R) [notice] Atomic restore: renaming new table (gf_jet_post_types) to final table name (wp_jet_post_types)
+0946.811 (R) [notice] Tabla de búsqueda y reemplazo: wp_jet_post_types: filas: 1
+0946.811 (R) [notice] Procesando table (InnoDB):  wp_jet_taxonomies - se restaurará como: gf_jet_taxonomies
+0946.861 (R) [notice] Atomic restore: dropping original table (wp_jet_taxonomies)
+0946.862 (R) [notice] Atomic restore: renaming new table (gf_jet_taxonomies) to final table name (wp_jet_taxonomies)
+0946.886 (R) [notice] Tabla de búsqueda y reemplazo: wp_jet_taxonomies: filas: 0
+0946.886 (R) [notice] Procesando table (InnoDB):  wp_jetpack_sync_queue - se restaurará como: gf_jetpack_sync_queue
+0947.004 (R) [notice] Atomic restore: dropping original table (wp_jetpack_sync_queue)
+0947.005 (R) [notice] Atomic restore: renaming new table (gf_jetpack_sync_queue) to final table name (wp_jetpack_sync_queue)
+0947.029 (R) [notice] Tabla de búsqueda y reemplazo: wp_jetpack_sync_queue: filas: 0
+0947.030 (R) [notice] Procesando table (InnoDB):  wp_litespeed_avatar - se restaurará como: gf_litespeed_avatar
+0947.250 (R) [notice] Atomic restore: dropping original table (wp_litespeed_avatar)
+0947.251 (R) [notice] Atomic restore: renaming new table (gf_litespeed_avatar) to final table name (wp_litespeed_avatar)
+0947.264 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_avatar: filas: 3182
+0947.298 (R) [notice] Procesando table (InnoDB):  wp_litespeed_crawler - se restaurará como: gf_litespeed_crawler
+0947.383 (R) [notice] Database queries processed: 750 in 947.18 seconds
+0947.433 (R) [notice] Atomic restore: dropping original table (wp_litespeed_crawler)
+0947.434 (R) [notice] Atomic restore: renaming new table (gf_litespeed_crawler) to final table name (wp_litespeed_crawler)
+0947.447 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_crawler: filas: 3087
+0951.927 (R) [notice] Procesando table (InnoDB):  wp_litespeed_crawler_blacklist - se restaurará como: gf_litespeed_crawler_blacklist
+0952.018 (R) [notice] Atomic restore: dropping original table (wp_litespeed_crawler_blacklist)
+0952.020 (R) [notice] Atomic restore: renaming new table (gf_litespeed_crawler_blacklist) to final table name (wp_litespeed_crawler_blacklist)
+0952.032 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_crawler_blacklist: filas: 143
+0952.270 (R) [notice] Procesando table (InnoDB):  wp_litespeed_img_optming - se restaurará como: gf_litespeed_img_optming
+0952.315 (R) [notice] Atomic restore: dropping original table (wp_litespeed_img_optming)
+0952.316 (R) [notice] Atomic restore: renaming new table (gf_litespeed_img_optming) to final table name (wp_litespeed_img_optming)
+0952.325 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_img_optming: filas: 7
+0952.325 (R) [notice] Procesando table (InnoDB):  wp_litespeed_url - se restaurará como: gf_litespeed_url
+0952.364 (R) [notice] Atomic restore: dropping original table (wp_litespeed_url)
+0952.365 (R) [notice] Atomic restore: renaming new table (gf_litespeed_url) to final table name (wp_litespeed_url)
+0952.374 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_url: filas: 8
+0952.380 (R) [notice] Procesando table (InnoDB):  wp_litespeed_url_file - se restaurará como: gf_litespeed_url_file
+0952.427 (R) [notice] Atomic restore: dropping original table (wp_litespeed_url_file)
+0952.428 (R) [notice] Atomic restore: renaming new table (gf_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0952.436 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_url_file: filas: 9
+0952.436 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automation_run_logs - se restaurará como: gf_mailpoet_automation_run_logs
+0952.469 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automation_run_logs)
+0952.470 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automation_run_logs) to final table name (wp_mailpoet_automation_run_logs)
+0952.481 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_run_logs: filas: 0
+0952.482 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automation_run_subjects - se restaurará como: gf_mailpoet_automation_run_subjects
+0952.560 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automation_run_subjects)
+0952.562 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automation_run_subjects) to final table name (wp_mailpoet_automation_run_subjects)
+0952.577 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_run_subjects: filas: 0
+0952.578 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automation_runs - se restaurará como: gf_mailpoet_automation_runs
+0952.634 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automation_runs)
+0952.635 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automation_runs) to final table name (wp_mailpoet_automation_runs)
+0952.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_runs: filas: 0
+0952.649 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automation_triggers - se restaurará como: gf_mailpoet_automation_triggers
+0952.684 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automation_triggers)
+0952.685 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automation_triggers) to final table name (wp_mailpoet_automation_triggers)
+0952.692 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_triggers: filas: 3
+0952.693 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automation_versions - se restaurará como: gf_mailpoet_automation_versions
+0952.721 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automation_versions)
+0952.722 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automation_versions) to final table name (wp_mailpoet_automation_versions)
+0952.731 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_versions: filas: 7
+0952.732 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_automations - se restaurará como: gf_mailpoet_automations
+0952.765 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_automations)
+0952.766 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_automations) to final table name (wp_mailpoet_automations)
+0952.774 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automations: filas: 3
+0952.778 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_custom_fields - se restaurará como: gf_mailpoet_custom_fields
+0952.807 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_custom_fields)
+0952.807 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_custom_fields) to final table name (wp_mailpoet_custom_fields)
+0952.818 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_custom_fields: filas: 0
+0952.819 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_dynamic_segment_filters - se restaurará como: gf_mailpoet_dynamic_segment_filters
+0952.847 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_dynamic_segment_filters)
+0952.848 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_dynamic_segment_filters) to final table name (wp_mailpoet_dynamic_segment_filters)
+0952.855 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_dynamic_segment_filters: filas: 0
+0952.856 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_feature_flags - se restaurará como: gf_mailpoet_feature_flags
+0952.889 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_feature_flags)
+0952.890 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_feature_flags) to final table name (wp_mailpoet_feature_flags)
+0952.897 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_feature_flags: filas: 0
+0952.898 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_forms - se restaurará como: gf_mailpoet_forms
+0952.918 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_forms)
+0952.919 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_forms) to final table name (wp_mailpoet_forms)
+0952.927 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_forms: filas: 0
+0952.927 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_log - se restaurará como: gf_mailpoet_log
+0952.962 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_log)
+0952.963 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_log) to final table name (wp_mailpoet_log)
+0952.970 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_log: filas: 73
+0953.060 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_migrations - se restaurará como: gf_mailpoet_migrations
+0953.201 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_migrations)
+0953.202 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_migrations) to final table name (wp_mailpoet_migrations)
+0953.212 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_migrations: filas: 36
+0953.213 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_links - se restaurará como: gf_mailpoet_newsletter_links
+0953.246 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_links)
+0953.246 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_links) to final table name (wp_mailpoet_newsletter_links)
+0953.258 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_links: filas: 0
+0953.259 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_option - se restaurará como: gf_mailpoet_newsletter_option
+0953.292 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_option)
+0953.293 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_option) to final table name (wp_mailpoet_newsletter_option)
+0953.301 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_option: filas: 8
+0953.301 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_option_fields - se restaurará como: gf_mailpoet_newsletter_option_fields
+0953.343 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_option_fields)
+0953.345 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_option_fields) to final table name (wp_mailpoet_newsletter_option_fields)
+0953.358 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_option_fields: filas: 31
+0953.359 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_posts - se restaurará como: gf_mailpoet_newsletter_posts
+0953.406 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_posts)
+0953.407 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_posts) to final table name (wp_mailpoet_newsletter_posts)
+0953.416 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_posts: filas: 0
+0953.416 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_segment - se restaurará como: gf_mailpoet_newsletter_segment
+0953.451 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_segment)
+0953.452 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_segment) to final table name (wp_mailpoet_newsletter_segment)
+0953.466 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_segment: filas: 0
+0953.466 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletter_templates - se restaurará como: gf_mailpoet_newsletter_templates
+0953.537 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletter_templates)
+0953.538 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletter_templates) to final table name (wp_mailpoet_newsletter_templates)
+0953.552 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_templates: filas: 76
+0953.816 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_newsletters - se restaurará como: gf_mailpoet_newsletters
+0953.863 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_newsletters)
+0953.865 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_newsletters) to final table name (wp_mailpoet_newsletters)
+0953.875 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletters: filas: 4
+0953.891 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_scheduled_task_subscribers - se restaurará como: gf_mailpoet_scheduled_task_subscribers
+0986.545 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_scheduled_task_subscribers)
+0986.546 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_scheduled_task_subscribers) to final table name (wp_mailpoet_scheduled_task_subscribers)
+0987.005 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_scheduled_task_subscribers: filas: 1484606
+0987.095 (R) [notice] Searching and replacing reached row: 5000
+0987.192 (R) [notice] Searching and replacing reached row: 10000
+0987.291 (R) [notice] Searching and replacing reached row: 15000
+0987.389 (R) [notice] Searching and replacing reached row: 20000
+0987.495 (R) [notice] Searching and replacing reached row: 25000
+0987.600 (R) [notice] Searching and replacing reached row: 30000
+0987.670 (R) [notice] Searching and replacing reached row: 35000
+0987.717 (R) [notice] Searching and replacing reached row: 40000
+0987.765 (R) [notice] Searching and replacing reached row: 45000
+0987.814 (R) [notice] Searching and replacing reached row: 50000
+0987.864 (R) [notice] Searching and replacing reached row: 55000
+0987.915 (R) [notice] Searching and replacing reached row: 60000
+0987.969 (R) [notice] Searching and replacing reached row: 65000
+0988.022 (R) [notice] Searching and replacing reached row: 70000
+0988.077 (R) [notice] Searching and replacing reached row: 75000
+0988.133 (R) [notice] Searching and replacing reached row: 80000
+0988.192 (R) [notice] Searching and replacing reached row: 85000
+0988.253 (R) [notice] Searching and replacing reached row: 90000
+0988.315 (R) [notice] Searching and replacing reached row: 95000
+0988.399 (R) [notice] Searching and replacing reached row: 100000
+0988.474 (R) [notice] Searching and replacing reached row: 105000
+0988.540 (R) [notice] Searching and replacing reached row: 110000
+0988.608 (R) [notice] Searching and replacing reached row: 115000
+0988.677 (R) [notice] Searching and replacing reached row: 120000
+0988.748 (R) [notice] Searching and replacing reached row: 125000
+0988.819 (R) [notice] Searching and replacing reached row: 130000
+0988.893 (R) [notice] Searching and replacing reached row: 135000
+0988.968 (R) [notice] Searching and replacing reached row: 140000
+0989.044 (R) [notice] Searching and replacing reached row: 145000
+0989.121 (R) [notice] Searching and replacing reached row: 150000
+0989.200 (R) [notice] Searching and replacing reached row: 155000
+0989.280 (R) [notice] Searching and replacing reached row: 160000
+0989.364 (R) [notice] Searching and replacing reached row: 165000
+0989.490 (R) [notice] Searching and replacing reached row: 170000
+0989.668 (R) [notice] Searching and replacing reached row: 175000
+0989.850 (R) [notice] Searching and replacing reached row: 180000
+0990.047 (R) [notice] Searching and replacing reached row: 185000
+0990.241 (R) [notice] Searching and replacing reached row: 190000
+0990.447 (R) [notice] Searching and replacing reached row: 195000
+0990.650 (R) [notice] Searching and replacing reached row: 200000
+0990.844 (R) [notice] Searching and replacing reached row: 205000
+0991.047 (R) [notice] Searching and replacing reached row: 210000
+0991.264 (R) [notice] Searching and replacing reached row: 215000
+0991.470 (R) [notice] Searching and replacing reached row: 220000
+0991.677 (R) [notice] Searching and replacing reached row: 225000
+0991.888 (R) [notice] Searching and replacing reached row: 230000
+0992.105 (R) [notice] Searching and replacing reached row: 235000
+0992.315 (R) [notice] Searching and replacing reached row: 240000
+0992.528 (R) [notice] Searching and replacing reached row: 245000
+0992.748 (R) [notice] Searching and replacing reached row: 250000
+0992.968 (R) [notice] Searching and replacing reached row: 255000
+0993.196 (R) [notice] Searching and replacing reached row: 260000
+0993.423 (R) [notice] Searching and replacing reached row: 265000
+0993.659 (R) [notice] Searching and replacing reached row: 270000
+0993.889 (R) [notice] Searching and replacing reached row: 275000
+0994.127 (R) [notice] Searching and replacing reached row: 280000
+0994.357 (R) [notice] Searching and replacing reached row: 285000
+0994.608 (R) [notice] Searching and replacing reached row: 290000
+0994.855 (R) [notice] Searching and replacing reached row: 295000
+0995.110 (R) [notice] Searching and replacing reached row: 300000
+0995.351 (R) [notice] Searching and replacing reached row: 305000
+0995.595 (R) [notice] Searching and replacing reached row: 310000
+0995.853 (R) [notice] Searching and replacing reached row: 315000
+0996.110 (R) [notice] Searching and replacing reached row: 320000
+0996.372 (R) [notice] Searching and replacing reached row: 325000
+0996.636 (R) [notice] Searching and replacing reached row: 330000
+0996.903 (R) [notice] Searching and replacing reached row: 335000
+0997.162 (R) [notice] Searching and replacing reached row: 340000
+0997.440 (R) [notice] Searching and replacing reached row: 345000
+0997.724 (R) [notice] Searching and replacing reached row: 350000
+0997.995 (R) [notice] Searching and replacing reached row: 355000
+0998.289 (R) [notice] Searching and replacing reached row: 360000
+0998.572 (R) [notice] Searching and replacing reached row: 365000
+0998.833 (R) [notice] Searching and replacing reached row: 370000
+0999.112 (R) [notice] Searching and replacing reached row: 375000
+0999.381 (R) [notice] Searching and replacing reached row: 380000
+0999.682 (R) [notice] Searching and replacing reached row: 385000
+0999.953 (R) [notice] Searching and replacing reached row: 390000
+1000.237 (R) [notice] Searching and replacing reached row: 395000
+1000.522 (R) [notice] Searching and replacing reached row: 400000
+1000.817 (R) [notice] Searching and replacing reached row: 405000
+1001.104 (R) [notice] Searching and replacing reached row: 410000
+1001.394 (R) [notice] Searching and replacing reached row: 415000
+1001.650 (R) [notice] Searching and replacing reached row: 420000
+1001.947 (R) [notice] Searching and replacing reached row: 425000
+1002.246 (R) [notice] Searching and replacing reached row: 430000
+1002.541 (R) [notice] Searching and replacing reached row: 435000
+1002.841 (R) [notice] Searching and replacing reached row: 440000
+1003.165 (R) [notice] Searching and replacing reached row: 445000
+1003.482 (R) [notice] Searching and replacing reached row: 450000
+1003.743 (R) [notice] Searching and replacing reached row: 455000
+1004.062 (R) [notice] Searching and replacing reached row: 460000
+1004.398 (R) [notice] Searching and replacing reached row: 465000
+1004.758 (R) [notice] Searching and replacing reached row: 470000
+1005.101 (R) [notice] Searching and replacing reached row: 475000
+1005.459 (R) [notice] Searching and replacing reached row: 480000
+1005.757 (R) [notice] Searching and replacing reached row: 485000
+1006.050 (R) [notice] Searching and replacing reached row: 490000
+1006.411 (R) [notice] Searching and replacing reached row: 495000
+1006.753 (R) [notice] Searching and replacing reached row: 500000
+1007.092 (R) [notice] Searching and replacing reached row: 505000
+1007.367 (R) [notice] Searching and replacing reached row: 510000
+1007.695 (R) [notice] Searching and replacing reached row: 515000
+1008.058 (R) [notice] Searching and replacing reached row: 520000
+1008.420 (R) [notice] Searching and replacing reached row: 525000
+1008.784 (R) [notice] Searching and replacing reached row: 530000
+1009.172 (R) [notice] Searching and replacing reached row: 535000
+1009.541 (R) [notice] Searching and replacing reached row: 540000
+1009.910 (R) [notice] Searching and replacing reached row: 545000
+1010.286 (R) [notice] Searching and replacing reached row: 550000
+1010.668 (R) [notice] Searching and replacing reached row: 555000
+1011.048 (R) [notice] Searching and replacing reached row: 560000
+1011.427 (R) [notice] Searching and replacing reached row: 565000
+1011.809 (R) [notice] Searching and replacing reached row: 570000
+1012.198 (R) [notice] Searching and replacing reached row: 575000
+1012.587 (R) [notice] Searching and replacing reached row: 580000
+1012.977 (R) [notice] Searching and replacing reached row: 585000
+1013.389 (R) [notice] Searching and replacing reached row: 590000
+1013.804 (R) [notice] Searching and replacing reached row: 595000
+1014.186 (R) [notice] Searching and replacing reached row: 600000
+1014.626 (R) [notice] Searching and replacing reached row: 605000
+1015.059 (R) [notice] Searching and replacing reached row: 610000
+1015.448 (R) [notice] Searching and replacing reached row: 615000
+1015.921 (R) [notice] Searching and replacing reached row: 620000
+1016.364 (R) [notice] Searching and replacing reached row: 625000
+1016.803 (R) [notice] Searching and replacing reached row: 630000
+1017.086 (R) [notice] Searching and replacing reached row: 635000
+1017.308 (R) [notice] Searching and replacing reached row: 640000
+1017.532 (R) [notice] Searching and replacing reached row: 645000
+1017.755 (R) [notice] Searching and replacing reached row: 650000
+1017.978 (R) [notice] Searching and replacing reached row: 655000
+1018.206 (R) [notice] Searching and replacing reached row: 660000
+1018.467 (R) [notice] Searching and replacing reached row: 665000
+1018.835 (R) [notice] Searching and replacing reached row: 670000
+1019.064 (R) [notice] Searching and replacing reached row: 675000
+1019.299 (R) [notice] Searching and replacing reached row: 680000
+1019.538 (R) [notice] Searching and replacing reached row: 685000
+1019.927 (R) [notice] Searching and replacing reached row: 690000
+1020.383 (R) [notice] Searching and replacing reached row: 695000
+1020.849 (R) [notice] Searching and replacing reached row: 700000
+1021.304 (R) [notice] Searching and replacing reached row: 705000
+1021.769 (R) [notice] Searching and replacing reached row: 710000
+1022.186 (R) [notice] Searching and replacing reached row: 715000
+1022.669 (R) [notice] Searching and replacing reached row: 720000
+1023.106 (R) [notice] Searching and replacing reached row: 725000
+1023.593 (R) [notice] Searching and replacing reached row: 730000
+1024.071 (R) [notice] Searching and replacing reached row: 735000
+1024.560 (R) [notice] Searching and replacing reached row: 740000
+1025.049 (R) [notice] Searching and replacing reached row: 745000
+1025.535 (R) [notice] Searching and replacing reached row: 750000
+1025.865 (R) [notice] Searching and replacing reached row: 755000
+1026.369 (R) [notice] Searching and replacing reached row: 760000
+1026.871 (R) [notice] Searching and replacing reached row: 765000
+1027.383 (R) [notice] Searching and replacing reached row: 770000
+1027.893 (R) [notice] Searching and replacing reached row: 775000
+1028.296 (R) [notice] Searching and replacing reached row: 780000
+1028.553 (R) [notice] Searching and replacing reached row: 785000
+1028.816 (R) [notice] Searching and replacing reached row: 790000
+1029.080 (R) [notice] Searching and replacing reached row: 795000
+1029.346 (R) [notice] Searching and replacing reached row: 800000
+1029.612 (R) [notice] Searching and replacing reached row: 805000
+1029.879 (R) [notice] Searching and replacing reached row: 810000
+1030.147 (R) [notice] Searching and replacing reached row: 815000
+1030.414 (R) [notice] Searching and replacing reached row: 820000
+1030.683 (R) [notice] Searching and replacing reached row: 825000
+1030.974 (R) [notice] Searching and replacing reached row: 830000
+1031.531 (R) [notice] Searching and replacing reached row: 835000
+1032.127 (R) [notice] Searching and replacing reached row: 840000
+1032.699 (R) [notice] Searching and replacing reached row: 845000
+1033.270 (R) [notice] Searching and replacing reached row: 850000
+1033.756 (R) [notice] Searching and replacing reached row: 855000
+1034.212 (R) [notice] Searching and replacing reached row: 860000
+1034.676 (R) [notice] Searching and replacing reached row: 865000
+1035.151 (R) [notice] Searching and replacing reached row: 870000
+1035.633 (R) [notice] Searching and replacing reached row: 875000
+1036.059 (R) [notice] Searching and replacing reached row: 880000
+1036.638 (R) [notice] Searching and replacing reached row: 885000
+1037.106 (R) [notice] Searching and replacing reached row: 890000
+1037.585 (R) [notice] Searching and replacing reached row: 895000
+1037.975 (R) [notice] Searching and replacing reached row: 900000
+1038.353 (R) [notice] Searching and replacing reached row: 905000
+1038.932 (R) [notice] Searching and replacing reached row: 910000
+1039.428 (R) [notice] Searching and replacing reached row: 915000
+1039.958 (R) [notice] Searching and replacing reached row: 920000
+1040.446 (R) [notice] Searching and replacing reached row: 925000
+1041.004 (R) [notice] Searching and replacing reached row: 930000
+1041.461 (R) [notice] Searching and replacing reached row: 935000
+1042.049 (R) [notice] Searching and replacing reached row: 940000
+1042.519 (R) [notice] Searching and replacing reached row: 945000
+1042.956 (R) [notice] Searching and replacing reached row: 950000
+1043.415 (R) [notice] Searching and replacing reached row: 955000
+1043.838 (R) [notice] Searching and replacing reached row: 960000
+1044.521 (R) [notice] Searching and replacing reached row: 965000
+1044.968 (R) [notice] Searching and replacing reached row: 970000
+1045.565 (R) [notice] Searching and replacing reached row: 975000
+1045.993 (R) [notice] Searching and replacing reached row: 980000
+1046.544 (R) [notice] Searching and replacing reached row: 985000
+1046.984 (R) [notice] Searching and replacing reached row: 990000
+1047.495 (R) [notice] Searching and replacing reached row: 995000
+1047.942 (R) [notice] Searching and replacing reached row: 1000000
+1048.430 (R) [notice] Searching and replacing reached row: 1005000
+1048.882 (R) [notice] Searching and replacing reached row: 1010000
+1049.410 (R) [notice] Searching and replacing reached row: 1015000
+1049.993 (R) [notice] Searching and replacing reached row: 1020000
+1050.512 (R) [notice] Searching and replacing reached row: 1025000
+1051.075 (R) [notice] Searching and replacing reached row: 1030000
+1051.633 (R) [notice] Searching and replacing reached row: 1035000
+1052.229 (R) [notice] Searching and replacing reached row: 1040000
+1052.787 (R) [notice] Searching and replacing reached row: 1045000
+1053.343 (R) [notice] Searching and replacing reached row: 1050000
+1053.830 (R) [notice] Searching and replacing reached row: 1055000
+1054.355 (R) [notice] Searching and replacing reached row: 1060000
+1054.897 (R) [notice] Searching and replacing reached row: 1065000
+1055.572 (R) [notice] Searching and replacing reached row: 1070000
+1056.149 (R) [notice] Searching and replacing reached row: 1075000
+1056.747 (R) [notice] Searching and replacing reached row: 1080000
+1057.195 (R) [notice] Searching and replacing reached row: 1085000
+1057.732 (R) [notice] Searching and replacing reached row: 1090000
+1058.203 (R) [notice] Searching and replacing reached row: 1095000
+1059.088 (R) [notice] Searching and replacing reached row: 1100000
+1060.007 (R) [notice] Searching and replacing reached row: 1105000
+1060.763 (R) [notice] Searching and replacing reached row: 1110000
+1061.243 (R) [notice] Searching and replacing reached row: 1115000
+1061.938 (R) [notice] Searching and replacing reached row: 1120000
+1062.534 (R) [notice] Searching and replacing reached row: 1125000
+1063.393 (R) [notice] Searching and replacing reached row: 1130000
+1064.263 (R) [notice] Searching and replacing reached row: 1135000
+1064.801 (R) [notice] Searching and replacing reached row: 1140000
+1065.397 (R) [notice] Searching and replacing reached row: 1145000
+1066.050 (R) [notice] Searching and replacing reached row: 1150000
+1066.770 (R) [notice] Searching and replacing reached row: 1155000
+1067.388 (R) [notice] Searching and replacing reached row: 1160000
+1067.950 (R) [notice] Searching and replacing reached row: 1165000
+1068.631 (R) [notice] Searching and replacing reached row: 1170000
+1069.148 (R) [notice] Searching and replacing reached row: 1175000
+1069.869 (R) [notice] Searching and replacing reached row: 1180000
+1070.383 (R) [notice] Searching and replacing reached row: 1185000
+1070.929 (R) [notice] Searching and replacing reached row: 1190000
+1071.651 (R) [notice] Searching and replacing reached row: 1195000
+1072.186 (R) [notice] Searching and replacing reached row: 1200000
+1072.912 (R) [notice] Searching and replacing reached row: 1205000
+1073.542 (R) [notice] Searching and replacing reached row: 1210000
+1074.190 (R) [notice] Searching and replacing reached row: 1215000
+1074.800 (R) [notice] Searching and replacing reached row: 1220000
+1075.427 (R) [notice] Searching and replacing reached row: 1225000
+1076.055 (R) [notice] Searching and replacing reached row: 1230000
+1076.636 (R) [notice] Searching and replacing reached row: 1235000
+1077.413 (R) [notice] Searching and replacing reached row: 1240000
+1077.959 (R) [notice] Searching and replacing reached row: 1245000
+1078.626 (R) [notice] Searching and replacing reached row: 1250000
+1079.187 (R) [notice] Searching and replacing reached row: 1255000
+1079.774 (R) [notice] Searching and replacing reached row: 1260000
+1080.476 (R) [notice] Searching and replacing reached row: 1265000
+1081.055 (R) [notice] Searching and replacing reached row: 1270000
+1081.837 (R) [notice] Searching and replacing reached row: 1275000
+1082.731 (R) [notice] Searching and replacing reached row: 1280000
+1083.349 (R) [notice] Searching and replacing reached row: 1285000
+1084.093 (R) [notice] Searching and replacing reached row: 1290000
+1084.727 (R) [notice] Searching and replacing reached row: 1295000
+1085.334 (R) [notice] Searching and replacing reached row: 1300000
+1086.098 (R) [notice] Searching and replacing reached row: 1305000
+1086.813 (R) [notice] Searching and replacing reached row: 1310000
+1087.434 (R) [notice] Searching and replacing reached row: 1315000
+1087.937 (R) [notice] Searching and replacing reached row: 1320000
+1088.610 (R) [notice] Searching and replacing reached row: 1325000
+1089.567 (R) [notice] Searching and replacing reached row: 1330000
+1090.262 (R) [notice] Searching and replacing reached row: 1335000
+1090.819 (R) [notice] Searching and replacing reached row: 1340000
+1091.561 (R) [notice] Searching and replacing reached row: 1345000
+1092.167 (R) [notice] Searching and replacing reached row: 1350000
+1092.774 (R) [notice] Searching and replacing reached row: 1355000
+1093.304 (R) [notice] Searching and replacing reached row: 1360000
+1093.966 (R) [notice] Searching and replacing reached row: 1365000
+1094.606 (R) [notice] Searching and replacing reached row: 1370000
+1095.324 (R) [notice] Searching and replacing reached row: 1375000
+1096.194 (R) [notice] Searching and replacing reached row: 1380000
+1096.826 (R) [notice] Searching and replacing reached row: 1385000
+1097.519 (R) [notice] Searching and replacing reached row: 1390000
+1098.240 (R) [notice] Searching and replacing reached row: 1395000
+1098.793 (R) [notice] Searching and replacing reached row: 1400000
+1099.427 (R) [notice] Searching and replacing reached row: 1405000
+1100.028 (R) [notice] Searching and replacing reached row: 1410000
+1100.861 (R) [notice] Searching and replacing reached row: 1415000
+1101.693 (R) [notice] Searching and replacing reached row: 1420000
+1102.366 (R) [notice] Searching and replacing reached row: 1425000
+1103.329 (R) [notice] Searching and replacing reached row: 1430000
+1104.035 (R) [notice] Searching and replacing reached row: 1435000
+1104.843 (R) [notice] Searching and replacing reached row: 1440000
+1105.533 (R) [notice] Searching and replacing reached row: 1445000
+1106.406 (R) [notice] Searching and replacing reached row: 1450000
+1106.972 (R) [notice] Searching and replacing reached row: 1455000
+1107.628 (R) [notice] Searching and replacing reached row: 1460000
+1108.617 (R) [notice] Searching and replacing reached row: 1465000
+1109.365 (R) [notice] Searching and replacing reached row: 1470000
+1110.069 (R) [notice] Searching and replacing reached row: 1475000
+1110.773 (R) [notice] Searching and replacing reached row: 1480000
+1111.609 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_scheduled_tasks - se restaurará como: gf_mailpoet_scheduled_tasks
+1111.823 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_scheduled_tasks)
+1111.825 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_scheduled_tasks) to final table name (wp_mailpoet_scheduled_tasks)
+1111.839 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_scheduled_tasks: filas: 4511
+1111.886 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_segments - se restaurará como: gf_mailpoet_segments
+1111.932 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_segments)
+1111.933 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_segments) to final table name (wp_mailpoet_segments)
+1111.941 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_segments: filas: 3
+1111.941 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_sending_queues - se restaurará como: gf_mailpoet_sending_queues
+1112.055 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_sending_queues)
+1112.056 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_sending_queues) to final table name (wp_mailpoet_sending_queues)
+1112.071 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_sending_queues: filas: 0
+1112.071 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_settings - se restaurará como: gf_mailpoet_settings
+1112.109 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_settings)
+1112.110 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_settings) to final table name (wp_mailpoet_settings)
+1112.137 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_settings: filas: 44
+1112.139 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_bounces - se restaurará como: gf_mailpoet_statistics_bounces
+1112.169 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_bounces)
+1112.170 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_bounces) to final table name (wp_mailpoet_statistics_bounces)
+1112.178 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_bounces: filas: 0
+1112.178 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_clicks - se restaurará como: gf_mailpoet_statistics_clicks
+1112.208 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_clicks)
+1112.210 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_clicks) to final table name (wp_mailpoet_statistics_clicks)
+1112.220 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_clicks: filas: 0
+1112.220 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_forms - se restaurará como: gf_mailpoet_statistics_forms
+1112.246 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_forms)
+1112.246 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_forms) to final table name (wp_mailpoet_statistics_forms)
+1112.257 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_forms: filas: 0
+1112.257 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_newsletters - se restaurará como: gf_mailpoet_statistics_newsletters
+1112.289 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_newsletters)
+1112.290 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_newsletters) to final table name (wp_mailpoet_statistics_newsletters)
+1112.298 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_newsletters: filas: 0
+1112.298 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_opens - se restaurará como: gf_mailpoet_statistics_opens
+1112.333 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_opens)
+1112.334 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_opens) to final table name (wp_mailpoet_statistics_opens)
+1112.348 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_opens: filas: 0
+1112.349 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_unsubscribes - se restaurará como: gf_mailpoet_statistics_unsubscribes
+1112.428 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_unsubscribes)
+1112.430 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_unsubscribes) to final table name (wp_mailpoet_statistics_unsubscribes)
+1112.451 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_unsubscribes: filas: 0
+1112.451 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_statistics_woocommerce_purchases - se restaurará como: gf_mailpoet_statistics_woocommerce_purchases
+1112.484 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_statistics_woocommerce_purchases)
+1112.486 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_statistics_woocommerce_purchases) to final table name (wp_mailpoet_statistics_woocommerce_purchases)
+1112.500 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_woocommerce_purchases: filas: 0
+1112.500 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_stats_notifications - se restaurará como: gf_mailpoet_stats_notifications
+1112.543 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_stats_notifications)
+1112.544 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_stats_notifications) to final table name (wp_mailpoet_stats_notifications)
+1112.553 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_stats_notifications: filas: 0
+1112.553 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_subscriber_custom_field - se restaurará como: gf_mailpoet_subscriber_custom_field
+1112.583 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_subscriber_custom_field)
+1112.584 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_subscriber_custom_field) to final table name (wp_mailpoet_subscriber_custom_field)
+1112.593 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_custom_field: filas: 0
+1112.593 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_subscriber_ips - se restaurará como: gf_mailpoet_subscriber_ips
+1112.625 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_subscriber_ips)
+1112.628 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_subscriber_ips) to final table name (wp_mailpoet_subscriber_ips)
+1112.639 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_ips: filas: 0
+1112.639 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_subscriber_segment - se restaurará como: gf_mailpoet_subscriber_segment
+1112.837 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_subscriber_segment)
+1112.838 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_subscriber_segment) to final table name (wp_mailpoet_subscriber_segment)
+1112.848 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_segment: filas: 8468
+1112.881 (R) [notice] Searching and replacing reached row: 5000
+1112.929 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_subscriber_tag - se restaurará como: gf_mailpoet_subscriber_tag
+1112.960 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_subscriber_tag)
+1112.961 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_subscriber_tag) to final table name (wp_mailpoet_subscriber_tag)
+1112.969 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_tag: filas: 0
+1112.969 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_subscribers - se restaurará como: gf_mailpoet_subscribers
+1113.340 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_subscribers)
+1113.341 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_subscribers) to final table name (wp_mailpoet_subscribers)
+1113.360 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscribers: filas: 3395
+1113.527 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_tags - se restaurará como: gf_mailpoet_tags
+1113.570 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_tags)
+1113.571 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_tags) to final table name (wp_mailpoet_tags)
+1113.580 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_tags: filas: 0
+1113.580 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_user_agents - se restaurará como: gf_mailpoet_user_agents
+1113.618 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_user_agents)
+1113.619 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_user_agents) to final table name (wp_mailpoet_user_agents)
+1113.627 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_user_agents: filas: 0
+1113.627 (R) [notice] Procesando table (InnoDB):  wp_mailpoet_user_flags - se restaurará como: gf_mailpoet_user_flags
+1113.657 (R) [notice] Atomic restore: dropping original table (wp_mailpoet_user_flags)
+1113.659 (R) [notice] Atomic restore: renaming new table (gf_mailpoet_user_flags) to final table name (wp_mailpoet_user_flags)
+1113.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_user_flags: filas: 0
+1113.671 (R) [notice] Procesando table (InnoDB):  wp_member_catmeta - se restaurará como: gf_member_catmeta
+1113.692 (R) [notice] Atomic restore: dropping original table (wp_member_catmeta)
+1113.693 (R) [notice] Atomic restore: renaming new table (gf_member_catmeta) to final table name (wp_member_catmeta)
+1113.701 (R) [notice] Tabla de búsqueda y reemplazo: wp_member_catmeta: filas: 0
+1113.701 (R) [notice] Procesando table (InnoDB):  wp_ml_attributes_map_table - se restaurará como: gf_ml_attributes_map_table
+1113.721 (R) [notice] Atomic restore: dropping original table (wp_ml_attributes_map_table)
+1113.722 (R) [notice] Atomic restore: renaming new table (gf_ml_attributes_map_table) to final table name (wp_ml_attributes_map_table)
+1113.731 (R) [notice] Tabla de búsqueda y reemplazo: wp_ml_attributes_map_table: filas: 0
+1113.731 (R) [notice] Procesando table (InnoDB):  wp_ml_import_table - se restaurará como: gf_ml_import_table
+1114.012 (R) [notice] Atomic restore: dropping original table (wp_ml_import_table)
+1114.013 (R) [notice] Atomic restore: renaming new table (gf_ml_import_table) to final table name (wp_ml_import_table)
+1114.023 (R) [notice] Tabla de búsqueda y reemplazo: wp_ml_import_table: filas: 1058
+1116.003 (R) [notice] Procesando table (InnoDB):  wp_options_terms_rel - se restaurará como: gf_options_terms_rel
+1116.073 (R) [notice] Atomic restore: dropping original table (wp_options_terms_rel)
+1116.074 (R) [notice] Atomic restore: renaming new table (gf_options_terms_rel) to final table name (wp_options_terms_rel)
+1116.083 (R) [notice] Tabla de búsqueda y reemplazo: wp_options_terms_rel: filas: 0
+1116.084 (R) [notice] Procesando table (InnoDB):  wp_portfolio_catmeta - se restaurará como: gf_portfolio_catmeta
+1116.103 (R) [notice] Atomic restore: dropping original table (wp_portfolio_catmeta)
+1116.104 (R) [notice] Atomic restore: renaming new table (gf_portfolio_catmeta) to final table name (wp_portfolio_catmeta)
+1116.113 (R) [notice] Tabla de búsqueda y reemplazo: wp_portfolio_catmeta: filas: 0
+1116.113 (R) [notice] Procesando table (InnoDB):  wp_product_catmeta - se restaurará como: gf_product_catmeta
+1116.137 (R) [notice] Atomic restore: dropping original table (wp_product_catmeta)
+1116.138 (R) [notice] Atomic restore: renaming new table (gf_product_catmeta) to final table name (wp_product_catmeta)
+1116.153 (R) [notice] Tabla de búsqueda y reemplazo: wp_product_catmeta: filas: 0
+1116.153 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_landing - se restaurará como: gf_pys_stat_landing
+1116.268 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_landing)
+1116.269 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_landing) to final table name (wp_pys_stat_landing)
+1116.279 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_landing: filas: 466
+1116.956 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_order - se restaurará como: gf_pys_stat_order
+1117.020 (R) [notice] Database queries processed: 1000 in 1116.82 seconds
+1117.034 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_order)
+1117.035 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_order) to final table name (wp_pys_stat_order)
+1117.049 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_order: filas: 1427
+1117.090 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_product_order - se restaurará como: gf_pys_stat_product_order
+1117.313 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_product_order)
+1117.314 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_product_order) to final table name (wp_pys_stat_product_order)
+1117.324 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_product_order: filas: 5314
+1117.361 (R) [notice] Searching and replacing reached row: 5000
+1117.368 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_traffic - se restaurará como: gf_pys_stat_traffic
+1117.410 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_traffic)
+1117.411 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_traffic) to final table name (wp_pys_stat_traffic)
+1117.420 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_traffic: filas: 17
+1117.420 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_utm_campaing - se restaurará como: gf_pys_stat_utm_campaing
+1117.451 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_utm_campaing)
+1117.453 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_utm_campaing) to final table name (wp_pys_stat_utm_campaing)
+1117.469 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_campaing: filas: 8
+1117.470 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_utm_content - se restaurará como: gf_pys_stat_utm_content
+1117.505 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_utm_content)
+1117.507 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_utm_content) to final table name (wp_pys_stat_utm_content)
+1117.516 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_content: filas: 26
+1117.516 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_utm_medium - se restaurará como: gf_pys_stat_utm_medium
+1117.541 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_utm_medium)
+1117.542 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_utm_medium) to final table name (wp_pys_stat_utm_medium)
+1117.551 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_medium: filas: 3
+1117.551 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_utm_source - se restaurará como: gf_pys_stat_utm_source
+1117.576 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_utm_source)
+1117.577 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_utm_source) to final table name (wp_pys_stat_utm_source)
+1117.585 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_source: filas: 4
+1117.585 (R) [notice] Procesando table (InnoDB):  wp_pys_stat_utm_term - se restaurará como: gf_pys_stat_utm_term
+1117.627 (R) [notice] Atomic restore: dropping original table (wp_pys_stat_utm_term)
+1117.628 (R) [notice] Atomic restore: renaming new table (gf_pys_stat_utm_term) to final table name (wp_pys_stat_utm_term)
+1117.636 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_term: filas: 10
+1117.636 (R) [notice] Procesando table (InnoDB):  wp_revslider_css - se restaurará como: gf_revslider_css
+1117.636 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.674 (R) [notice] Atomic restore: dropping original table (wp_revslider_css)
+1117.675 (R) [notice] Atomic restore: renaming new table (gf_revslider_css) to final table name (wp_revslider_css)
+1117.685 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_css: filas: 109
+1117.689 (R) [notice] Procesando table (InnoDB):  wp_revslider_css_bkp - se restaurará como: gf_revslider_css_bkp
+1117.689 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.727 (R) [notice] Atomic restore: dropping original table (wp_revslider_css_bkp)
+1117.727 (R) [notice] Atomic restore: renaming new table (gf_revslider_css_bkp) to final table name (wp_revslider_css_bkp)
+1117.736 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_css_bkp: filas: 47
+1117.737 (R) [notice] Procesando table (InnoDB):  wp_revslider_layer_animations - se restaurará como: gf_revslider_layer_animations
+1117.737 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.773 (R) [notice] Atomic restore: dropping original table (wp_revslider_layer_animations)
+1117.774 (R) [notice] Atomic restore: renaming new table (gf_revslider_layer_animations) to final table name (wp_revslider_layer_animations)
+1117.782 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_layer_animations: filas: 0
+1117.782 (R) [notice] Procesando table (InnoDB):  wp_revslider_layer_animations_bkp - se restaurará como: gf_revslider_layer_animations_bkp
+1117.782 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.804 (R) [notice] Atomic restore: dropping original table (wp_revslider_layer_animations_bkp)
+1117.805 (R) [notice] Atomic restore: renaming new table (gf_revslider_layer_animations_bkp) to final table name (wp_revslider_layer_animations_bkp)
+1117.813 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_layer_animations_bkp: filas: 0
+1117.813 (R) [notice] Procesando table (InnoDB):  wp_revslider_navigations - se restaurará como: gf_revslider_navigations
+1117.813 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.841 (R) [notice] Atomic restore: dropping original table (wp_revslider_navigations)
+1117.842 (R) [notice] Atomic restore: renaming new table (gf_revslider_navigations) to final table name (wp_revslider_navigations)
+1117.850 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_navigations: filas: 0
+1117.850 (R) [notice] Procesando table (InnoDB):  wp_revslider_navigations_bkp - se restaurará como: gf_revslider_navigations_bkp
+1117.850 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.871 (R) [notice] Atomic restore: dropping original table (wp_revslider_navigations_bkp)
+1117.872 (R) [notice] Atomic restore: renaming new table (gf_revslider_navigations_bkp) to final table name (wp_revslider_navigations_bkp)
+1117.880 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_navigations_bkp: filas: 0
+1117.880 (R) [notice] Procesando table (InnoDB):  wp_revslider_sliders - se restaurará como: gf_revslider_sliders
+1117.880 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1117.954 (R) [notice] Atomic restore: dropping original table (wp_revslider_sliders)
+1117.955 (R) [notice] Atomic restore: renaming new table (gf_revslider_sliders) to final table name (wp_revslider_sliders)
+1117.976 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders: filas: 2
+1117.978 (R) [notice] Procesando table (InnoDB):  wp_revslider_sliders7 - se restaurará como: gf_revslider_sliders7
+1117.978 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.019 (R) [notice] Atomic restore: dropping original table (wp_revslider_sliders7)
+1118.021 (R) [notice] Atomic restore: renaming new table (gf_revslider_sliders7) to final table name (wp_revslider_sliders7)
+1118.034 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders7: filas: 0
+1118.034 (R) [notice] Procesando table (InnoDB):  wp_revslider_sliders_bkp - se restaurará como: gf_revslider_sliders_bkp
+1118.034 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.065 (R) [notice] Atomic restore: dropping original table (wp_revslider_sliders_bkp)
+1118.067 (R) [notice] Atomic restore: renaming new table (gf_revslider_sliders_bkp) to final table name (wp_revslider_sliders_bkp)
+1118.078 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders_bkp: filas: 0
+1118.079 (R) [notice] Procesando table (InnoDB):  wp_revslider_slides - se restaurará como: gf_revslider_slides
+1118.079 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.127 (R) [notice] Atomic restore: dropping original table (wp_revslider_slides)
+1118.128 (R) [notice] Atomic restore: renaming new table (gf_revslider_slides) to final table name (wp_revslider_slides)
+1118.139 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides: filas: 4
+1118.147 (R) [notice] Procesando table (InnoDB):  wp_revslider_slides7 - se restaurará como: gf_revslider_slides7
+1118.147 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.186 (R) [notice] Atomic restore: dropping original table (wp_revslider_slides7)
+1118.188 (R) [notice] Atomic restore: renaming new table (gf_revslider_slides7) to final table name (wp_revslider_slides7)
+1118.211 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides7: filas: 0
+1118.212 (R) [notice] Procesando table (InnoDB):  wp_revslider_slides_bkp - se restaurará como: gf_revslider_slides_bkp
+1118.212 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.318 (R) [notice] Atomic restore: dropping original table (wp_revslider_slides_bkp)
+1118.319 (R) [notice] Atomic restore: renaming new table (gf_revslider_slides_bkp) to final table name (wp_revslider_slides_bkp)
+1118.327 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides_bkp: filas: 0
+1118.327 (R) [notice] Procesando table (InnoDB):  wp_revslider_static_slides - se restaurará como: gf_revslider_static_slides
+1118.327 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.370 (R) [notice] Atomic restore: dropping original table (wp_revslider_static_slides)
+1118.371 (R) [notice] Atomic restore: renaming new table (gf_revslider_static_slides) to final table name (wp_revslider_static_slides)
+1118.384 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_static_slides: filas: 2
+1118.385 (R) [notice] Procesando table (InnoDB):  wp_revslider_static_slides_bkp - se restaurará como: gf_revslider_static_slides_bkp
+1118.385 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1118.415 (R) [notice] Atomic restore: dropping original table (wp_revslider_static_slides_bkp)
+1118.416 (R) [notice] Atomic restore: renaming new table (gf_revslider_static_slides_bkp) to final table name (wp_revslider_static_slides_bkp)
+1118.424 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_static_slides_bkp: filas: 0
+1118.424 (R) [notice] Procesando table (InnoDB):  wp_shortpixel_queue - se restaurará como: gf_shortpixel_queue
+1118.752 (R) [notice] Atomic restore: dropping original table (wp_shortpixel_queue)
+1118.753 (R) [notice] Atomic restore: renaming new table (gf_shortpixel_queue) to final table name (wp_shortpixel_queue)
+1118.763 (R) [notice] Tabla de búsqueda y reemplazo: wp_shortpixel_queue: filas: 11891
+1118.866 (R) [notice] Searching and replacing reached row: 5000
+1118.966 (R) [notice] Searching and replacing reached row: 10000
+1119.011 (R) [notice] Procesando table (InnoDB):  wp_wc_admin_note_actions - se restaurará como: gf_wc_admin_note_actions
+1119.105 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_note_actions)
+1119.106 (R) [notice] Atomic restore: renaming new table (gf_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+1119.126 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_admin_note_actions: filas: 317
+1119.280 (R) [notice] Procesando table (InnoDB):  wp_wc_admin_notes - se restaurará como: gf_wc_admin_notes
+1119.375 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_notes)
+1119.376 (R) [notice] Atomic restore: renaming new table (gf_wc_admin_notes) to final table name (wp_wc_admin_notes)
+1119.386 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_admin_notes: filas: 269
+1119.749 (R) [notice] Procesando table (InnoDB):  wp_wc_customer_lookup - se restaurará como: gf_wc_customer_lookup
+1119.927 (R) [notice] Atomic restore: dropping original table (wp_wc_customer_lookup)
+1119.928 (R) [notice] Atomic restore: renaming new table (gf_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+1119.937 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_customer_lookup: filas: 5885
+1120.047 (R) [notice] Searching and replacing reached row: 5000
+1120.070 (R) [notice] Procesando table (InnoDB):  wp_wc_download_log - se restaurará como: gf_wc_download_log
+1120.103 (R) [notice] Atomic restore: dropping original table (wp_wc_download_log)
+1120.104 (R) [notice] Atomic restore: renaming new table (gf_wc_download_log) to final table name (wp_wc_download_log)
+1120.114 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_download_log: filas: 0
+1120.114 (R) [notice] Procesando table (InnoDB):  wp_wc_order_addresses - se restaurará como: gf_wc_order_addresses
+1120.167 (R) [notice] Atomic restore: dropping original table (wp_wc_order_addresses)
+1120.168 (R) [notice] Atomic restore: renaming new table (gf_wc_order_addresses) to final table name (wp_wc_order_addresses)
+1120.183 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_addresses: filas: 0
+1120.183 (R) [notice] Procesando table (InnoDB):  wp_wc_order_composite_lookup - se restaurará como: gf_wc_order_composite_lookup
+1120.297 (R) [notice] Atomic restore: dropping original table (wp_wc_order_composite_lookup)
+1120.298 (R) [notice] Atomic restore: renaming new table (gf_wc_order_composite_lookup) to final table name (wp_wc_order_composite_lookup)
+1120.311 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_composite_lookup: filas: 0
+1120.312 (R) [notice] Procesando table (InnoDB):  wp_wc_order_coupon_lookup - se restaurará como: gf_wc_order_coupon_lookup
+1120.382 (R) [notice] Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+1120.383 (R) [notice] Atomic restore: renaming new table (gf_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+1120.391 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_coupon_lookup: filas: 997
+1120.397 (R) [notice] Procesando table (InnoDB):  wp_wc_order_operational_data - se restaurará como: gf_wc_order_operational_data
+1120.428 (R) [notice] Atomic restore: dropping original table (wp_wc_order_operational_data)
+1120.429 (R) [notice] Atomic restore: renaming new table (gf_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+1120.439 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_operational_data: filas: 0
+1120.439 (R) [notice] Procesando table (InnoDB):  wp_wc_order_product_lookup - se restaurará como: gf_wc_order_product_lookup
+1120.833 (R) [notice] Atomic restore: dropping original table (wp_wc_order_product_lookup)
+1120.834 (R) [notice] Atomic restore: renaming new table (gf_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+1120.845 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_product_lookup: filas: 15474
+1120.979 (R) [notice] Searching and replacing reached row: 5000
+1121.114 (R) [notice] Searching and replacing reached row: 10000
+1121.261 (R) [notice] Searching and replacing reached row: 15000
+1121.286 (R) [notice] Procesando table (InnoDB):  wp_wc_order_stats - se restaurará como: gf_wc_order_stats
+1121.556 (R) [notice] Atomic restore: dropping original table (wp_wc_order_stats)
+1121.557 (R) [notice] Atomic restore: renaming new table (gf_wc_order_stats) to final table name (wp_wc_order_stats)
+1121.569 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_stats: filas: 4712
+1121.687 (R) [notice] Procesando table (InnoDB):  wp_wc_order_tax_lookup - se restaurará como: gf_wc_order_tax_lookup
+1121.722 (R) [notice] Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+1121.723 (R) [notice] Atomic restore: renaming new table (gf_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+1121.732 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_tax_lookup: filas: 0
+1121.732 (R) [notice] Procesando table (InnoDB):  wp_wc_orders - se restaurará como: gf_wc_orders
+1121.771 (R) [notice] Atomic restore: dropping original table (wp_wc_orders)
+1121.774 (R) [notice] Atomic restore: renaming new table (gf_wc_orders) to final table name (wp_wc_orders)
+1121.783 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_orders: filas: 0
+1121.783 (R) [notice] Procesando table (InnoDB):  wp_wc_orders_meta - se restaurará como: gf_wc_orders_meta
+1121.816 (R) [notice] Atomic restore: dropping original table (wp_wc_orders_meta)
+1121.817 (R) [notice] Atomic restore: renaming new table (gf_wc_orders_meta) to final table name (wp_wc_orders_meta)
+1121.828 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_orders_meta: filas: 0
+1121.829 (R) [notice] Procesando table (InnoDB):  wp_wc_product_attributes_lookup - se restaurará como: gf_wc_product_attributes_lookup
+1121.902 (R) [notice] Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+1121.903 (R) [notice] Atomic restore: renaming new table (gf_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+1121.911 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_attributes_lookup: filas: 2300
+1121.932 (R) [notice] Procesando table (InnoDB):  wp_wc_product_download_directories - se restaurará como: gf_wc_product_download_directories
+1121.960 (R) [notice] Atomic restore: dropping original table (wp_wc_product_download_directories)
+1121.961 (R) [notice] Atomic restore: renaming new table (gf_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+1121.974 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_download_directories: filas: 2
+1121.979 (R) [notice] Procesando table (InnoDB):  wp_wc_rate_limits - se restaurará como: gf_wc_rate_limits
+1122.004 (R) [notice] Atomic restore: dropping original table (wp_wc_rate_limits)
+1122.005 (R) [notice] Atomic restore: renaming new table (gf_wc_rate_limits) to final table name (wp_wc_rate_limits)
+1122.013 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_rate_limits: filas: 0
+1122.014 (R) [notice] Procesando table (InnoDB):  wp_wc_webhooks - se restaurará como: gf_wc_webhooks
+1122.043 (R) [notice] Atomic restore: dropping original table (wp_wc_webhooks)
+1122.044 (R) [notice] Atomic restore: renaming new table (gf_wc_webhooks) to final table name (wp_wc_webhooks)
+1122.052 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_webhooks: filas: 6
+1122.053 (R) [notice] Procesando table (InnoDB):  wp_wccs_cache - se restaurará como: gf_wccs_cache
+1122.075 (R) [notice] Atomic restore: dropping original table (wp_wccs_cache)
+1122.076 (R) [notice] Atomic restore: renaming new table (gf_wccs_cache) to final table name (wp_wccs_cache)
+1122.085 (R) [notice] Tabla de búsqueda y reemplazo: wp_wccs_cache: filas: 0
+1122.085 (R) [notice] Procesando table (InnoDB):  wp_wccs_conditions - se restaurará como: gf_wccs_conditions
+1122.113 (R) [notice] Atomic restore: dropping original table (wp_wccs_conditions)
+1122.116 (R) [notice] Atomic restore: renaming new table (gf_wccs_conditions) to final table name (wp_wccs_conditions)
+1122.131 (R) [notice] Tabla de búsqueda y reemplazo: wp_wccs_conditions: filas: 0
+1122.131 (R) [notice] Procesando table (InnoDB):  wp_wdp_order_items - se restaurará como: gf_wdp_order_items
+1122.232 (R) [notice] Atomic restore: dropping original table (wp_wdp_order_items)
+1122.233 (R) [notice] Atomic restore: renaming new table (gf_wdp_order_items) to final table name (wp_wdp_order_items)
+1122.251 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_order_items: filas: 0
+1122.251 (R) [notice] Procesando table (InnoDB):  wp_wdp_orders - se restaurará como: gf_wdp_orders
+1122.374 (R) [notice] Atomic restore: dropping original table (wp_wdp_orders)
+1122.376 (R) [notice] Atomic restore: renaming new table (gf_wdp_orders) to final table name (wp_wdp_orders)
+1122.391 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_orders: filas: 0
+1122.391 (R) [notice] Procesando table (InnoDB):  wp_wdp_rules - se restaurará como: gf_wdp_rules
+1122.435 (R) [notice] Atomic restore: dropping original table (wp_wdp_rules)
+1122.436 (R) [notice] Atomic restore: renaming new table (gf_wdp_rules) to final table name (wp_wdp_rules)
+1122.446 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_rules: filas: 2
+1122.447 (R) [notice] Procesando table (InnoDB):  wp_wdr_rules - se restaurará como: gf_wdr_rules
+1122.486 (R) [notice] Atomic restore: dropping original table (wp_wdr_rules)
+1122.486 (R) [notice] Atomic restore: renaming new table (gf_wdr_rules) to final table name (wp_wdr_rules)
+1122.495 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdr_rules: filas: 5
+1122.496 (R) [notice] Procesando table (InnoDB):  wp_wfacp_stats - se restaurará como: gf_wfacp_stats
+1122.602 (R) [notice] Atomic restore: dropping original table (wp_wfacp_stats)
+1122.603 (R) [notice] Atomic restore: renaming new table (gf_wfacp_stats) to final table name (wp_wfacp_stats)
+1122.615 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfacp_stats: filas: 2759
+1122.673 (R) [notice] Procesando table (InnoDB):  wp_wfblockediplog - se restaurará como: gf_wfblockediplog
+1122.673 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1122.740 (R) [notice] Atomic restore: dropping original table (wp_wfblockediplog)
+1122.741 (R) [notice] Atomic restore: renaming new table (gf_wfblockediplog) to final table name (wp_wfblockediplog)
+1122.757 (R) [notice] Skipping this table: data in this table (wp_wfblockediplog) should not be search/replaced
+1122.757 (R) [notice] Procesando table (InnoDB):  wp_wfblocks7 - se restaurará como: gf_wfblocks7
+1122.757 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1122.802 (R) [notice] Atomic restore: dropping original table (wp_wfblocks7)
+1122.803 (R) [notice] Atomic restore: renaming new table (gf_wfblocks7) to final table name (wp_wfblocks7)
+1122.812 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfblocks7: filas: 0
+1122.812 (R) [notice] Procesando table (InnoDB):  wp_wfco_report_views - se restaurará como: gf_wfco_report_views
+1122.854 (R) [notice] Atomic restore: dropping original table (wp_wfco_report_views)
+1122.855 (R) [notice] Atomic restore: renaming new table (gf_wfco_report_views) to final table name (wp_wfco_report_views)
+1122.864 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfco_report_views: filas: 533
+1122.877 (R) [notice] Procesando table (InnoDB):  wp_wfconfig - se restaurará como: gf_wfconfig
+1122.877 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1122.916 (R) [notice] Atomic restore: dropping original table (wp_wfconfig)
+1122.918 (R) [notice] Atomic restore: renaming new table (gf_wfconfig) to final table name (wp_wfconfig)
+1122.931 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfconfig: filas: 216
+1122.941 (R) [notice] Procesando table (InnoDB):  wp_wfcrawlers - se restaurará como: gf_wfcrawlers
+1122.941 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1122.970 (R) [notice] Atomic restore: dropping original table (wp_wfcrawlers)
+1122.971 (R) [notice] Atomic restore: renaming new table (gf_wfcrawlers) to final table name (wp_wfcrawlers)
+1122.980 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfcrawlers: filas: 1
+1122.980 (R) [notice] Procesando table (InnoDB):  wp_wfhits - se restaurará como: gf_wfhits
+1122.980 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.013 (R) [notice] Atomic restore: dropping original table (wp_wfhits)
+1123.014 (R) [notice] Atomic restore: renaming new table (gf_wfhits) to final table name (wp_wfhits)
+1123.022 (R) [notice] Skipping this table: data in this table (wp_wfhits) should not be search/replaced
+1123.023 (R) [notice] Procesando table (InnoDB):  wp_wfhoover - se restaurará como: gf_wfhoover
+1123.023 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.054 (R) [notice] Atomic restore: dropping original table (wp_wfhoover)
+1123.056 (R) [notice] Atomic restore: renaming new table (gf_wfhoover) to final table name (wp_wfhoover)
+1123.064 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfhoover: filas: 0
+1123.064 (R) [notice] Procesando table (InnoDB):  wp_wfissues - se restaurará como: gf_wfissues
+1123.064 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.102 (R) [notice] Atomic restore: dropping original table (wp_wfissues)
+1123.103 (R) [notice] Atomic restore: renaming new table (gf_wfissues) to final table name (wp_wfissues)
+1123.117 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfissues: filas: 0
+1123.117 (R) [notice] Procesando table (InnoDB):  wp_wflocs - se restaurará como: gf_wflocs
+1123.117 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.143 (R) [notice] Atomic restore: dropping original table (wp_wflocs)
+1123.144 (R) [notice] Atomic restore: renaming new table (gf_wflocs) to final table name (wp_wflocs)
+1123.152 (R) [notice] Tabla de búsqueda y reemplazo: wp_wflocs: filas: 0
+1123.152 (R) [notice] Procesando table (InnoDB):  wp_wflogins - se restaurará como: gf_wflogins
+1123.152 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.189 (R) [notice] Atomic restore: dropping original table (wp_wflogins)
+1123.190 (R) [notice] Atomic restore: renaming new table (gf_wflogins) to final table name (wp_wflogins)
+1123.199 (R) [notice] Tabla de búsqueda y reemplazo: wp_wflogins: filas: 0
+1123.199 (R) [notice] Procesando table (InnoDB):  wp_wfls_settings - se restaurará como: gf_wfls_settings
+1123.199 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.223 (R) [notice] Atomic restore: dropping original table (wp_wfls_settings)
+1123.224 (R) [notice] Atomic restore: renaming new table (gf_wfls_settings) to final table name (wp_wfls_settings)
+1123.256 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfls_settings: filas: 26
+1123.258 (R) [notice] Procesando table (InnoDB):  wp_wfnotifications - se restaurará como: gf_wfnotifications
+1123.258 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.358 (R) [notice] Atomic restore: dropping original table (wp_wfnotifications)
+1123.358 (R) [notice] Atomic restore: renaming new table (gf_wfnotifications) to final table name (wp_wfnotifications)
+1123.370 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfnotifications: filas: 0
+1123.370 (R) [notice] Procesando table (InnoDB):  wp_wfstatus - se restaurará como: gf_wfstatus
+1123.370 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.402 (R) [notice] Atomic restore: dropping original table (wp_wfstatus)
+1123.403 (R) [notice] Atomic restore: renaming new table (gf_wfstatus) to final table name (wp_wfstatus)
+1123.415 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfstatus: filas: 0
+1123.415 (R) [notice] Procesando table (InnoDB):  wp_wm_blacklist - se restaurará como: gf_wm_blacklist
+1123.415 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.460 (R) [notice] Atomic restore: dropping original table (wp_wm_blacklist)
+1123.462 (R) [notice] Atomic restore: renaming new table (gf_wm_blacklist) to final table name (wp_wm_blacklist)
+1123.476 (R) [notice] Tabla de búsqueda y reemplazo: wp_wm_blacklist: filas: 2
+1123.477 (R) [notice] Procesando table (InnoDB):  wp_wm_ext_qanda - se restaurará como: gf_wm_ext_qanda
+1123.477 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1123.522 (R) [notice] Atomic restore: dropping original table (wp_wm_ext_qanda)
+1123.523 (R) [notice] Atomic restore: renaming new table (gf_wm_ext_qanda) to final table name (wp_wm_ext_qanda)
+1123.538 (R) [notice] Tabla de búsqueda y reemplazo: wp_wm_ext_qanda: filas: 0
+1123.538 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_api_keys - se restaurará como: gf_woocommerce_api_keys
+1123.587 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_api_keys)
+1123.588 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+1123.601 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_api_keys: filas: 6
+1123.602 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_attribute_taxonomies - se restaurará como: gf_woocommerce_attribute_taxonomies
+1123.646 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+1123.647 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+1123.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_attribute_taxonomies: filas: 4
+1123.660 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_downloadable_product_permissions - se restaurará como: gf_woocommerce_downloadable_product_permissions
+1123.712 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+1123.713 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+1123.729 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_downloadable_product_permissions: filas: 0
+1123.729 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_log - se restaurará como: gf_woocommerce_log
+1123.776 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_log)
+1123.777 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_log) to final table name (wp_woocommerce_log)
+1123.790 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_log: filas: 0
+1123.790 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_order_items - se restaurará como: gf_woocommerce_order_items
+1124.197 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_items)
+1124.199 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+1124.208 (R) [notice] Skipping this table: data in this table (wp_woocommerce_order_items) should not be search/replaced
+1124.208 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_payment_tokens - se restaurará como: gf_woocommerce_payment_tokens
+1124.256 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+1124.259 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+1124.291 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_payment_tokens: filas: 0
+1124.291 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_sessions - se restaurará como: gf_woocommerce_sessions
+1124.554 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_sessions)
+1124.556 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+1124.566 (R) [notice] Skipping this table: data in this table (wp_woocommerce_sessions) should not be search/replaced
+1124.566 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zone_locations - se restaurará como: gf_woocommerce_shipping_zone_locations
+1124.613 (R) [notice] Database queries processed: 1250 in 1124.41 seconds
+1124.613 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+1124.615 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+1124.633 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zone_locations: filas: 1
+1124.634 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zone_methods - se restaurará como: gf_woocommerce_shipping_zone_methods
+1124.674 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+1124.675 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+1124.687 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zone_methods: filas: 6
+1124.687 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zones - se restaurará como: gf_woocommerce_shipping_zones
+1124.719 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+1124.721 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+1124.733 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zones: filas: 1
+1124.734 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_tax_rate_locations - se restaurará como: gf_woocommerce_tax_rate_locations
+1124.770 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+1124.771 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+1124.785 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_tax_rate_locations: filas: 0
+1124.785 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_tax_rates - se restaurará como: gf_woocommerce_tax_rates
+1124.833 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+1124.834 (R) [notice] Atomic restore: renaming new table (gf_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+1124.848 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_tax_rates: filas: 0
+1124.849 (R) [notice] Procesando table (InnoDB):  wp_woodmart_wishlist_products - se restaurará como: gf_woodmart_wishlist_products
+1124.849 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1125.043 (R) [notice] Atomic restore: dropping original table (wp_woodmart_wishlist_products)
+1125.044 (R) [notice] Atomic restore: renaming new table (gf_woodmart_wishlist_products) to final table name (wp_woodmart_wishlist_products)
+1125.073 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_wishlist_products: filas: 3525
+1125.109 (R) [notice] Procesando table (InnoDB):  wp_woodmart_wishlists - se restaurará como: gf_woodmart_wishlists
+1125.109 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1125.188 (R) [notice] Atomic restore: dropping original table (wp_woodmart_wishlists)
+1125.189 (R) [notice] Atomic restore: renaming new table (gf_woodmart_wishlists) to final table name (wp_woodmart_wishlists)
+1125.203 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_wishlists: filas: 2768
+1125.228 (R) [notice] Procesando table (InnoDB):  wp_wpmailsmtp_debug_events - se restaurará como: gf_wpmailsmtp_debug_events
+1125.330 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_debug_events)
+1125.331 (R) [notice] Atomic restore: renaming new table (gf_wpmailsmtp_debug_events) to final table name (wp_wpmailsmtp_debug_events)
+1125.345 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmailsmtp_debug_events: filas: 580
+1126.304 (R) [notice] Procesando table (InnoDB):  wp_wpmailsmtp_tasks_meta - se restaurará como: gf_wpmailsmtp_tasks_meta
+1126.351 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+1126.352 (R) [notice] Atomic restore: renaming new table (gf_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+1126.361 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmailsmtp_tasks_meta: filas: 0
+1126.361 (R) [notice] Procesando table (InnoDB):  wp_wpmelon_advbedit_temp - se restaurará como: gf_wpmelon_advbedit_temp
+1126.361 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1126.411 (R) [notice] Atomic restore: dropping original table (wp_wpmelon_advbedit_temp)
+1126.413 (R) [notice] Atomic restore: renaming new table (gf_wpmelon_advbedit_temp) to final table name (wp_wpmelon_advbedit_temp)
+1126.423 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmelon_advbedit_temp: filas: 2231
+1126.446 (R) [notice] Procesando table (InnoDB):  wp_wpnotif_mobile_otp - se restaurará como: gf_wpnotif_mobile_otp
+1126.483 (R) [notice] Atomic restore: dropping original table (wp_wpnotif_mobile_otp)
+1126.483 (R) [notice] Atomic restore: renaming new table (gf_wpnotif_mobile_otp) to final table name (wp_wpnotif_mobile_otp)
+1126.493 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_mobile_otp: filas: 0
+1126.494 (R) [notice] Procesando table (InnoDB):  wp_wpnotif_newsletter - se restaurará como: gf_wpnotif_newsletter
+1126.533 (R) [notice] Atomic restore: dropping original table (wp_wpnotif_newsletter)
+1126.534 (R) [notice] Atomic restore: renaming new table (gf_wpnotif_newsletter) to final table name (wp_wpnotif_newsletter)
+1126.546 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_newsletter: filas: 0
+1126.546 (R) [notice] Procesando table (InnoDB):  wp_wpnotif_sms_app - se restaurará como: gf_wpnotif_sms_app
+1126.578 (R) [notice] Atomic restore: dropping original table (wp_wpnotif_sms_app)
+1126.580 (R) [notice] Atomic restore: renaming new table (gf_wpnotif_sms_app) to final table name (wp_wpnotif_sms_app)
+1126.591 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_sms_app: filas: 0
+1126.591 (R) [notice] Procesando table (InnoDB):  wp_wpnotif_subgroups - se restaurará como: gf_wpnotif_subgroups
+1126.626 (R) [notice] Atomic restore: dropping original table (wp_wpnotif_subgroups)
+1126.627 (R) [notice] Atomic restore: renaming new table (gf_wpnotif_subgroups) to final table name (wp_wpnotif_subgroups)
+1126.635 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_subgroups: filas: 11
+1126.636 (R) [notice] Procesando table (InnoDB):  wp_wpnotif_subscribers - se restaurará como: gf_wpnotif_subscribers
+1126.702 (R) [notice] Atomic restore: dropping original table (wp_wpnotif_subscribers)
+1126.703 (R) [notice] Atomic restore: renaming new table (gf_wpnotif_subscribers) to final table name (wp_wpnotif_subscribers)
+1126.713 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_subscribers: filas: 338
+1126.717 (R) [notice] Procesando table (InnoDB):  wp_wt_iew_action_history - se restaurará como: gf_wt_iew_action_history
+1126.739 (R) [notice] Atomic restore: dropping original table (wp_wt_iew_action_history)
+1126.740 (R) [notice] Atomic restore: renaming new table (gf_wt_iew_action_history) to final table name (wp_wt_iew_action_history)
+1126.748 (R) [notice] Tabla de búsqueda y reemplazo: wp_wt_iew_action_history: filas: 5
+1126.748 (R) [notice] Procesando table (InnoDB):  wp_wt_iew_mapping_template - se restaurará como: gf_wt_iew_mapping_template
+1126.827 (R) [notice] Atomic restore: dropping original table (wp_wt_iew_mapping_template)
+1126.829 (R) [notice] Atomic restore: renaming new table (gf_wt_iew_mapping_template) to final table name (wp_wt_iew_mapping_template)
+1126.844 (R) [notice] Tabla de búsqueda y reemplazo: wp_wt_iew_mapping_template: filas: 0
+1126.844 (R) [notice] Procesando table (InnoDB):  wp_yith_wapo_addons - se restaurará como: gf_yith_wapo_addons
+1126.899 (R) [notice] Atomic restore: dropping original table (wp_yith_wapo_addons)
+1126.900 (R) [notice] Atomic restore: renaming new table (gf_yith_wapo_addons) to final table name (wp_yith_wapo_addons)
+1126.912 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wapo_addons: filas: 6
+1126.915 (R) [notice] Procesando table (InnoDB):  wp_yith_wapo_blocks - se restaurará como: gf_yith_wapo_blocks
+1126.943 (R) [notice] Atomic restore: dropping original table (wp_yith_wapo_blocks)
+1126.944 (R) [notice] Atomic restore: renaming new table (gf_yith_wapo_blocks) to final table name (wp_yith_wapo_blocks)
+1126.954 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wapo_blocks: filas: 1
+1126.954 (R) [notice] Procesando table (InnoDB):  wp_yith_wcwl - se restaurará como: gf_yith_wcwl
+1126.954 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1127.090 (R) [notice] Atomic restore: dropping original table (wp_yith_wcwl)
+1127.091 (R) [notice] Atomic restore: renaming new table (gf_yith_wcwl) to final table name (wp_yith_wcwl)
+1127.099 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wcwl: filas: 5209
+1127.166 (R) [notice] Searching and replacing reached row: 5000
+1127.171 (R) [notice] Procesando table (InnoDB):  wp_yith_wcwl_lists - se restaurará como: gf_yith_wcwl_lists
+1127.172 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1127.212 (R) [notice] Atomic restore: dropping original table (wp_yith_wcwl_lists)
+1127.213 (R) [notice] Atomic restore: renaming new table (gf_yith_wcwl_lists) to final table name (wp_yith_wcwl_lists)
+1127.222 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wcwl_lists: filas: 501
+1127.227 (R) [notice] Procesando table (InnoDB):  wp_yoast_indexable - se restaurará como: gf_yoast_indexable
+1127.655 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable)
+1127.656 (R) [notice] Atomic restore: renaming new table (gf_yoast_indexable) to final table name (wp_yoast_indexable)
+1127.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_indexable: filas: 3172
+1132.566 (R) [notice] Procesando table (InnoDB):  wp_yoast_indexable_hierarchy - se restaurará como: gf_yoast_indexable_hierarchy
+1132.733 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+1132.734 (R) [notice] Atomic restore: renaming new table (gf_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+1132.744 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_indexable_hierarchy: filas: 4486
+1132.810 (R) [notice] Procesando table (InnoDB):  wp_yoast_migrations - se restaurará como: gf_yoast_migrations
+1132.852 (R) [notice] Atomic restore: dropping original table (wp_yoast_migrations)
+1132.853 (R) [notice] Atomic restore: renaming new table (gf_yoast_migrations) to final table name (wp_yoast_migrations)
+1132.862 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_migrations: filas: 24
+1132.863 (R) [notice] Procesando table (InnoDB):  wp_yoast_primary_term - se restaurará como: gf_yoast_primary_term
+1132.983 (R) [notice] Atomic restore: dropping original table (wp_yoast_primary_term)
+1132.984 (R) [notice] Atomic restore: renaming new table (gf_yoast_primary_term) to final table name (wp_yoast_primary_term)
+1132.994 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_primary_term: filas: 2098
+1133.007 (R) [notice] Procesando table (InnoDB):  wp_yoast_seo_links - se restaurará como: gf_yoast_seo_links
+1133.080 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_links)
+1133.081 (R) [notice] Atomic restore: renaming new table (gf_yoast_seo_links) to final table name (wp_yoast_seo_links)
+1133.091 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_seo_links: filas: 871
+1134.160 (R) [notice] Procesando table (InnoDB):  wp_yoast_seo_meta - se restaurará como: gf_yoast_seo_meta
+1134.423 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_meta)
+1134.424 (R) [notice] Atomic restore: renaming new table (gf_yoast_seo_meta) to final table name (wp_yoast_seo_meta)
+1134.439 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_seo_meta: filas: 20449
+1134.482 (R) [notice] Searching and replacing reached row: 5000
+1134.525 (R) [notice] Searching and replacing reached row: 10000
+1134.553 (R) [notice] Searching and replacing reached row: 15000
+1134.592 (R) [notice] Searching and replacing reached row: 20000
+1134.600 (R) [notice] Procesando table (InnoDB):  wp_ywcdd_calendar - se restaurará como: gf_ywcdd_calendar
+1134.601 (R) [notice] El conjunto de caracteres solicitado (utf8) no está presente - se cambiará a utf8mb3.
+1134.617 (R) [notice] Desactivando el modo de mantenimiento&#8230;
+1134.617 (R) [notice] Atomic restore: dropping original table (wp_ywcdd_calendar)
+1134.618 (R) [notice] Atomic restore: renaming new table (gf_ywcdd_calendar) to final table name (wp_ywcdd_calendar)
+1134.631 (R) [notice] Tabla de búsqueda y reemplazo: wp_ywcdd_calendar: filas: 0
+1134.631 (R) [notice] Finished: lines processed: 1368 in 1134.43 seconds
+1134.641 (R) [notice] Limpiando basura...
+1134.642 (R) [notice] Database search and replace: replace https://grupodos.com.uy in backup dump with http://grupodos.local
+1134.642 (R) [notice] Database search and replace: replace http://www.grupodos.com.uy in backup dump with http://grupodos.local
+1134.642 (R) [notice] Database search and replace: replace http://grupodos.com.uy in backup dump with http://grupodos.local
+1134.643 (R) [notice] Database search and replace: replace https://www.grupodos.com.uy in backup dump with http://grupodos.local
+1134.643 (R) [notice] Database search and replace: replace /home/grupodos.com.uy/public_html in backup dump with C:\Users\Leandro\Local Sites\grupodos\app\public
+1134.645 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_actions: ya hecho
+1134.646 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_claims: ya hecho
+1134.646 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_groups: ya hecho
+1134.646 (R) [notice] Tabla de búsqueda y reemplazo: wp_actionscheduler_logs: ya hecho
+1134.646 (R) [notice] Tabla de búsqueda y reemplazo: wp_bv_activities_store: ya hecho
+1134.646 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_contact: ya hecho
+1134.647 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_contact_meta: ya hecho
+1134.647 (R) [notice] Tabla de búsqueda y reemplazo: wp_bwf_wc_customers: ya hecho
+1134.647 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_cart_abandonment: ya hecho
+1134.647 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_history: ya hecho
+1134.647 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_templates: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_cartflows_ca_email_templates_meta: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_files: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_sets: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_cerber_uss: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_commentmeta: ya hecho
+1134.648 (R) [notice] Tabla de búsqueda y reemplazo: wp_comments: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_contabilium_log: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_duplicator_pro_entities: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_duplicator_pro_packages: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_events: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_notes: ya hecho
+1134.649 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_notes_users_relations: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions_actions_log: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_e_submissions_values: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_financing_options: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_attribute_mapping_rules: ya hecho
+1134.650 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_budget_recommendations: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_merchant_issues: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_shipping_rates: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_gla_shipping_times: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_jet_post_types: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_jet_taxonomies: ya hecho
+1134.651 (R) [notice] Tabla de búsqueda y reemplazo: wp_jetpack_sync_queue: ya hecho
+1134.652 (R) [notice] Tabla de búsqueda y reemplazo: wp_links: ya hecho
+1134.652 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_avatar: ya hecho
+1134.652 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_crawler: ya hecho
+1134.652 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_crawler_blacklist: ya hecho
+1134.652 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_img_optming: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_url: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_litespeed_url_file: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_run_logs: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_run_subjects: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_runs: ya hecho
+1134.653 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_triggers: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automation_versions: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_automations: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_custom_fields: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_dynamic_segment_filters: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_feature_flags: ya hecho
+1134.654 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_forms: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_log: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_migrations: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_links: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_option: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_option_fields: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_posts: ya hecho
+1134.655 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_segment: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletter_templates: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_newsletters: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_scheduled_task_subscribers: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_scheduled_tasks: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_segments: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_sending_queues: ya hecho
+1134.656 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_settings: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_bounces: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_clicks: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_forms: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_newsletters: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_opens: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_unsubscribes: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_statistics_woocommerce_purchases: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_stats_notifications: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_custom_field: ya hecho
+1134.657 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_ips: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_segment: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscriber_tag: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_subscribers: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_tags: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_user_agents: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_mailpoet_user_flags: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_member_catmeta: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_ml_attributes_map_table: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_ml_import_table: ya hecho
+1134.658 (R) [notice] Tabla de búsqueda y reemplazo: wp_options: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_options_terms_rel: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_portfolio_catmeta: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_postmeta: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_posts: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_product_catmeta: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_landing: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_order: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_product_order: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_traffic: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_campaing: ya hecho
+1134.659 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_content: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_medium: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_source: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_pys_stat_utm_term: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_css: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_css_bkp: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_layer_animations: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_layer_animations_bkp: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_navigations: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_navigations_bkp: ya hecho
+1134.660 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders7: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_sliders_bkp: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides7: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_slides_bkp: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_static_slides: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_revslider_static_slides_bkp: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_shortpixel_queue: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_snippets: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_term_relationships: ya hecho
+1134.661 (R) [notice] Tabla de búsqueda y reemplazo: wp_term_taxonomy: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_termmeta: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_terms: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_usermeta: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_users: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_admin_note_actions: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_admin_notes: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_category_lookup: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_customer_lookup: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_download_log: ya hecho
+1134.662 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_addresses: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_composite_lookup: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_coupon_lookup: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_operational_data: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_product_lookup: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_stats: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_order_tax_lookup: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_orders: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_orders_meta: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_attributes_lookup: ya hecho
+1134.663 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_download_directories: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_product_meta_lookup: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_rate_limits: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_reserved_stock: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_tax_rate_classes: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wc_webhooks: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wccs_cache: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wccs_conditions: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_order_items: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_orders: ya hecho
+1134.664 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdp_rules: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wdr_rules: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfacp_stats: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfblockediplog: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfblocks7: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfco_report_views: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfconfig: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfcrawlers: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfhits: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfhoover: ya hecho
+1134.665 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfissues: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wflocs: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wflogins: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfls_settings: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfnotifications: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wfstatus: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wm_blacklist: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_wm_ext_qanda: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_api_keys: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_attribute_taxonomies: ya hecho
+1134.666 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_downloadable_product_permissions: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_log: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_order_itemmeta: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_order_items: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_payment_tokenmeta: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_payment_tokens: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_sessions: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zone_locations: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zone_methods: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_shipping_zones: ya hecho
+1134.667 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_tax_rate_locations: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_woocommerce_tax_rates: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_unsubscribed_emails: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_wishlist_products: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_woodmart_wishlists: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmailsmtp_debug_events: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmailsmtp_tasks_meta: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpmelon_advbedit_temp: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_mobile_otp: ya hecho
+1134.668 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_newsletter: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_sms_app: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_subgroups: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_wpnotif_subscribers: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_wt_iew_action_history: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_wt_iew_mapping_template: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wapo_addons: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wapo_blocks: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wcwl: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_yith_wcwl_lists: ya hecho
+1134.669 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_indexable: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_indexable_hierarchy: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_migrations: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_primary_term: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_seo_links: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_yoast_seo_meta: ya hecho
+1134.670 (R) [notice] Tabla de búsqueda y reemplazo: wp_ywcdd_calendar: ya hecho
+1134.670 (R) [notice] Tablas examinadas: 198
+1134.670 (R) [notice] Filas examinadas: 3117203
+1134.670 (R) [notice] Cambios realizados: 530768
+1134.670 (R) [notice] Ejecución de comandos de actualización SQL: 521957
+1134.671 (R) [notice] Errores: 0
+1134.671 (R) [notice] Tiempo empleado (segundos): 1035.034
+1134.774 (R) [notice] Plugin path wp-migrate-db/wp-migrate-db.php not found: de-activating.
+1134.823 (R) [notice] Restore successful!

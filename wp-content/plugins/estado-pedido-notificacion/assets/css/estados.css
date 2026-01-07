@@ -1,0 +1,13 @@
+.boton-importar-estados {
+	margin-top: -3px;
+	margin-bottom: 20px;
+}
+
+table.wp-list-table .status_head {
+	float: left;
+	margin-left: 2px;
+}
+
+.ui-sortable-handle:hover {
+	cursor: move;
+}

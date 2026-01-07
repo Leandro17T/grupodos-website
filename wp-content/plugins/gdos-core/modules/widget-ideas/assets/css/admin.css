@@ -1,0 +1,107 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/widget-ideas/assets/css/admin.css */
+
+/* --- Wrapper Principal --- */
+.gdos-widget-wrapper textarea {
+    resize: vertical; /* Evita que rompan el layout horizontalmente */
+    min-height: 60px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* --- Lista Contenedor --- */
+#gdos-lista-notas {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Estado de Carga (Saving...) */
+#gdos-lista-notas.is-loading {
+    opacity: 0.6;
+    pointer-events: none; /* Bloquea clics mientras guarda */
+}
+
+/* --- Items de la Lista --- */
+#gdos-lista-notas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 8px;
+    padding: 10px 12px;
+    
+    background: #fff;
+    border-left: 4px solid #2271b1; /* WP Core Blue Moderno */
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    
+    font-size: 13px;
+    color: #1d2327;
+    transition: transform 0.1s ease, background-color 0.2s;
+}
+
+#gdos-lista-notas li:hover {
+    transform: translateX(2px); /* Feedback visual sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Checkbox y Labels --- */
+#gdos-lista-notas li label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+#gdos-lista-notas li input[type="checkbox"] {
+    margin: 0 10px 0 0; /* Reset margins */
+    width: 16px;
+    height: 16px;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+}
+
+#gdos-lista-notas li input[type="checkbox"]:checked {
+    border-color: #2271b1;
+    background-color: #2271b1;
+}
+
+#gdos-lista-notas li input[type="checkbox"]:focus {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2271b1;
+    outline: 2px solid transparent;
+}
+
+/* --- Estado Completado (Preparado para JS) --- */
+/* Cuando el JS agregue la clase .is-done al LI */
+#gdos-lista-notas li.is-done {
+    border-left-color: #c3c4c7; /* Gris desactivado */
+    background: #f6f7f7;
+}
+
+#gdos-lista-notas li.is-done label {
+    text-decoration: line-through;
+    color: #8c8f94;
+}
+
+/* --- Botón Eliminar (Opcional si decides agregarlo en JS) --- */
+.gdos-delete-note {
+    margin-left: 10px;
+    color: #d63638; /* WP Error Red */
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+#gdos-lista-notas li:hover .gdos-delete-note,
+.gdos-delete-note:focus {
+    opacity: 1;
+}

@@ -1,0 +1,30 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/metodos-envio/assets/css/frontend.css */
+
+.gdos-metodos-envio {
+    font-size: 0.95em; /* Un poco más pequeño que el texto base */
+    line-height: 1.5;
+    color: inherit;
+    margin: 15px 0; /* Separación vertical segura */
+}
+
+.gdos-metodos-envio ul {
+    margin: 0;
+    padding-left: 1.4em; /* Espacio suficiente para la viñeta */
+    list-style-type: disc;
+    list-style-position: outside; /* Evita que el texto quede debajo del punto */
+}
+
+.gdos-metodos-envio li {
+    margin-bottom: 8px;
+    color: #444; /* Gris muy oscuro para lectura cómoda */
+}
+
+.gdos-metodos-envio li:last-child {
+    margin-bottom: 0;
+}
+
+.gdos-metodos-envio strong {
+    font-weight: 600;
+    color: #1d2327; /* Negro WordPress para destacar */
+}

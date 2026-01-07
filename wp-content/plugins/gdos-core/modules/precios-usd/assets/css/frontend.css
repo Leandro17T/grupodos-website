@@ -1,0 +1,23 @@
+/* /modules/precios-usd/assets/css/frontend.css */
+
+/* El contenedor del precio estimado en UYU */
+.gdos-precio-estimado-uyu {
+    display: block;          /* Fuerza que baje a una nueva línea */
+    margin-top: 4px;         /* Separación del precio principal */
+    font-size: 0.85em;       /* Un 15% más chico que el precio normal */
+    font-weight: 400;        /* Peso normal (no negrita) */
+    color: #757575;          /* Gris medio (secundario) */
+    line-height: 1.2;
+}
+
+/* Ajuste para cuando está dentro de un bloque de precio de WooCommerce */
+.price .gdos-precio-estimado-uyu {
+    opacity: 0.9;
+}
+
+/* Opcional: Si el tema es oscuro, invertir color */
+@media (prefers-color-scheme: dark) {
+    .gdos-precio-estimado-uyu {
+        color: #aaa;
+    }
+}

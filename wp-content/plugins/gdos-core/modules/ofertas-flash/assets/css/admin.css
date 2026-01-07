@@ -1,0 +1,152 @@
+/* REFACTORIZADO: 2025-05-21 */
+/* /modules/ofertas-flash/assets/css/admin.css */
+
+/* --- Uploader de Medios --- */
+.gdos-image-uploader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.gdos-image-preview img {
+    display: block;
+    max-width: 60px;
+    height: auto;
+    border: 1px solid #c3c4c7; /* WP Border Standard */
+    border-radius: 4px;
+    background: #f0f0f1;
+    padding: 2px;
+}
+
+/* --- Contenedor de Días (Sortable) --- */
+#gdos-days-container .day-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    transition: box-shadow 0.2s;
+}
+
+#gdos-days-container .day-card:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Header del Día */
+#gdos-days-container .day-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #c3c4c7;
+    cursor: move; /* Fallback */
+    cursor: grab;
+    user-select: none;
+}
+
+#gdos-days-container .day-header:active {
+    cursor: grabbing;
+}
+
+#gdos-days-container .day-title {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+/* Handle de arrastre (Icono) */
+#gdos-days-container .day-handle {
+    color: #a7aaad;
+    display: flex;
+    align-items: center;
+}
+
+#gdos-days-container .day-handle::before {
+    content: '\f228'; /* Dashicon 'menu' (hamburguesa/sort) */
+    font-family: dashicons;
+    font-size: 18px;
+    color: #a7aaad;
+}
+
+/* Placeholder al arrastrar */
+.day-card-placeholder {
+    border: 2px dashed #c3c4c7;
+    background: #f0f0f1;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/* --- Grid de Productos (SKUs) --- */
+#gdos-days-container .day-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    padding: 15px;
+    background: #fff;
+}
+
+.day-actions {
+    padding: 0 15px 15px;
+    text-align: right; /* Botón añadir a la derecha */
+}
+
+/* --- Input SKU --- */
+.sku-slot {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.sku-slot input[type="text"] {
+    width: 100%;
+    min-width: 0; /* Fix flexbox overflow */
+    border-color: #dcdcde;
+}
+
+/* Botón eliminar SKU (X roja) */
+.sku-slot .sku-remove-button {
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #d63638; /* WP Error Red */
+    font-size: 20px;
+    line-height: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 50%;
+    transition: color 0.2s, background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+.sku-slot .sku-remove-button:hover {
+    background-color: #fbeaea;
+    color: #a00;
+}
+
+.sku-slot .sku-remove-button:focus {
+    outline: 2px solid #d63638;
+    background-color: #fff;
+}
+
+/* Botón eliminar Día (Texto) */
+.day-remove {
+    color: #d63638 !important;
+    font-size: 13px;
+}
+
+.day-remove:hover {
+    text-decoration: underline;
+    background: none !important;
+    color: #b32d2e !important;
+}

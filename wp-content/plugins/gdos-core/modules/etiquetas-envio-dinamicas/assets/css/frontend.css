@@ -1,0 +1,78 @@
+/* REFACTORIZADO: 2025-12-06 */
+/* /modules/etiquetas-envio-dinamicas/assets/css/frontend.css */
+
+:root {
+    /* Variables con prefijo 'gdos-' para evitar conflictos globales */
+    --gdos-lbl-express: #002e5d;    /* Azul Express */
+    --gdos-lbl-flash:   #0e813c;    /* Verde Flash */
+    --gdos-lbl-size:    12px;       /* Desktop Base */
+}
+
+/* Base Común para ambas etiquetas */
+.etiqueta-express,
+.etiqueta-otro-tag {
+    display: block;
+    box-sizing: border-box; /* Seguridad contra estilos del tema */
+    width: 100%;
+    position: relative;
+    z-index: 10;            /* Asegura que se vea sobre imágenes o badges */
+    
+    margin: 0 0 5px 0;
+    padding: 0;
+    
+    font-family: inherit;
+    font-size: var(--gdos-lbl-size);
+    line-height: 1.2;
+    text-align: left;
+    vertical-align: top;
+    
+    /* Soporte para fuentes variables */
+    font-synthesis: weight;
+}
+
+/* Colores Específicos */
+.etiqueta-express {
+    color: var(--gdos-lbl-express);
+}
+
+.etiqueta-otro-tag {
+    color: var(--gdos-lbl-flash);
+}
+
+/* Elementos Internos */
+.etiqueta-express .highlight,
+.etiqueta-otro-tag .highlight {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-variation-settings: "wght" 700; /* Soporte Variable Fonts */
+}
+
+.etiqueta-express .subline,
+.etiqueta-otro-tag .subline {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.etiqueta-express .last-word,
+.etiqueta-otro-tag .last-word {
+    white-space: nowrap; /* Evita viudas en textos cortos */
+}
+
+/* --- Responsive (Móvil) --- */
+@media (max-width: 768px) {
+    .etiqueta-express .highlight,
+    .etiqueta-otro-tag .highlight {
+        font-weight: 700 !important; /* !important necesario para sobrescribir temas agresivos */
+        font-size: 13px;             /* Aumento de legibilidad en móvil */
+        letter-spacing: 0.2px;
+        font-variation-settings: "wght" 700;
+    }
+    
+    /* Subline hereda el tamaño natural para mantener proporción */
+}
