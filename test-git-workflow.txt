@@ -1,3 +1,8 @@
 Esta es una prueba del flujo de trabajo Git.
 Si puedes ver este archivo en tu servidor VPS, significa que el despliegue automático funciona perfectamente.
 Fecha: 2026-01-07
+
+=== ACTUALIZACIÓN AUTOMÁTICA ===
+¡El webhook automático está funcionando!
+Hora de actualización: 01:15 AM
+Este cambio se subió automáticamente sin Pull manual.
