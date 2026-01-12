@@ -1,20 +1,30 @@
-# WordPress Defaults
+# WordPress Core
 wp-config.php
-wp-content/uploads/
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
 wp-content/cache/
 wp-content/upgrade/
-wp-content/backup-db/
-*.log
-*.sql
-*.sqlite
+wp-content/uploads/
+wp-content/updraft/
+wp-content/mysql.sql
+wp-content/object-cache.php
+wp-content/w3tc-config/
 
-# OS Defaults
+# WordPress Logs
+*.log
+wp-content/*.log
+
+# Project specific
 .DS_Store
 Thumbs.db
-Desktop.ini
+*.zip
+*.tar.gz
+*.gz
 
-# IDE Defaults
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# LocalWP specific
+local-xdebuginfo.php
+
+# Git context
+.gitignore

@@ -6,15 +6,18 @@ namespace GDOS\Modules\BannerPrincipal\includes;
 
 use GDOS\Modules\BannerPrincipal\BannerPrincipal;
 
-if (! defined('ABSPATH')) {
+if (!defined('ABSPATH')) {
     exit;
 }
 
 class Admin
 {
+    private BannerPrincipal $module;
 
-    public function __construct()
+    public function __construct(BannerPrincipal $module)
     {
+        $this->module = $module;
+
         add_action('admin_menu', [$this, 'admin_menu_cleanup'], 999);
         add_action('admin_bar_menu', [$this, 'admin_bar_cleanup'], 999);
         add_action('current_screen', [$this, 'redirect_to_singleton']);
@@ -31,7 +34,8 @@ class Admin
 
     public function redirect_to_singleton($screen): void
     {
-        if (wp_doing_ajax() || ! is_admin() || ! $screen) return;
+        if (wp_doing_ajax() || !is_admin() || !$screen)
+            return;
 
         if ($screen->base === 'edit' && $screen->post_type === BannerPrincipal::CPT) {
             $singleton_id = $this->get_singleton_id();
@@ -63,7 +67,8 @@ class Admin
     public function enqueue_assets(): void
     {
         $screen = function_exists('get_current_screen') ? get_current_screen() : null;
-        if (! $screen || $screen->post_type !== BannerPrincipal::CPT) return;
+        if (!$screen || $screen->post_type !== BannerPrincipal::CPT)
+            return;
 
         wp_enqueue_media();
         wp_enqueue_script('jquery-ui-sortable');
@@ -71,19 +76,15 @@ class Admin
         wp_enqueue_style('flatpickr', 'https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css', [], '4.6.13');
         wp_enqueue_script('flatpickr', 'https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js', [], '4.6.13', true);
 
-        $module_url  = plugins_url('../', __FILE__);
-        $module_path = dirname(__DIR__);
-
-        $css_rel  = 'assets/admin/css/admin.css';
-        $css_path = $module_path . '/' . $css_rel;
-        if (file_exists($css_path)) {
-            wp_enqueue_style('gdos-banner-admin-css', $module_url . $css_rel, [], filemtime($css_path));
+        // Usamos los helpers del módulo principal para cargar assets
+        $css = $this->module->asset('assets/admin/css/admin.css');
+        if ($css['url']) {
+            wp_enqueue_style('gdos-banner-admin-css', $css['url'], [], $css['ver']);
         }
 
-        $js_rel  = 'assets/admin/js/admin.js';
-        $js_path = $module_path . '/' . $js_rel;
-        if (file_exists($js_path)) {
-            wp_enqueue_script('gdos-banner-admin-js', $module_url . $js_rel, ['jquery', 'jquery-ui-sortable', 'flatpickr'], filemtime($js_path), true);
+        $js = $this->module->asset('assets/admin/js/admin.js');
+        if ($js['url']) {
+            wp_enqueue_script('gdos-banner-admin-js', $js['url'], ['jquery', 'jquery-ui-sortable', 'flatpickr'], $js['ver'], true);
         }
     }
 
@@ -99,11 +100,12 @@ class Admin
 
         $data = [
             'desktop' => get_post_meta($post->ID, '_gdos_slides_desktop', true) ?: [],
-            'tablet'  => get_post_meta($post->ID, '_gdos_slides_tablet',  true) ?: [],
-            'mobile'  => get_post_meta($post->ID, '_gdos_slides_mobile',  true) ?: [],
+            'tablet' => get_post_meta($post->ID, '_gdos_slides_tablet', true) ?: [],
+            'mobile' => get_post_meta($post->ID, '_gdos_slides_mobile', true) ?: [],
         ];
 
-        require __DIR__ . '/../views/admin/metabox.php';
+        // Usamos el sistema de vistas del módulo
+        echo $this->module->view('views/admin/metabox', $data);
     }
 
     public function render_shortcode_metabox($post): void
@@ -125,10 +127,10 @@ class Admin
     {
         if (
             $post->post_type !== BannerPrincipal::CPT
-            || ! isset($_POST['gdos_nonce_slider_set'])
-            || ! wp_verify_nonce(sanitize_key($_POST['gdos_nonce_slider_set']), 'gdos_save_slider_set')
+            || !isset($_POST['gdos_nonce_slider_set'])
+            || !wp_verify_nonce(sanitize_key($_POST['gdos_nonce_slider_set']), 'gdos_save_slider_set')
             || (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)
-            || ! current_user_can('edit_post', $post_id)
+            || !current_user_can('edit_post', $post_id)
         ) {
             return;
         }
@@ -136,12 +138,12 @@ class Admin
         $process_slides = function ($type) {
             $ids = $_POST["gdos_{$type}_id"] ?? [];
             $lnk = $_POST["gdos_{$type}_link"] ?? [];
-            $df  = $_POST["gdos_{$type}_date_from"] ?? [];
-            $dt  = $_POST["gdos_{$type}_date_to"] ?? [];
-            $tf  = $_POST["gdos_{$type}_time_from"] ?? [];
-            $tt  = $_POST["gdos_{$type}_time_to"] ?? [];
-            $pr  = $_POST["gdos_{$type}_priority"] ?? [];
-            $dy  = $_POST["gdos_{$type}_days"] ?? [];
+            $df = $_POST["gdos_{$type}_date_from"] ?? [];
+            $dt = $_POST["gdos_{$type}_date_to"] ?? [];
+            $tf = $_POST["gdos_{$type}_time_from"] ?? [];
+            $tt = $_POST["gdos_{$type}_time_to"] ?? [];
+            $pr = $_POST["gdos_{$type}_priority"] ?? [];
+            $dy = $_POST["gdos_{$type}_days"] ?? [];
 
             // NUEVO: Captura del label de texto
             $clbl = $_POST["gdos_{$type}_countdown_label"] ?? [];
@@ -172,17 +174,18 @@ class Admin
 
             $slides = [];
             for ($i = 0; $i < $total_slides; $i++) {
-                if (empty($ids[$i])) continue;
+                if (empty($ids[$i]))
+                    continue;
 
                 $slides[] = [
-                    'id'        => intval($ids[$i]),
-                    'link'      => esc_url_raw($lnk[$i] ?? ''),
+                    'id' => intval($ids[$i]),
+                    'link' => esc_url_raw($lnk[$i] ?? ''),
                     'date_from' => sanitize_text_field($df[$i] ?? ''),
-                    'date_to'   => sanitize_text_field($dt[$i] ?? ''),
+                    'date_to' => sanitize_text_field($dt[$i] ?? ''),
                     'time_from' => sanitize_text_field($tf[$i] ?? ''),
-                    'time_to'   => sanitize_text_field($tt[$i] ?? ''),
-                    'priority'  => intval($pr[$i] ?? 10),
-                    'days'      => preg_replace('/[^0-9,]/', '', $dy[$i] ?? ''),
+                    'time_to' => sanitize_text_field($tt[$i] ?? ''),
+                    'priority' => intval($pr[$i] ?? 10),
+                    'days' => preg_replace('/[^0-9,]/', '', $dy[$i] ?? ''),
                     'countdown' => $cd_flags[$i] ?? 0,
                     // NUEVO: Guardar
                     'countdown_label' => sanitize_text_field($clbl[$i] ?? 'end'),
@@ -192,7 +195,7 @@ class Admin
         };
 
         update_post_meta($post_id, '_gdos_slides_desktop', $process_slides('desktop'));
-        update_post_meta($post_id, '_gdos_slides_tablet',  $process_slides('tablet'));
-        update_post_meta($post_id, '_gdos_slides_mobile',  $process_slides('mobile'));
+        update_post_meta($post_id, '_gdos_slides_tablet', $process_slides('tablet'));
+        update_post_meta($post_id, '_gdos_slides_mobile', $process_slides('mobile'));
     }
 }
